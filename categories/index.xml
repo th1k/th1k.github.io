@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on ពុទ្ធិលេប | ThikLab</title>
+    <link>https://thiklab.com/categories/</link>
+    <description>Recent content in Categories on ពុទ្ធិលេប | ThikLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklab@gmail.com (Thik)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 19 Jun 2020 15:12:24 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Netcat</title>
+        <link>https://thiklab.com/categories/netcat/</link>
+        <pubDate>Fri, 19 Jun 2020 15:12:24 +0700</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/categories/netcat/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>CA</title>
+        <link>https://thiklab.com/categories/ca/</link>
+        <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/categories/ca/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>WebShell</title>
+        <link>https://thiklab.com/categories/webshell/</link>
+        <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/categories/webshell/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

