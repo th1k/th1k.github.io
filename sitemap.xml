@@ -13,6 +13,96 @@
   </url>
   
   <url>
+    <loc>https://thiklab.com/tags/binding/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/categories/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/categories/fud/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/posts/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/series/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/vbs/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/series/winexe/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/winrar/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/posts/winrar-binding-files-fud/</loc>
+    <lastmod>2020-11-26T11:22:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/posts/traceback-10-10-10-181/</loc>
+    <lastmod>2020-11-21T11:38:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/series/htb/</loc>
+    <lastmod>2020-11-21T11:38:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/posts/merge-exe-files-using-vbscript/</loc>
+    <lastmod>2020-11-19T15:34:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/bypass/</loc>
+    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/msf/</loc>
+    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/posts/msf-fud-with-python2/</loc>
+    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/obfuscate/</loc>
+    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/series/python2/</loc>
+    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://thiklab.com/archive/</loc>
     <lastmod>2020-11-15T11:44:14+09:00</lastmod>
   </url>
@@ -28,17 +118,22 @@
   </url>
   
   <url>
-    <loc>https://thiklab.com/categories/</loc>
-    <lastmod>2020-06-19T15:12:24+07:00</lastmod>
+    <loc>https://thiklab.com/posts/pyinstaller/</loc>
+    <lastmod>2020-11-02T16:54:38+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/tags/pyinstaller/</loc>
+    <lastmod>2020-11-02T16:54:38+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/series/python3/</loc>
+    <lastmod>2020-11-02T16:54:38+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://thiklab.com/categories/netcat/</loc>
-    <lastmod>2020-06-19T15:12:24+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/posts/</loc>
     <lastmod>2020-06-19T15:12:24+07:00</lastmod>
   </url>
   
@@ -58,22 +153,7 @@
   </url>
   
   <url>
-    <loc>https://thiklab.com/series/</loc>
-    <lastmod>2020-06-02T16:22:34+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/series/winexe/</loc>
-    <lastmod>2020-06-02T16:22:34+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thiklab.com/tags/php/</loc>
-    <lastmod>2020-05-26T14:28:44+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/tags/</loc>
     <lastmod>2020-05-26T14:28:44+07:00</lastmod>
   </url>
   
@@ -90,6 +170,11 @@
   <url>
     <loc>https://thiklab.com/categories/webshell/</loc>
     <lastmod>2020-05-26T14:28:44+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/posts/vbscript-download-file/</loc>
+    <lastmod>2020-05-21T10:28:15+07:00</lastmod>
   </url>
   
   <url>
