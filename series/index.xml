@@ -14,31 +14,13 @@
     <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
     <webMaster>thiklab@gmail.com (Thik)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 26 Nov 2020 11:22:50 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2020 11:38:55 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
-      
-      <item>
-        <title>WinExE</title>
-        <link>https://thiklab.com/series/winexe/</link>
-        <pubDate>Thu, 26 Nov 2020 11:22:50 +0700</pubDate>
-        <author>thiklab@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/series/winexe/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
       
       <item>
         <title>HTB</title>
@@ -77,12 +59,12 @@
       </item>
       
       <item>
-        <title>Python3</title>
-        <link>https://thiklab.com/series/python3/</link>
-        <pubDate>Mon, 02 Nov 2020 16:54:38 +0700</pubDate>
+        <title>WinExE</title>
+        <link>https://thiklab.com/series/winexe/</link>
+        <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/series/python3/</guid>
+        <guid>https://thiklab.com/series/winexe/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
