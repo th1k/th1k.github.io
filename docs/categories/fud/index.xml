@@ -66,50 +66,6 @@
         
       </item>
       
-      <item>
-        <title>MSF FUD With Python2</title>
-        <link>https://thiklab.com/posts/new/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>thiklab@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/posts/new/</guid>
-        <description>Requirements  Kali Linux (Recommend) Metasploit Framework Wine, Mingw-w64 Compiler, python2 pip2 install wheel pycrypto termcolor  Installation 1 2 3  git clone https://github.com/stormshadow07/HackTheWorld.git cd HackTheWorld chmod +x install.sh &amp;amp;&amp;amp; ./install.sh   Generate Payload 1 2 3 4 5 6 7 8 9 10  cd HackTheWorld python2 HackTheWorld.py ... Enter payload type (tcp, http/s) and lhost/lport ... Enter XOR Key ... 1 for adding manifest bypass AV .</description>
-        
-        <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>msf</category>
-            
-          
-            
-              <category>obfuscate</category>
-            
-          
-            
-              <category>bypass</category>
-            
-          
-        
-        
-          
-            
-              <category>FUD</category>
-            
-          
-        
-        
-          
-            
-              <category>Python2</category>
-            
-          
-        
-      </item>
-      
 
     
   </channel>
