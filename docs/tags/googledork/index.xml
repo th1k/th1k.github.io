@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>googledork on ពុទ្ធិលេប | ThikLab</title>
+    <link>https://thiklab.com/tags/googledork/</link>
+    <description>Recent content in googledork on ពុទ្ធិលេប | ThikLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklab@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklab@gmail.com (Thik)</webMaster>
+    <copyright>&lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License&#39; style=&#39;border-width:0;display:block;margin-left:auto;margin-right:auto;&#39; src=&#39;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#39; /&gt;&lt;/a&gt;&amp;copy;2019 - {year} All content is licensed under &lt;a rel=&#39;license&#39; target=&#39;_blank&#39; href=&#39;http://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;CC BY-SA&lt;/a&gt;.</copyright>
+    <lastBuildDate>Thu, 01 Apr 2021 10:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/tags/googledork/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Upload Shell Via phpMyAdmin</title>
+        <link>https://thiklab.com/posts/upload-shell-via-phpmyadmin/</link>
+        <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
+        <author>thiklab@gmail.com (Thik)</author>
+        <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/posts/upload-shell-via-phpmyadmin/</guid>
+        <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query Go to phpMyadmin database and create new database, ex: &amp;ldquo;uploader&amp;rdquo; and than select on SQL tap and paste this code below.
+1 2 3  CREATE TABLE `uploader`.`userform` ( `track1` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   And this code.
+1 2 3  CREATE TABLE `uploader`.`user_upload` ( `track2` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   Now select on table user_upload and SQL tap and paste this code below.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>fileupload</category>
+            
+          
+            
+              <category>googledork</category>
+            
+          
+        
+        
+          
+            
+              <category>SQLi</category>
+            
+          
+        
+        
+          
+            
+              <category>WebApp</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
