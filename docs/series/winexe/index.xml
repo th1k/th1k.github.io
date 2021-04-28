@@ -23,7 +23,7 @@
 
       
       <item>
-        <title>Run DLL Payload In Windows OS</title>
+        <title>Run DLL Payloads</title>
         <link>https://thiklab.com/posts/run-dll/</link>
         <pubDate>Sat, 24 Apr 2021 21:01:06 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
@@ -103,12 +103,12 @@ After encrypted the file will look like this.</description>
       </item>
       
       <item>
-        <title>Self Signed Certification for Code Signing</title>
-        <link>https://thiklab.com/posts/ca-self-signed-certification-for-code-signing/</link>
+        <title>Self Signed Certification</title>
+        <link>https://thiklab.com/posts/self-signed-certification/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
         <atom:modified>Tue, 02 Jun 2020 16:22:34 +0700</atom:modified>
-        <guid>https://thiklab.com/posts/ca-self-signed-certification-for-code-signing/</guid>
+        <guid>https://thiklab.com/posts/self-signed-certification/</guid>
         <description>In order to use a non deprecated way to sign your own script, one should use New-SelfSignedCertificate.
 Generate the Key 1 2  # Make sure you run as Administrator New-SelfSignedCertificate -DnsName email@yourdomain.com -Type CodeSigning -CertStoreLocation cert:\CurrentUser\My   Export Certification Without Private Key 1  Export-Certificate -Cert (Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert)[0] -FilePath code_signing.crt   The [0] will make this work for cases when you have more than one certificate. Obviously make the index match the certificate you want to use or use a way to filtrate (by thumprint or issuer).</description>
         

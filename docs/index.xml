@@ -44,7 +44,7 @@
 
       
       <item>
-        <title>Run DLL Payload In Windows OS</title>
+        <title>Run DLL Payloads</title>
         <link>https://thiklab.com/posts/run-dll/</link>
         <pubDate>Sat, 24 Apr 2021 21:01:06 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
@@ -191,56 +191,12 @@ After encrypted the file will look like this.</description>
       </item>
       
       <item>
-        <title>MSF FUD With Python2</title>
-        <link>https://thiklab.com/posts/msf-fud-with-python2/</link>
-        <pubDate>Sun, 15 Nov 2020 10:01:06 +0700</pubDate>
-        <author>thiklab@gmail.com (Thik)</author>
-        <atom:modified>Sun, 15 Nov 2020 10:01:06 +0700</atom:modified>
-        <guid>https://thiklab.com/posts/msf-fud-with-python2/</guid>
-        <description>Requirements  Kali Linux (Recommend) Metasploit Framework Wine, Mingw-w64 Compiler, python2 pip2 install wheel pycrypto termcolor  Installation 1 2 3  git clone https://github.com/stormshadow07/HackTheWorld.git cd HackTheWorld chmod +x install.sh &amp;amp;&amp;amp; ./install.sh   Generate Payload 1 2 3 4 5 6 7 8 9 10  cd HackTheWorld python2 HackTheWorld.py ... Enter payload type (tcp, http/s) and lhost/lport ... Enter XOR Key ... 1 for adding manifest bypass AV .</description>
-        
-        <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>msf</category>
-            
-          
-            
-              <category>obfuscate</category>
-            
-          
-            
-              <category>bypass</category>
-            
-          
-        
-        
-          
-            
-              <category>FUD</category>
-            
-          
-        
-        
-          
-            
-              <category>Python2</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Using Netcat For File Transfers</title>
-        <link>https://thiklab.com/posts/using-netcat-for-file-transfers/</link>
+        <title>Netcat - File Transfers</title>
+        <link>https://thiklab.com/posts/netcat-file-transfers/</link>
         <pubDate>Fri, 19 Jun 2020 15:12:24 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
         <atom:modified>Fri, 19 Jun 2020 15:12:24 +0700</atom:modified>
-        <guid>https://thiklab.com/posts/using-netcat-for-file-transfers/</guid>
+        <guid>https://thiklab.com/posts/netcat-file-transfers/</guid>
         <description>Netcat is like a swiss army knife for geeks. It can be used for just about anything involving TCP or UDP. One of its most practical uses is to transfer files. Non *nix people usually don&amp;rsquo;t have SSH setup, and it is much faster to transfer stuff with netcat then setup SSH. netcat is just a single executable, and works across all platforms (Windows,Mac OS X, Linux).
 On the receiving end running,</description>
         
@@ -260,12 +216,12 @@ On the receiving end running,</description>
       </item>
       
       <item>
-        <title>Self Signed Certification for Code Signing</title>
-        <link>https://thiklab.com/posts/ca-self-signed-certification-for-code-signing/</link>
+        <title>Self Signed Certification</title>
+        <link>https://thiklab.com/posts/self-signed-certification/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
         <atom:modified>Tue, 02 Jun 2020 16:22:34 +0700</atom:modified>
-        <guid>https://thiklab.com/posts/ca-self-signed-certification-for-code-signing/</guid>
+        <guid>https://thiklab.com/posts/self-signed-certification/</guid>
         <description>In order to use a non deprecated way to sign your own script, one should use New-SelfSignedCertificate.
 Generate the Key 1 2  # Make sure you run as Administrator New-SelfSignedCertificate -DnsName email@yourdomain.com -Type CodeSigning -CertStoreLocation cert:\CurrentUser\My   Export Certification Without Private Key 1  Export-Certificate -Cert (Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert)[0] -FilePath code_signing.crt   The [0] will make this work for cases when you have more than one certificate. Obviously make the index match the certificate you want to use or use a way to filtrate (by thumprint or issuer).</description>
         
@@ -291,7 +247,7 @@ Generate the Key 1 2  # Make sure you run as Administrator New-SelfSignedCertifi
       </item>
       
       <item>
-        <title>UniSh3ll Tutorial</title>
+        <title>UniSh3ll</title>
         <link>https://thiklab.com/posts/unishell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>

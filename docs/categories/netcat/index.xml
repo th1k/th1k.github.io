@@ -23,12 +23,12 @@
 
       
       <item>
-        <title>Using Netcat For File Transfers</title>
-        <link>https://thiklab.com/posts/using-netcat-for-file-transfers/</link>
+        <title>Netcat - File Transfers</title>
+        <link>https://thiklab.com/posts/netcat-file-transfers/</link>
         <pubDate>Fri, 19 Jun 2020 15:12:24 +0700</pubDate>
         <author>thiklab@gmail.com (Thik)</author>
         <atom:modified>Fri, 19 Jun 2020 15:12:24 +0700</atom:modified>
-        <guid>https://thiklab.com/posts/using-netcat-for-file-transfers/</guid>
+        <guid>https://thiklab.com/posts/netcat-file-transfers/</guid>
         <description>Netcat is like a swiss army knife for geeks. It can be used for just about anything involving TCP or UDP. One of its most practical uses is to transfer files. Non *nix people usually don&amp;rsquo;t have SSH setup, and it is much faster to transfer stuff with netcat then setup SSH. netcat is just a single executable, and works across all platforms (Windows,Mac OS X, Linux).
 On the receiving end running,</description>
         

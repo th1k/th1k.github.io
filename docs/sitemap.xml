@@ -68,18 +68,6 @@
     <loc>https://thiklab.com/series/htb/</loc>
     <lastmod>2020-11-21T11:38:55+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/tags/bypass/</loc>
-    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/posts/msf-fud-with-python2/</loc>
-    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/tags/obfuscate/</loc>
-    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/series/python2/</loc>
-    <lastmod>2020-11-15T10:01:06+07:00</lastmod>
-  </url><url>
     <loc>https://thiklab.com/archive/</loc>
     <lastmod>2020-11-15T11:44:14+09:00</lastmod>
   </url><url>
@@ -89,10 +77,10 @@
     <loc>https://thiklab.com/categories/netcat/</loc>
     <lastmod>2020-06-19T15:12:24+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/posts/using-netcat-for-file-transfers/</loc>
+    <loc>https://thiklab.com/posts/netcat-file-transfers/</loc>
     <lastmod>2020-06-19T15:12:24+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/posts/ca-self-signed-certification-for-code-signing/</loc>
+    <loc>https://thiklab.com/posts/self-signed-certification/</loc>
     <lastmod>2020-06-02T16:22:34+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/tags/php/</loc>
