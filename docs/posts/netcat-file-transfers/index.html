@@ -1356,7 +1356,7 @@
     <meta property="twitter:description" content="Transfers any files using netcat.">
   
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.86.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1731,20 +1731,20 @@
 <p>On the receiving end running,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">nc -l -p 1234 &gt; out.file</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">nc -l -p 1234 &gt; out.file</code></pre></td></tr></table>
 </div>
 </div>
 <p>will begin listening on port 1234.<br />
 On the sending end running,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">nc -w 3 [destination] 1234 &lt; out.file</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">nc -w 3 [destination] 1234 &lt; out.file</code></pre></td></tr></table>
 </div>
 </div>
 <p>will connect to the receiver and begin sending file.</p>
@@ -1752,38 +1752,38 @@ On the sending end running,</p>
 <p>On the receiving end,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">nc -l -p 1234 | uncompress -c | tar xvfp -</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">nc -l -p 1234 | uncompress -c | tar xvfp -</code></pre></td></tr></table>
 </div>
 </div>
 <p>On the receiving end,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">tar cfp - /some/dir | compress -c | nc -w 3 [destination] 1234</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">tar cfp - /some/dir | compress -c | nc -w 3 [destination] 1234</code></pre></td></tr></table>
 </div>
 </div>
 <p>A much cooler but less useful use of netcat is, it can transfer an image of the whole hard drive over the wire using a command called dd.</p>
 <p>On the sender end run,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">dd if=/dev/hda3 | gzip -9 | nc -l 3333</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">dd if=/dev/hda3 | gzip -9 | nc -l 3333</code></pre></td></tr></table>
 </div>
 </div>
 <p>On the receiver end,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">nc [destination] 3333 | pv -b &gt; hdImage.img.gz</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">nc [destination] 3333 | pv -b &gt; hdImage.img.gz</code></pre></td></tr></table>
 </div>
 </div>
 <p>Be warned that file transfers using netcat are not encrypted, anyone on the network can grab what you are sending, so use this only on trusted networks.</p>
