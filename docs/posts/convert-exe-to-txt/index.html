@@ -1666,7 +1666,7 @@
             
             
 
-<main class="single__main main">
+<main class="single__main main-main">
   
     <nav class="breadcrumb hide" aria-label="breadcrumbs">
   <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
@@ -1735,7 +1735,7 @@
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p>The idea is to store an exe file as a text format and download from the cloud.</p>
-<h4 id="how-to-convert-an-exe-file-to-txt">How to convert an .exe file to .txt</h4>
+<h4 id="certutil-encode">Certutil Encode</h4>
 <p>In windows 7/8/10 open CMD and type.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1745,7 +1745,7 @@
 <pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">cmd&gt; certutil -encode file.exe file.txt</code></pre></td></tr></table>
 </div>
 </div>
-<p><img src="/images/article/cvt-exe-text/convert-exe-to-txt.png" alt="Convert ExE to TxT" /></p>
+<p><img src="/images/article/cvt-exe-text/convert-exe-to-txt.png" alt="Encode ExE to TxT" /></p>
 <p>This will encrypt the file as base64 into a text format.<br />
 After encrypted the file will look like this.</p>
 <div class="highlight"><div class="chroma">
@@ -1770,6 +1770,7 @@ rzno9vOnK3OrUKUVl9CK2s56VsHUAjmreyKs6cyUxfWUDI6is3NxuSR8AAAAAAAA
 -----END CERTIFICATE-----</code></pre></td></tr></table>
 </div>
 </div>
+<h4 id="certutil-decode">Certutil Decode</h4>
 <p>To decode the file just type.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1779,8 +1780,8 @@ rzno9vOnK3OrUKUVl9CK2s56VsHUAjmreyKs6cyUxfWUDI6is3NxuSR8AAAAAAAA
 <pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">cmd&gt; certutil -decode file.txt file.exe</code></pre></td></tr></table>
 </div>
 </div>
-<p><img src="/images/article/cvt-exe-text/convert-txt-to-exe.png" alt="Convert TxT to ExE" /></p>
-<p>This method can also bypass an anti-virus in windows.</p>
+<p><img src="/images/article/cvt-exe-text/convert-txt-to-exe.png" alt="Decode TxT to ExE" /></p>
+<p>This method also can bypass an anti-virus in windows.</p>
 <p><b>Source:</b> <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil">docs.microsoft.com</a></p>
 
     </article>
@@ -2484,12 +2485,49 @@ document.addEventListener('DOMContentLoaded', function () {
 </main>
 
 
+<aside class="single__side main-side">
+  
+
+
+<section class="sidebar hide">
+  <script>document.querySelector('.sidebar').classList.remove('hide')</script>
+  <div class="toc__flexbox" data-position="fixed">
+    <h6 class="toc__title" data-ani="true">What&#39;s on this Page</h6>
+    
+      <label class="switch" data-ani="true">
+        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+    
+  </div>
+  <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#certutil-encode">Certutil Encode</a></li>
+            <li><a href="#certutil-decode">Certutil Decode</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</section>
+
+
+
+</aside>
+
 <script>
   
   
   
 
-  var enableToc = JSON.parse("false");
+  var enableToc = JSON.parse("true");
   var toc = JSON.parse("null");
   var tocPosition = JSON.parse("\"inner\"");
   
@@ -2640,7 +2678,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-    var enableToc = JSON.parse("false");
+    var enableToc = JSON.parse("true");
     var toc = JSON.parse("null");
     var hideToc = JSON.parse("false");
     var tocFlexbox = document.querySelector('.toc__flexbox');
