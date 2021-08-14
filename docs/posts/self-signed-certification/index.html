@@ -1356,7 +1356,7 @@
     <meta property="twitter:description" content="Creating certification for code signing.">
   
 
-<meta name="generator" content="Hugo 0.86.1" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1731,50 +1731,50 @@
 <h4 id="generate-the-key">Generate the Key</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># Make sure you run as Administrator</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># Make sure you run as Administrator</span>
 <span class="nb">New-SelfSignedCertificate</span> <span class="n">-DnsName</span> <span class="n">email</span><span class="nv">@yourdomain</span><span class="p">.</span><span class="n">com</span> <span class="n">-Type</span> <span class="n">CodeSigning</span> <span class="n">-CertStoreLocation</span> <span class="n">cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">My</span></code></pre></td></tr></table>
 </div>
 </div>
 <h4 id="export-certification-without-private-key">Export Certification Without Private Key</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Export-Certificate</span> <span class="n">-Cert</span> <span class="p">(</span><span class="nb">Get-ChildItem</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">My</span> <span class="n">-CodeSigningCert</span><span class="p">)[</span><span class="n">0</span><span class="p">]</span> <span class="n">-FilePath</span> <span class="n">code_signing</span><span class="p">.</span><span class="n">crt</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Export-Certificate</span> <span class="n">-Cert</span> <span class="p">(</span><span class="nb">Get-ChildItem</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">My</span> <span class="n">-CodeSigningCert</span><span class="p">)[</span><span class="n">0</span><span class="p">]</span> <span class="n">-FilePath</span> <span class="n">code_signing</span><span class="p">.</span><span class="n">crt</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>The [0] will make this work for cases when you have more than one certificate. Obviously make the index match the certificate you want to use or use a way to filtrate (by thumprint or issuer).</p>
 <h4 id="import-as-trusted-publisher">Import as Trusted Publisher</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Import-Certificate</span> <span class="n">-FilePath</span> <span class="p">.\</span><span class="n">code_signing</span><span class="p">.</span><span class="n">crt</span> <span class="n">-Cert</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">TrustedPublisher</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Import-Certificate</span> <span class="n">-FilePath</span> <span class="p">.\</span><span class="n">code_signing</span><span class="p">.</span><span class="n">crt</span> <span class="n">-Cert</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">TrustedPublisher</span></code></pre></td></tr></table>
 </div>
 </div>
 <h4 id="import-as-root-certificate-authority">Import as Root Certificate Authority</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Import-Certificate</span> <span class="n">-FilePath</span> <span class="p">.\</span><span class="n">code_signing</span><span class="p">.</span><span class="n">crt</span> <span class="n">-Cert</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">Root</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Import-Certificate</span> <span class="n">-FilePath</span> <span class="p">.\</span><span class="n">code_signing</span><span class="p">.</span><span class="n">crt</span> <span class="n">-Cert</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">Root</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Item Cert:\C</p>
 <h4 id="signing-application">Signing Application</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Set-AuthenticodeSignature</span> <span class="p">.\</span><span class="n">app</span><span class="p">.</span><span class="n">exe</span> <span class="n">-Certificate</span> <span class="p">(</span><span class="nb">Get-ChildItem</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">My</span> <span class="n">-CodeSigningCert</span><span class="p">)</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Set-AuthenticodeSignature</span> <span class="p">.\</span><span class="n">app</span><span class="p">.</span><span class="n">exe</span> <span class="n">-Certificate</span> <span class="p">(</span><span class="nb">Get-ChildItem</span> <span class="n">Cert</span><span class="err">:</span><span class="p">\</span><span class="n">CurrentUser</span><span class="p">\</span><span class="n">My</span> <span class="n">-CodeSigningCert</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Obviously once you have setup the key, you can simply sign any other scripts with it.</p>
