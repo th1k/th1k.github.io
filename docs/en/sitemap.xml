@@ -3,312 +3,312 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/red-teaming/invoke-obfuscation/</loc>
+    <loc>https://thiklab.com/en/showcase/red-teaming/invoke-obfuscation/</loc>
     <lastmod>2021-08-14T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/red-teaming/payload-all-the-things/</loc>
+    <loc>https://thiklab.com/en/showcase/red-teaming/payload-all-the-things/</loc>
     <lastmod>2021-08-14T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/post-exploit/merlin/</loc>
+    <loc>https://thiklab.com/en/showcase/post-exploit/merlin/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/post-exploit/vegile/</loc>
+    <loc>https://thiklab.com/en/showcase/post-exploit/vegile/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/</loc>
+    <loc>https://thiklab.com/en/</loc>
     <lastmod>2021-08-15T21:04:11+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
-                href="https://thiklab.com/en/kh/"
+                href="https://thiklab.com/kh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thiklab.com/en/en/"
+                href="https://thiklab.com/en/"
                 />
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/red-teaming/</loc>
+    <loc>https://thiklab.com/en/showcase/red-teaming/</loc>
     <lastmod>2021-08-15T21:04:11+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/applocker-bypass-cmstp/</loc>
+    <loc>https://thiklab.com/en/posts/applocker-bypass-cmstp/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/bypass/</loc>
+    <loc>https://thiklab.com/en/tags/bypass/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/bypass-uac-dll-method/</loc>
+    <loc>https://thiklab.com/en/posts/bypass-uac-dll-method/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/</loc>
-    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kh"
-                href="https://thiklab.com/en/kh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thiklab.com/en/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/en/en/categories/cmstp/</loc>
-    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/en/en/tags/dll/</loc>
-    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/en/en/tags/inf/</loc>
-    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiklab.com/en/en/posts/</loc>
+    <loc>https://thiklab.com/en/categories/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
-                href="https://thiklab.com/en/kh/posts/"
+                href="https://thiklab.com/kh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thiklab.com/en/en/posts/"
+                href="https://thiklab.com/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/sct/</loc>
+    <loc>https://thiklab.com/en/categories/cmstp/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/series/</loc>
+    <loc>https://thiklab.com/en/tags/dll/</loc>
+    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/en/tags/inf/</loc>
+    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/en/posts/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
-                href="https://thiklab.com/en/kh/series/"
+                href="https://thiklab.com/kh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thiklab.com/en/en/series/"
+                href="https://thiklab.com/en/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/</loc>
+    <loc>https://thiklab.com/en/tags/sct/</loc>
+    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/en/series/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
-                href="https://thiklab.com/en/kh/tags/"
+                href="https://thiklab.com/kh/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thiklab.com/en/en/tags/"
+                href="https://thiklab.com/en/series/"
                 />
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/uac/</loc>
+    <loc>https://thiklab.com/en/tags/</loc>
+    <lastmod>2021-08-04T02:00:06+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kh"
+                href="https://thiklab.com/kh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thiklab.com/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thiklab.com/en/categories/uac/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/series/winexe/</loc>
+    <loc>https://thiklab.com/en/series/winexe/</loc>
     <lastmod>2021-08-04T02:00:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/metasploit/</loc>
+    <loc>https://thiklab.com/en/tags/metasploit/</loc>
     <lastmod>2021-04-24T21:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/reverseshell/</loc>
+    <loc>https://thiklab.com/en/tags/reverseshell/</loc>
     <lastmod>2021-04-24T21:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/run-dll/</loc>
+    <loc>https://thiklab.com/en/posts/run-dll/</loc>
     <lastmod>2021-04-24T21:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/ca/</loc>
+    <loc>https://thiklab.com/en/categories/ca/</loc>
     <lastmod>2021-04-24T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/convert-exe-to-txt/</loc>
+    <loc>https://thiklab.com/en/posts/convert-exe-to-txt/</loc>
     <lastmod>2021-04-24T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/converter/</loc>
+    <loc>https://thiklab.com/en/tags/converter/</loc>
     <lastmod>2021-04-24T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/fud/</loc>
+    <loc>https://thiklab.com/en/categories/fud/</loc>
     <lastmod>2021-04-24T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/fileupload/</loc>
+    <loc>https://thiklab.com/en/tags/fileupload/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/googledork/</loc>
+    <loc>https://thiklab.com/en/tags/googledork/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/sqli/</loc>
+    <loc>https://thiklab.com/en/categories/sqli/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/upload-shell-via-phpmyadmin/</loc>
+    <loc>https://thiklab.com/en/posts/upload-shell-via-phpmyadmin/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/series/webapp/</loc>
+    <loc>https://thiklab.com/en/series/webapp/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/traceback-10-10-10-181/</loc>
+    <loc>https://thiklab.com/en/posts/traceback-10-10-10-181/</loc>
     <lastmod>2020-11-21T11:38:55+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/series/htb/</loc>
+    <loc>https://thiklab.com/en/series/htb/</loc>
     <lastmod>2020-11-21T11:38:55+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/about/</loc>
+    <loc>https://thiklab.com/en/about/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
-                href="https://thiklab.com/en/kh/about/"
+                href="https://thiklab.com/kh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thiklab.com/en/en/about/"
+                href="https://thiklab.com/en/about/"
                 />
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/netcat/</loc>
+    <loc>https://thiklab.com/en/tags/netcat/</loc>
     <lastmod>2020-06-19T15:12:24+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/netcat-file-transfers/</loc>
+    <loc>https://thiklab.com/en/posts/netcat-file-transfers/</loc>
     <lastmod>2020-06-19T15:12:24+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/tools/</loc>
+    <loc>https://thiklab.com/en/categories/tools/</loc>
     <lastmod>2020-06-19T15:12:24+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/self-signed-certification/</loc>
+    <loc>https://thiklab.com/en/posts/self-signed-certification/</loc>
     <lastmod>2020-06-02T16:22:34+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/tags/phpshell/</loc>
+    <loc>https://thiklab.com/en/tags/phpshell/</loc>
     <lastmod>2020-05-26T14:28:44+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/posts/unishell/</loc>
+    <loc>https://thiklab.com/en/posts/unishell/</loc>
     <lastmod>2020-05-26T14:28:44+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/categories/webshell/</loc>
+    <loc>https://thiklab.com/en/categories/webshell/</loc>
     <lastmod>2020-05-26T14:28:44+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/post-exploit/</loc>
+    <loc>https://thiklab.com/en/showcase/post-exploit/</loc>
     <lastmod>2020-01-19T21:04:11+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/showcase/</loc>
+    <loc>https://thiklab.com/en/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/presentation/</loc>
+    <loc>https://thiklab.com/en/presentation/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/presentation/dir/third/</loc>
+    <loc>https://thiklab.com/en/presentation/dir/third/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/presentation/second/</loc>
+    <loc>https://thiklab.com/en/presentation/second/</loc>
     <lastmod>2019-10-30T20:46:30+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/presentation/first/</loc>
+    <loc>https://thiklab.com/en/presentation/first/</loc>
     <lastmod>2019-10-30T19:45:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiklab.com/en/en/archive/</loc>
+    <loc>https://thiklab.com/en/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
-                href="https://thiklab.com/en/kh/archive/"
+                href="https://thiklab.com/kh/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thiklab.com/en/en/archive/"
+                href="https://thiklab.com/en/archive/"
                 />
   </url>
   
