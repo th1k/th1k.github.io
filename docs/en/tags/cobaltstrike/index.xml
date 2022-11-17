@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cobaltstrike on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/tags/cobaltstrike/</link>
+    <description>Recent content in cobaltstrike on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Wed, 28 Sep 2022 21:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/tags/cobaltstrike/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Evading Win Defender With 1 Byte Change</title>
+        <link>https://thiklab.com/en/posts/evading-1-byte-change/</link>
+        <pubDate>Wed, 28 Sep 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Wed, 28 Sep 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/evading-1-byte-change/</guid>
+        <description>1 Byte Evading Let&amp;rsquo;s generate a CobaltStrike c shellcode.
+Note that the first byte of the shellcode is \xfc.
+Let&amp;rsquo;s put the shellcode we got into the launcher, but with a small twist.
+Change \xfc to any other byte value. I choose \xfdStore the correct first byte \xfc in a char variableBefore copying the full shellcode to the newly allocated memory, flip the bad byte \xfd with a good one \xfcBuild the executableBelow is the source code if you want to test it in your environment.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>cobaltstrike</category>
+            
+          
+            
+              <category>reverseshell</category>
+            
+          
+            
+              <category>c-shellcode</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
