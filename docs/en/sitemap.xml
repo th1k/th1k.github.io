@@ -163,10 +163,13 @@
     <loc>https://thiklab.com/en/categories/fud/</loc>
     <lastmod>2021-04-24T10:01:06+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/en/tags/fileupload/</loc>
+    <loc>https://thiklab.com/en/tags/file-upload/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/en/tags/googledork/</loc>
+    <loc>https://thiklab.com/en/tags/google-dork/</loc>
+    <lastmod>2021-04-01T10:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/phpmyadmin/</loc>
     <lastmod>2021-04-01T10:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/categories/sqli/</loc>
@@ -197,19 +200,13 @@
                 href="https://thiklab.com/en/about/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/tags/netcat/</loc>
-    <lastmod>2020-06-19T15:12:24+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/posts/netcat-file-transfers/</loc>
-    <lastmod>2020-06-19T15:12:24+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/categories/tools/</loc>
-    <lastmod>2020-06-19T15:12:24+07:00</lastmod>
+    <loc>https://thiklab.com/en/tags/code-signing/</loc>
+    <lastmod>2020-06-02T16:22:34+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/self-signed-certification/</loc>
     <lastmod>2020-06-02T16:22:34+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/en/tags/phpshell/</loc>
+    <loc>https://thiklab.com/en/tags/php-webshell/</loc>
     <lastmod>2020-05-26T14:28:44+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/unishell/</loc>

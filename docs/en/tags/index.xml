@@ -13,7 +13,7 @@
     <language>en</language>
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Thu, 17 Nov 2022 10:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -237,12 +237,12 @@
       </item>
       
       <item>
-        <title>fileupload</title>
-        <link>https://thiklab.com/en/tags/fileupload/</link>
+        <title>file-upload</title>
+        <link>https://thiklab.com/en/tags/file-upload/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/fileupload/</guid>
+        <guid>https://thiklab.com/en/tags/file-upload/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -255,12 +255,12 @@
       </item>
       
       <item>
-        <title>googledork</title>
-        <link>https://thiklab.com/en/tags/googledork/</link>
+        <title>google-dork</title>
+        <link>https://thiklab.com/en/tags/google-dork/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/googledork/</guid>
+        <guid>https://thiklab.com/en/tags/google-dork/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -273,12 +273,12 @@
       </item>
       
       <item>
-        <title>netcat</title>
-        <link>https://thiklab.com/en/tags/netcat/</link>
-        <pubDate>Fri, 19 Jun 2020 15:12:24 +0700</pubDate>
+        <title>phpmyadmin</title>
+        <link>https://thiklab.com/en/tags/phpmyadmin/</link>
+        <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/netcat/</guid>
+        <guid>https://thiklab.com/en/tags/phpmyadmin/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -291,12 +291,30 @@
       </item>
       
       <item>
-        <title>phpshell</title>
-        <link>https://thiklab.com/en/tags/phpshell/</link>
+        <title>code-signing</title>
+        <link>https://thiklab.com/en/tags/code-signing/</link>
+        <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/en/tags/code-signing/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>php-webshell</title>
+        <link>https://thiklab.com/en/tags/php-webshell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/phpshell/</guid>
+        <guid>https://thiklab.com/en/tags/php-webshell/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
