@@ -15,7 +15,7 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -27,11 +27,11 @@
                 href="https://thiklab.com/en/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/categories/c2/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <loc>https://thiklab.com/en/tags/c-shellcode/</loc>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/categories/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -43,17 +43,11 @@
                 href="https://thiklab.com/en/categories/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/series/cobaltstrike/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/posts/cobaltstrike-overwan-connection/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/tags/over-wan/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <loc>https://thiklab.com/en/categories/metasploit/</loc>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -65,8 +59,17 @@
                 href="https://thiklab.com/en/posts/"
                 />
   </url><url>
+    <loc>https://thiklab.com/en/categories/process-injection/</loc>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/posts/process-injection-without-write-exec-permission/</loc>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/reverse-shell/</loc>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
+  </url><url>
     <loc>https://thiklab.com/en/series/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -79,7 +82,7 @@
                 />
   </url><url>
     <loc>https://thiklab.com/en/tags/</loc>
-    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -90,6 +93,21 @@
                 hreflang="en"
                 href="https://thiklab.com/en/tags/"
                 />
+  </url><url>
+    <loc>https://thiklab.com/en/series/winexe/</loc>
+    <lastmod>2023-06-21T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/categories/c2/</loc>
+    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/series/cobaltstrike/</loc>
+    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/posts/cobaltstrike-overwan-connection/</loc>
+    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/over-wan/</loc>
+    <lastmod>2022-12-06T22:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/tags/tunnel/</loc>
     <lastmod>2022-12-06T22:01:06+07:00</lastmod>
@@ -103,19 +121,10 @@
     <loc>https://thiklab.com/en/tags/persistence/</loc>
     <lastmod>2022-12-06T21:01:06+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/en/tags/reverse-shell/</loc>
-    <lastmod>2022-12-06T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/series/winexe/</loc>
-    <lastmod>2022-12-06T21:01:06+07:00</lastmod>
-  </url><url>
     <loc>https://thiklab.com/en/posts/av-evading-1-byte-change/</loc>
     <lastmod>2022-12-03T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/tags/bypass/</loc>
-    <lastmod>2022-12-03T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/tags/c-shellcode/</loc>
     <lastmod>2022-12-03T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/categories/ca/</loc>
@@ -164,9 +173,6 @@
     <lastmod>2022-12-01T10:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/exec-dll-payload/</loc>
-    <lastmod>2022-11-01T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/categories/metasploit/</loc>
     <lastmod>2022-11-01T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/showcase/red-teaming/</loc>

