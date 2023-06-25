@@ -67,12 +67,12 @@ Usage តស់! ឥលូវចាប់ផ្ដើមធ្វើការក
       </item>
       
       <item>
-        <title>1 Byte Changed Evading Win Defender</title>
-        <link>https://thiklab.com/en/posts/av-evading-1-byte-change/</link>
+        <title>1 Byte Changed Evading Antivirus</title>
+        <link>https://thiklab.com/en/posts/1byte-changed-evading-av/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
-        <guid>https://thiklab.com/en/posts/av-evading-1-byte-change/</guid>
+        <guid>https://thiklab.com/en/posts/1byte-changed-evading-av/</guid>
         <description>1 Byte Evading ដំបូងយើងត្រូវបង្កើត Shell Code ជាប្រភេទភាសារ C នៅក្នុង Cobalt Strike ដូចរូបខាងក្រោម៖
 សូមចាប់អារម្មណ៏ត្រង់ Byte ដំបូងគេនៃ Code គឺ \xfc ។
 តស់!!! មកកែប្រែចំនួន Byte ដូចខាងក្រោម៖
@@ -86,20 +86,16 @@ Usage តស់! ឥលូវចាប់ផ្ដើមធ្វើការក
         
           
             
-              <category>reverse-shell</category>
-            
-          
-            
               <category>c-shellcode</category>
             
           
-        
-        
-        
+            
+              <category>bypass</category>
+            
           
-            
-              <category>WinExE</category>
-            
+        
+        
+        
           
             
               <category>CobaltStrike</category>

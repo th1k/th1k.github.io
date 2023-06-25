@@ -21,6 +21,24 @@
 
       
       <item>
+        <title>bypass</title>
+        <link>https://thiklab.com/en/tags/bypass/</link>
+        <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/en/tags/bypass/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>c-shellcode</title>
         <link>https://thiklab.com/en/tags/c-shellcode/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
@@ -39,12 +57,12 @@
       </item>
       
       <item>
-        <title>reverse-shell</title>
-        <link>https://thiklab.com/en/tags/reverse-shell/</link>
+        <title>xor</title>
+        <link>https://thiklab.com/en/tags/xor/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/reverse-shell/</guid>
+        <guid>https://thiklab.com/en/tags/xor/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -129,24 +147,6 @@
       </item>
       
       <item>
-        <title>bypass</title>
-        <link>https://thiklab.com/en/tags/bypass/</link>
-        <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/en/tags/bypass/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>metasploit</title>
         <link>https://thiklab.com/en/tags/metasploit/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
@@ -219,66 +219,12 @@
       </item>
       
       <item>
-        <title>converter</title>
-        <link>https://thiklab.com/en/tags/converter/</link>
-        <pubDate>Thu, 01 Dec 2022 10:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/en/tags/converter/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>decode</title>
-        <link>https://thiklab.com/en/tags/decode/</link>
-        <pubDate>Thu, 01 Dec 2022 10:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/en/tags/decode/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>encode</title>
-        <link>https://thiklab.com/en/tags/encode/</link>
-        <pubDate>Thu, 01 Dec 2022 10:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/en/tags/encode/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>file-upload</title>
-        <link>https://thiklab.com/en/tags/file-upload/</link>
+        <title>fileupload</title>
+        <link>https://thiklab.com/en/tags/fileupload/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/file-upload/</guid>
+        <guid>https://thiklab.com/en/tags/fileupload/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>

@@ -43,14 +43,16 @@ DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុង
             
           
             
-              <category>reverse-shell</category>
-            
-          
-            
               <category>persistence</category>
             
           
         
+        
+          
+            
+              <category>DLL Hijacking</category>
+            
+          
         
         
           
