@@ -14,19 +14,55 @@
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
-    <lastBuildDate>Thu, 29 Jun 2023 21:01:06 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>bypass</title>
+        <link>https://thiklab.com/en/tags/bypass/</link>
+        <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/en/tags/bypass/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>c-shellcode</title>
         <link>https://thiklab.com/en/tags/c-shellcode/</link>
-        <pubDate>Thu, 29 Jun 2023 21:01:06 +0700</pubDate>
+        <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
         <guid>https://thiklab.com/en/tags/c-shellcode/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>xor</title>
+        <link>https://thiklab.com/en/tags/xor/</link>
+        <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        
+        <guid>https://thiklab.com/en/tags/xor/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -45,42 +81,6 @@
         <author>thiklife403@gmail.com (Thik)</author>
         
         <guid>https://thiklab.com/en/tags/metasploit/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>bypass</title>
-        <link>https://thiklab.com/en/tags/bypass/</link>
-        <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/en/tags/bypass/</guid>
-        <description></description>
-        
-        <dc:creator>Thik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>xor</title>
-        <link>https://thiklab.com/en/tags/xor/</link>
-        <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        
-        <guid>https://thiklab.com/en/tags/xor/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
