@@ -15,7 +15,7 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -27,14 +27,8 @@
                 href="https://thiklab.com/en/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/tags/bypass/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/tags/c-shellcode/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
-  </url><url>
     <loc>https://thiklab.com/en/categories/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -46,11 +40,20 @@
                 href="https://thiklab.com/en/categories/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/posts/encrypting-shellcode-with-xor-in-c/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+    <loc>https://thiklab.com/en/tags/data-streams/</loc>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/categories/evading/</loc>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/fud/</loc>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/posts/malicious-alternate-data-streams/</loc>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -62,11 +65,8 @@
                 href="https://thiklab.com/en/posts/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/categories/process-injection/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
-  </url><url>
     <loc>https://thiklab.com/en/series/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -79,7 +79,7 @@
                 />
   </url><url>
     <loc>https://thiklab.com/en/tags/</loc>
-    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -92,13 +92,22 @@
                 />
   </url><url>
     <loc>https://thiklab.com/en/series/winexe/</loc>
+    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/bypass/</loc>
+    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/c-shellcode/</loc>
+    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/posts/encrypting-shellcode-with-xor-in-c/</loc>
+    <lastmod>2023-06-30T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/categories/process-injection/</loc>
     <lastmod>2023-06-30T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/tags/xor/</loc>
     <lastmod>2023-06-30T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/categories/evading/</loc>
-    <lastmod>2023-06-29T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/evading-avedr-with-c-curl-command/</loc>
     <lastmod>2023-06-29T21:01:06+07:00</lastmod>
