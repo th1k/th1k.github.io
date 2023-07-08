@@ -14,7 +14,7 @@
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
     <webMaster>thiklife403@gmail.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2023 21:01:06 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jul 2023 16:22:34 +0700</lastBuildDate>
     
         <atom:link href="https://thiklab.com/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,48 @@
 
       
       <item>
+        <title>Hijacking Digital Signatures</title>
+        <link>https://thiklab.com/en/posts/hijacking-digital-signatures/</link>
+        <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Sat, 08 Jul 2023 16:22:34 +0700</atom:modified>
+        <guid>https://thiklab.com/en/posts/hijacking-digital-signatures/</guid>
+        <description>មានវិធីសាស្ត្រជាច្រើនក្នុងការលួចយក ឬ ចម្លងយក Digital Signatures ចេញពីឯកសារពិតប្រាកដណាមួយនៅក្នុងប្រព័ន្ធវីនដូ ។ តែថ្ងៃនេះយើងនឹងមកមើលឧបករណ៍មួយដែលអាចជួយឲ្យមានភាពងាយស្រួលក្នុងការលួចយក Signatures ដែលមាននៅក្នុងឯកសារ Binary រួចដាក់បញ្ជូលទៅក្នុង Payload បានយ៉ាងឆាប់រហ័ស ។
+Digital Signatures Hijacking Tools SigThif ងាយៗជាមួយ SigThif ក្នុងការលួចយក Signatures ពីកម្មវិធីជាច្រើននៅក្នងវីនដូ ។
+វិធីប្រើ 1 2 3 4 5 6 7 8 9 10 11 12 13 14  git clone https://github.com/secretsquirrel/SigThief.git cd SigThief // លួចយក Signature ចេញពីកម្មវិធីរួចដាក់ចូលទៅក្នុង Payload python3 sigthief.py -i putty.exe -t payload.exe -o malsign.exe // យក Signature ចេញ និងរក្សាទុកប្រើពេលក្រោយ python3 sigthief.py -i putty.exe -r // យក Signature ដែលរក្សាទុកមកប្រើប្រាស់វិញ python3 sigthief.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://thiklab.comimages/feature3/ca.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>hijacking</category>
+            
+          
+            
+              <category>digiral-signatures</category>
+            
+          
+        
+        
+          
+            
+              <category>CA</category>
+            
+          
+        
+        
+          
+            
+              <category>WinExE</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>DLL Hijacking Attack 0x01</title>
         <link>https://thiklab.com/en/posts/dll-hijacking-0x01/</link>
         <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
@@ -63,6 +105,10 @@ Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដ
           
             
               <category>dll</category>
+            
+          
+            
+              <category>hijacking</category>
             
           
         
@@ -454,6 +500,10 @@ DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុង
           
             
               <category>persistence</category>
+            
+          
+            
+              <category>hijacking</category>
             
           
         
