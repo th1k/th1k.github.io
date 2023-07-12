@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>fud on ThikLab - CyberSec</title>
-    <link>https://thiklab.com/en/tags/fud/</link>
-    <description>Recent content in fud on ThikLab - CyberSec</description>
+    <title>obfuscate on ThikLab - CyberSec</title>
+    <link>https://thiklab.com/en/tags/obfuscate/</link>
+    <description>Recent content in obfuscate on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 12 Jul 2023 21:01:06 +0700</lastBuildDate>
     
-        <atom:link href="https://thiklab.com/en/tags/fud/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://thiklab.com/en/tags/obfuscate/index.xml" rel="self" type="application/rss+xml" />
     
 
       
@@ -43,51 +43,6 @@ PWN the Script 1 2 3 4 5 6 7 8 9 10 11 12  @echo off if &amp;#34;%~1&amp;#34;==&
           
             
               <category>obfuscate</category>
-            
-          
-        
-        
-          
-            
-              <category>Evading</category>
-            
-          
-        
-        
-          
-            
-              <category>WinExE</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Malicious Alternate Data Streams In Windows</title>
-        <link>https://thiklab.com/en/posts/malicious-alternate-data-streams/</link>
-        <pubDate>Wed, 05 Jul 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
-        <atom:modified>Wed, 05 Jul 2023 21:01:06 +0700</atom:modified>
-        <guid>https://thiklab.com/en/posts/malicious-alternate-data-streams/</guid>
-        <description>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ Certutil ។
-Generate ADS ខាងក្រោមជាដំណើរការក្នុងការលាក់ Payload Strings នៅក្នុង ADS ដោយប្រើប្រាស់ពាក្យបញ្ជាដែលមានស្រាប់ក្នុង Powershell ។
-បើកផ្ទាំង CMD រួចវាយពាក្យបញ្ជាខាងក្រោម៖
-1  echo payload &amp;gt; hello.txt:payload.bin   ពាក្យ payload នឹងរក្សាទុកនៅក្នុង ADS ដែលមានឈ្មោះថា payload.bin ។ ដើម្បីកែប្រែវាវិញយើងអាចប្រើប្រាស់កម្មវិធី Notepad ដើម្បីបើកមើលនិងកែប្រែវាបាន ដោយវាយពាក្យបញ្ជាដូចខាងក្រោម៖
-1  notepad hello.txt:payload.bin   Certutil បង្កើត Payload ដោយប្រើប្រាស់ Metasploit / Cobalt Strike / DCRat ។ល។ បន្ទាប់មកធ្វើវាឲ្យទៅជា Cert File ដោយវាយពាក្យបញ្ជានៅក្នុង Powershell ដូចខាងក្រោម៖
-1  certutil -encode ./payload.exe payload.txt   បន្ទាប់មកចម្លងនិងរក្សាទុកនូវចំនួនអក្សរដែលមានក្នុងឯកសារ payload.</description>
-        
-        <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>fud</category>
-            
-          
-            
-              <category>data-streams</category>
             
           
         

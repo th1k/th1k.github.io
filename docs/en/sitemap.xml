@@ -15,7 +15,7 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -27,11 +27,11 @@
                 href="https://thiklab.com/en/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/categories/ca/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <loc>https://thiklab.com/en/posts/batch-file-obfuscation/</loc>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/categories/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -43,17 +43,17 @@
                 href="https://thiklab.com/en/categories/"
                 />
   </url><url>
-    <loc>https://thiklab.com/en/tags/digiral-signatures/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <loc>https://thiklab.com/en/categories/evading/</loc>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/en/tags/hijacking/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <loc>https://thiklab.com/en/tags/fud/</loc>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
   </url><url>
-    <loc>https://thiklab.com/en/posts/hijacking-digital-signatures/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <loc>https://thiklab.com/en/tags/obfuscate/</loc>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -66,7 +66,7 @@
                 />
   </url><url>
     <loc>https://thiklab.com/en/series/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -79,7 +79,7 @@
                 />
   </url><url>
     <loc>https://thiklab.com/en/tags/</loc>
-    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kh"
@@ -92,6 +92,18 @@
                 />
   </url><url>
     <loc>https://thiklab.com/en/series/winexe/</loc>
+    <lastmod>2023-07-12T21:01:06+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/categories/ca/</loc>
+    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/digiral-signatures/</loc>
+    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/tags/hijacking/</loc>
+    <lastmod>2023-07-08T16:22:34+07:00</lastmod>
+  </url><url>
+    <loc>https://thiklab.com/en/posts/hijacking-digital-signatures/</loc>
     <lastmod>2023-07-08T16:22:34+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/tags/dll/</loc>
@@ -104,12 +116,6 @@
     <lastmod>2023-07-07T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/tags/data-streams/</loc>
-    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/categories/evading/</loc>
-    <lastmod>2023-07-05T21:01:06+07:00</lastmod>
-  </url><url>
-    <loc>https://thiklab.com/en/tags/fud/</loc>
     <lastmod>2023-07-05T21:01:06+07:00</lastmod>
   </url><url>
     <loc>https://thiklab.com/en/posts/malicious-alternate-data-streams/</loc>
