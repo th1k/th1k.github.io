@@ -1791,7 +1791,50 @@
 </div>
 </div>
 <h4 id="usage">Usage</h4>
-<p>ចម្លងកូដខាងលើហើយរក្សាទុកវាជា anyname.bat បន្ទាប់មកធ្វើការទំលាក់ឯកសារ Batch របស់អ្នកដែលចង់បំប្លែងនោះទៅលើឯកសារមួយនេះ នោះវានឹងធ្វើការបំប្លែងកូដដើមទៅជាកូដថ្មីមួយផ្សេងទៀតដោយខ្លួនឯង ៕</p>
+<p>ចម្លងកូដខាងលើហើយរក្សាទុកវាជា anyname.bat បន្ទាប់មកធ្វើការទំលាក់ឯកសារ Batch របស់អ្នកដែលចង់បំប្លែងនោះទៅលើឯកសារមួយនេះ នោះវានឹងធ្វើការបំប្លែងកូដដើមទៅជាកូដថ្មីមួយផ្សេងទៀតដោយខ្លួនឯង ។</p>
+<h4 id="reverse-back">Reverse Back</h4>
+<p>ដើម្បីធ្វើការបំប្លែងកូដនោះត្រលប់មកដើមវិញយើងអាចប្រើប្រាស់កូដស្ក្រីបខាងក្រោមបាន៖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-batch" data-lang="batch"><span class="line"><span class="cl"><span class="p">@</span><span class="k">echo</span> off
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="s2">&#34;</span><span class="nv">%~1</span><span class="s2">&#34;</span><span class="o">==</span><span class="s2">&#34;&#34;</span> <span class="k">exit</span> /b
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="k">/i</span> <span class="s2">&#34;</span><span class="nv">%~x1</span><span class="s2">&#34;</span> <span class="ow">neq</span> <span class="s2">&#34;.bat&#34;</span> <span class="k">if</span> <span class="k">/i</span> <span class="s2">&#34;</span><span class="nv">%~x1</span><span class="s2">&#34;</span> <span class="ow">neq</span> <span class="s2">&#34;.cmd&#34;</span> <span class="k">exit</span> /b
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="k">exist</span> <span class="s2">&#34;</span><span class="nv">%~n1</span><span class="s2">___</span><span class="nv">%~x1</span><span class="s2">&#34;</span> <span class="k">del</span> <span class="s2">&#34;</span><span class="nv">%~n1</span><span class="s2">___</span><span class="nv">%~x1</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="k">/f</span> <span class="s2">&#34;skip=1 delims=&#34;</span> <span class="se">%%</span>L <span class="k">in</span> <span class="p">(</span><span class="s1">&#39;CMD /U /C Type &#34;</span><span class="nv">%~1</span><span class="s1">&#34;&#39;</span><span class="p">)</span> <span class="k">do</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">   <span class="k">echo</span> <span class="se">%%</span>L
+</span></span><span class="line"><span class="cl">   <span class="k">echo</span> <span class="se">%%</span>L <span class="p">&gt;&gt;</span><span class="s2">&#34;</span><span class="nv">%~n1</span><span class="s2">___</span><span class="nv">%~x1</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">pause</span><span class="p">&gt;</span>nul</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>ឫក៏កូដខាងក្រោម បានដូចគ្នា</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-batch" data-lang="batch"><span class="line"><span class="cl"><span class="p">@</span><span class="k">echo</span> off <span class="p">&amp;</span><span class="k">setlocal</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="s2">&#34;</span><span class="nv">%~1</span><span class="s2">&#34;</span><span class="o">==</span><span class="s2">&#34;&#34;</span> <span class="k">exit</span> /b
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="k">/i</span> <span class="s2">&#34;</span><span class="nv">%~x1</span><span class="s2">&#34;</span> <span class="ow">neq</span> <span class="s2">&#34;.bat&#34;</span> <span class="k">if</span> <span class="k">/i</span> <span class="s2">&#34;</span><span class="nv">%~x1</span><span class="s2">&#34;</span> <span class="ow">neq</span> <span class="s2">&#34;.cmd&#34;</span> <span class="k">exit</span> /b
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="s2">&#34;</span><span class="nv">%~1</span><span class="s2">&#34;</span> <span class="p">((</span><span class="k">for</span> <span class="k">/l</span> <span class="se">%%</span>N <span class="k">in</span> <span class="p">(</span><span class="mi">1</span> <span class="mi">1</span> <span class="mi">8</span><span class="p">)</span> <span class="k">do</span> <span class="k">pause</span><span class="p">)&gt;</span>nul<span class="p">&amp;</span>findstr <span class="s2">&#34;^&#34;</span><span class="p">&gt;</span><span class="s2">&#34;</span><span class="nv">%~n1</span><span class="s2">___</span><span class="nv">%~x1</span><span class="s2">&#34;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<h4 id="usage-1">Usage</h4>
+<p>ដូចខាងគ្នាដែរ គឺគ្រាន់តែរក្សាវាទុកជា *.bat រួចហើយទំលាក់កូដដែលបានបំប្លែងរួចទៅលើវា នោះវានឹងបំប្លែងកូដនោះមកជាកូដដើមវិញ ៕</p>
 
     </article>
     
@@ -2526,6 +2569,8 @@ document.addEventListener('DOMContentLoaded', function () {
           <ul>
             <li><a href="#pwn-the-script">PWN the Script</a></li>
             <li><a href="#usage">Usage</a></li>
+            <li><a href="#reverse-back">Reverse Back</a></li>
+            <li><a href="#usage-1">Usage</a></li>
           </ul>
         </li>
       </ul>
