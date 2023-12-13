@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Archive on ThikLab - CyberSec</title>
-    <link>https://thiklab.com/en/archive/</link>
+    <link>https://th1k.github.io/en/archive/</link>
     <description>Recent content in Archive on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Sat, 19 Oct 2019 11:44:14 +0900</lastBuildDate>
     
-        <atom:link href="https://thiklab.com/en/archive/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://th1k.github.io/en/archive/index.xml" rel="self" type="application/rss+xml" />
     
 
       

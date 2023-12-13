@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on ThikLab - CyberSec</title>
-    <link>https://thiklab.com/en/tags/</link>
+    <link>https://th1k.github.io/en/tags/</link>
     <description>Recent content in Tags on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 09 Aug 2023 21:01:06 +0700</lastBuildDate>
     
-        <atom:link href="https://thiklab.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://th1k.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>c-shellcode</title>
-        <link>https://thiklab.com/en/tags/c-shellcode/</link>
+        <link>https://th1k.github.io/en/tags/c-shellcode/</link>
         <pubDate>Wed, 09 Aug 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/c-shellcode/</guid>
+        <guid>https://th1k.github.io/en/tags/c-shellcode/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>metasploit</title>
-        <link>https://thiklab.com/en/tags/metasploit/</link>
+        <link>https://th1k.github.io/en/tags/metasploit/</link>
         <pubDate>Wed, 09 Aug 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/metasploit/</guid>
+        <guid>https://th1k.github.io/en/tags/metasploit/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>fud</title>
-        <link>https://thiklab.com/en/tags/fud/</link>
+        <link>https://th1k.github.io/en/tags/fud/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/fud/</guid>
+        <guid>https://th1k.github.io/en/tags/fud/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -76,11 +76,11 @@
       
       <item>
         <title>obfuscate</title>
-        <link>https://thiklab.com/en/tags/obfuscate/</link>
+        <link>https://th1k.github.io/en/tags/obfuscate/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/obfuscate/</guid>
+        <guid>https://th1k.github.io/en/tags/obfuscate/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -94,11 +94,11 @@
       
       <item>
         <title>digiral-signatures</title>
-        <link>https://thiklab.com/en/tags/digiral-signatures/</link>
+        <link>https://th1k.github.io/en/tags/digiral-signatures/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/digiral-signatures/</guid>
+        <guid>https://th1k.github.io/en/tags/digiral-signatures/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -112,11 +112,11 @@
       
       <item>
         <title>hijacking</title>
-        <link>https://thiklab.com/en/tags/hijacking/</link>
+        <link>https://th1k.github.io/en/tags/hijacking/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/hijacking/</guid>
+        <guid>https://th1k.github.io/en/tags/hijacking/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -130,11 +130,11 @@
       
       <item>
         <title>dll</title>
-        <link>https://thiklab.com/en/tags/dll/</link>
+        <link>https://th1k.github.io/en/tags/dll/</link>
         <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/dll/</guid>
+        <guid>https://th1k.github.io/en/tags/dll/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -148,11 +148,11 @@
       
       <item>
         <title>data-streams</title>
-        <link>https://thiklab.com/en/tags/data-streams/</link>
+        <link>https://th1k.github.io/en/tags/data-streams/</link>
         <pubDate>Wed, 05 Jul 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/data-streams/</guid>
+        <guid>https://th1k.github.io/en/tags/data-streams/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -166,11 +166,11 @@
       
       <item>
         <title>bypass</title>
-        <link>https://thiklab.com/en/tags/bypass/</link>
+        <link>https://th1k.github.io/en/tags/bypass/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/bypass/</guid>
+        <guid>https://th1k.github.io/en/tags/bypass/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -184,11 +184,11 @@
       
       <item>
         <title>xor</title>
-        <link>https://thiklab.com/en/tags/xor/</link>
+        <link>https://th1k.github.io/en/tags/xor/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/xor/</guid>
+        <guid>https://th1k.github.io/en/tags/xor/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -202,11 +202,11 @@
       
       <item>
         <title>over-wan</title>
-        <link>https://thiklab.com/en/tags/over-wan/</link>
+        <link>https://th1k.github.io/en/tags/over-wan/</link>
         <pubDate>Tue, 06 Dec 2022 22:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/over-wan/</guid>
+        <guid>https://th1k.github.io/en/tags/over-wan/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -220,11 +220,11 @@
       
       <item>
         <title>tunnel</title>
-        <link>https://thiklab.com/en/tags/tunnel/</link>
+        <link>https://th1k.github.io/en/tags/tunnel/</link>
         <pubDate>Tue, 06 Dec 2022 22:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/tunnel/</guid>
+        <guid>https://th1k.github.io/en/tags/tunnel/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -238,11 +238,11 @@
       
       <item>
         <title>persistence</title>
-        <link>https://thiklab.com/en/tags/persistence/</link>
+        <link>https://th1k.github.io/en/tags/persistence/</link>
         <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/persistence/</guid>
+        <guid>https://th1k.github.io/en/tags/persistence/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -256,11 +256,11 @@
       
       <item>
         <title>ssl</title>
-        <link>https://thiklab.com/en/tags/ssl/</link>
+        <link>https://th1k.github.io/en/tags/ssl/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/ssl/</guid>
+        <guid>https://th1k.github.io/en/tags/ssl/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -274,11 +274,11 @@
       
       <item>
         <title>inf</title>
-        <link>https://thiklab.com/en/tags/inf/</link>
+        <link>https://th1k.github.io/en/tags/inf/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/inf/</guid>
+        <guid>https://th1k.github.io/en/tags/inf/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -292,11 +292,11 @@
       
       <item>
         <title>sct</title>
-        <link>https://thiklab.com/en/tags/sct/</link>
+        <link>https://th1k.github.io/en/tags/sct/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/sct/</guid>
+        <guid>https://th1k.github.io/en/tags/sct/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -310,11 +310,11 @@
       
       <item>
         <title>fileupload</title>
-        <link>https://thiklab.com/en/tags/fileupload/</link>
+        <link>https://th1k.github.io/en/tags/fileupload/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/fileupload/</guid>
+        <guid>https://th1k.github.io/en/tags/fileupload/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -328,11 +328,11 @@
       
       <item>
         <title>google-dork</title>
-        <link>https://thiklab.com/en/tags/google-dork/</link>
+        <link>https://th1k.github.io/en/tags/google-dork/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/google-dork/</guid>
+        <guid>https://th1k.github.io/en/tags/google-dork/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -346,11 +346,11 @@
       
       <item>
         <title>phpmyadmin</title>
-        <link>https://thiklab.com/en/tags/phpmyadmin/</link>
+        <link>https://th1k.github.io/en/tags/phpmyadmin/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/phpmyadmin/</guid>
+        <guid>https://th1k.github.io/en/tags/phpmyadmin/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -364,11 +364,11 @@
       
       <item>
         <title>code-signing</title>
-        <link>https://thiklab.com/en/tags/code-signing/</link>
+        <link>https://th1k.github.io/en/tags/code-signing/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/code-signing/</guid>
+        <guid>https://th1k.github.io/en/tags/code-signing/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
@@ -382,11 +382,11 @@
       
       <item>
         <title>php-webshell</title>
-        <link>https://thiklab.com/en/tags/php-webshell/</link>
+        <link>https://th1k.github.io/en/tags/php-webshell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
         <author>thiklife403@gmail.com (Thik)</author>
         
-        <guid>https://thiklab.com/en/tags/php-webshell/</guid>
+        <guid>https://th1k.github.io/en/tags/php-webshell/</guid>
         <description></description>
         
         <dc:creator>Thik</dc:creator>
