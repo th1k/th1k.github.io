@@ -11,9 +11,9 @@
     <description>Recent content in c-shellcode on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 09 Aug 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/tags/c-shellcode/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>MSFvenom:- Raw2Shellcode and Remove Garbage</title>
         <link>https://th1k.github.io/en/posts/msfveom-raw2shellcode/</link>
         <pubDate>Wed, 09 Aug 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 09 Aug 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/msfveom-raw2shellcode/</guid>
         <description>ក្នុងអត្ថបទនេះយើងនឹងមកដឹងអំពីវិធីបំប្លែង​ឯកសារ Payload ឫ Beacons ផ្សេងៗដែលជាឯកសារប្រភេទ Raw ឲ្យទៅជា Shellcode ដើម្បីដាក់បញ្ចូលទៅក្នុងភាសារ C ក្នុងការបង្កើតជា Custom Payloads ជំនួសវិញ ។
@@ -68,7 +68,7 @@ Shellcode2Raw ខាងក្រោមនេះគឺជាគន្លឹះក
         <title>Encrypting Shellcode with XOR In C</title>
         <link>https://th1k.github.io/en/posts/encrypting-shellcode-with-xor-in-c/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Fri, 30 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/encrypting-shellcode-with-xor-in-c/</guid>
         <description>Summary ខាងក្រោមជាការបង្កើត Shellcode និងធ្វើកូដនីយកម្ម XOR ដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។
@@ -114,7 +114,7 @@ Generate Shellcode ខាងក្រោមជាដំណើរការបង�
         <title>Evading AV/EDR with Curl Command</title>
         <link>https://th1k.github.io/en/posts/evading-avedr-with-c-curl-command/</link>
         <pubDate>Thu, 29 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Thu, 29 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/evading-avedr-with-c-curl-command/</guid>
         <description>ខ្លីៗអំពីការ Bypass AV/EDR តាមរយៈពាក្យបញ្ជា Curl ដោយប្រើប្រាស់ភាសា C ។
@@ -158,7 +158,7 @@ Generate Payload ខាងក្រោមជាដំណើរការបង្
         <title>Evading AV/EDR with Junk Bytes</title>
         <link>https://th1k.github.io/en/posts/evading-avedr-with-junk-bytes/</link>
         <pubDate>Tue, 27 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 27 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/evading-avedr-with-junk-bytes/</guid>
         <description>ខ្លះៗអំពីការ Bypass AV/EDR តាមរយៈ Msfvenom ។
@@ -202,7 +202,7 @@ Generate Payload ខាងក្រោមជាដំណើរការបង្
         <title>Process Injection - Bypass AV/EDR with XOR - 0x01</title>
         <link>https://th1k.github.io/en/posts/process-injection-bypass-avedr-with-xor-0x01/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 21 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/process-injection-bypass-avedr-with-xor-0x01/</guid>
         <description>Summary នៅក្នុងអត្ថបទនេះយើងនឹងធ្វើការបង្កើត Shellcode តាមរយៈវិធីសាស្ត្រ Process Injection ដោយភ្ជាប់ជាមួយនិងការដាក់នូវកូនសោរ XOR ក្នុងការធ្វើកូដនីយកម្មដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។
@@ -249,7 +249,7 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <title>Process Injection without Write/Execute Permission</title>
         <link>https://th1k.github.io/en/posts/process-injection-without-write-exec-permission/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 21 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/process-injection-without-write-exec-permission/</guid>
         <description>Pwn Self Injection បង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅលើម៉ាស៊ីន 64 bit ។
@@ -287,7 +287,7 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <title>Process Injection - Self Injection Method</title>
         <link>https://th1k.github.io/en/posts/process-injection-self-injection-method/</link>
         <pubDate>Tue, 20 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 20 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/process-injection-self-injection-method/</guid>
         <description>Self-Injection Payload ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅលើម៉ាស៊ីន 64 bit ។
@@ -325,7 +325,7 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <title>1 Byte Changed Evading Antivirus</title>
         <link>https://th1k.github.io/en/posts/1byte-changed-evading-av/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/1byte-changed-evading-av/</guid>
         <description>1 Byte Evading ដំបូងយើងត្រូវបង្កើត Shell Code ជាប្រភេទភាសារ C នៅក្នុង Cobalt Strike ដូចរូបខាងក្រោម៖

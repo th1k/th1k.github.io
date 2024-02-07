@@ -11,9 +11,9 @@
     <description>Recent content in CA on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Sat, 08 Jul 2023 16:22:34 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/categories/ca/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Hijacking Digital Signatures</title>
         <link>https://th1k.github.io/en/posts/hijacking-digital-signatures/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 08 Jul 2023 16:22:34 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/hijacking-digital-signatures/</guid>
         <description>មានវិធីសាស្ត្រជាច្រើនក្នុងការលួចយក ឬ ចម្លងយក Digital Signatures ចេញពីឯកសារពិតប្រាកដណាមួយនៅក្នុងប្រព័ន្ធវីនដូ ។ តែថ្ងៃនេះយើងនឹងមកមើលឧបករណ៍មួយដែលអាចជួយឲ្យមានភាពងាយស្រួលក្នុងការលួចយក Signatures ដែលមាននៅក្នុងឯកសារ Binary រួចដាក់បញ្ជូលទៅក្នុង Payload បានយ៉ាងឆាប់រហ័ស ។
@@ -66,7 +66,7 @@ Digital Signatures Hijacking Tools SigThif ងាយៗជាមួយ SigThif �
         <title>Impersonate SSL - MSF Bypass Detection</title>
         <link>https://th1k.github.io/en/posts/bypass-detection-msf-shell/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/bypass-detection-msf-shell/</guid>
         <description>Clone SSL Certification តើអ្នកដឹងទេថា យើងអាចធ្វើការថតចម្លងនូវរាល់ឯកសារ SSL Certificate របស់គេហទំព័រដទៃបាន ដោយប្រើប្រាស់ Module មួយនៅក្នុង Metasploit Framework ដែលត្រូវបានបង្កើតឡើងដោយលោក Chris John Riley ។ ឯកសារដែលត្រូវបានថតចម្លងនោះ នឹងត្រូវរក្សាទុកជាប្រភេទទម្រង់ឯកសារ PEM ហើយវាក៏អាចប្រើប្រាស់បានគ្រប់ប្រភេទ Modules នៅក្នុង Metasploit ផងដែរ។
@@ -115,7 +115,7 @@ Meterpreter Using SSL Connection ខាងក្រោមនេះគឺជា�
         <title>Self Signed Certification</title>
         <link>https://th1k.github.io/en/posts/self-signed-certification/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 02 Jun 2020 16:22:34 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/self-signed-certification/</guid>
         <description>តើមានវិធីអ្វីដែលអាចធ្វើ Code Signing ទៅលើ Payload ដែលយើងបានបង្កើតឡើងដោយខ្លួនឯងរួច?

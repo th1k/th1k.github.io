@@ -11,9 +11,9 @@
     <description>Recent content in HTB on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Sat, 21 Nov 2020 11:38:55 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/series/htb/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>HackTheBox - Traceback</title>
         <link>https://th1k.github.io/en/posts/traceback-10-10-10-181/</link>
         <pubDate>Sat, 21 Nov 2020 11:38:55 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sat, 21 Nov 2020 11:38:55 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/traceback-10-10-10-181/</guid>
         <description>Recon ជាដំបូងខ្ញុំប្រើ Nmap ដើម្បីស្វែងរកផតដែលបានបើក និងសេវាកម្មដែលបានប្រើ

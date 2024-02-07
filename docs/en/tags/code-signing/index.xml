@@ -11,9 +11,9 @@
     <description>Recent content in code-signing on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Tue, 02 Jun 2020 16:22:34 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/tags/code-signing/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Self Signed Certification</title>
         <link>https://th1k.github.io/en/posts/self-signed-certification/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 02 Jun 2020 16:22:34 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/self-signed-certification/</guid>
         <description>តើមានវិធីអ្វីដែលអាចធ្វើ Code Signing ទៅលើ Payload ដែលយើងបានបង្កើតឡើងដោយខ្លួនឯងរួច?

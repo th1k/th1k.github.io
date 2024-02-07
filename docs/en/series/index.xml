@@ -11,9 +11,9 @@
     <description>Recent content in Series on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 09 Aug 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>WinExE</title>
         <link>https://th1k.github.io/en/series/winexe/</link>
         <pubDate>Wed, 09 Aug 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/series/winexe/</guid>
         <description></description>
@@ -42,7 +42,7 @@
         <title>CobaltStrike</title>
         <link>https://th1k.github.io/en/series/cobaltstrike/</link>
         <pubDate>Tue, 06 Dec 2022 22:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/series/cobaltstrike/</guid>
         <description></description>
@@ -60,7 +60,7 @@
         <title>WebApp</title>
         <link>https://th1k.github.io/en/series/webapp/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/series/webapp/</guid>
         <description></description>
@@ -78,7 +78,7 @@
         <title>HTB</title>
         <link>https://th1k.github.io/en/series/htb/</link>
         <pubDate>Sat, 21 Nov 2020 11:38:55 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/series/htb/</guid>
         <description></description>

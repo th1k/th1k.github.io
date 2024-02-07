@@ -11,9 +11,9 @@
     <description>Recent content in Evading on ThikLab - CyberSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
-    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
-    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 12 Jul 2023 21:01:06 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/categories/evading/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Best Way To Obfuscate a Batch File</title>
         <link>https://th1k.github.io/en/posts/batch-file-obfuscation/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 12 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/batch-file-obfuscation/</guid>
         <description>ខាងក្រោមនេះជាកូដសម្រាប់ធ្វើការ Obfuscate ទៅលើ Batch Script ដោយធ្វើការបំប្លែងកូដទាំងនោះទៅជាភាសារផ្សេងមួយទៀតដែលពិបាកយល់ ។
@@ -66,7 +66,7 @@ PWN the Script 1 2 3 4 5 6 7 8 9 10 11 12  @echo off if &amp;#34;%~1&amp;#34;==&
         <title>Malicious Alternate Data Streams In Windows</title>
         <link>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</link>
         <pubDate>Wed, 05 Jul 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 05 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</guid>
         <description>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ Certutil ។
@@ -111,7 +111,7 @@ Generate ADS ខាងក្រោមជាដំណើរការក្នុ�
         <title>Evading AV/EDR with Curl Command</title>
         <link>https://th1k.github.io/en/posts/evading-avedr-with-c-curl-command/</link>
         <pubDate>Thu, 29 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Thu, 29 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/evading-avedr-with-c-curl-command/</guid>
         <description>ខ្លីៗអំពីការ Bypass AV/EDR តាមរយៈពាក្យបញ្ជា Curl ដោយប្រើប្រាស់ភាសា C ។
@@ -155,7 +155,7 @@ Generate Payload ខាងក្រោមជាដំណើរការបង្
         <title>Evading AV/EDR with Junk Bytes</title>
         <link>https://th1k.github.io/en/posts/evading-avedr-with-junk-bytes/</link>
         <pubDate>Tue, 27 Jun 2023 21:01:06 +0700</pubDate>
-        <author>thiklife403@gmail.com (Thik)</author>
+        <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Tue, 27 Jun 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/evading-avedr-with-junk-bytes/</guid>
         <description>ខ្លះៗអំពីការ Bypass AV/EDR តាមរយៈ Msfvenom ។

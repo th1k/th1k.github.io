@@ -14,6 +14,19 @@
     <loc>https://th1k.github.io/en/showcase/post-exploit/vegile/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
+    <loc>https://th1k.github.io/en/about/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kh"
+                href="https://th1k.github.io/kh/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://th1k.github.io/en/about/"
+                />
+  </url><url>
     <loc>https://th1k.github.io/en/</loc>
     <lastmod>2023-08-09T21:01:06+07:00</lastmod>
     <xhtml:link
@@ -234,19 +247,6 @@
   </url><url>
     <loc>https://th1k.github.io/en/series/htb/</loc>
     <lastmod>2020-11-21T11:38:55+07:00</lastmod>
-  </url><url>
-    <loc>https://th1k.github.io/en/about/</loc>
-    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kh"
-                href="https://th1k.github.io/kh/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://th1k.github.io/en/about/"
-                />
   </url><url>
     <loc>https://th1k.github.io/en/tags/code-signing/</loc>
     <lastmod>2020-06-02T16:22:34+07:00</lastmod>
