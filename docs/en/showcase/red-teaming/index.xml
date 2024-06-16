@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Red Teaming on ThikLab - CyberSec</title>
+    <link>https://th1k.github.io/en/showcase/red-teaming/</link>
+    <description>Recent content in Red Teaming on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Sun, 15 Aug 2021 21:04:11 +0900</lastBuildDate>
+    
+        <atom:link href="https://th1k.github.io/en/showcase/red-teaming/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>RedTeaming Tactics &amp; Techniques</title>
+        <link>https://th1k.github.io/en/showcase/red-teaming/invoke-obfuscation/</link>
+        <pubDate>Sun, 06 Nov 2022 21:13:42 +0900</pubDate>
+        <author>leangputthik@protonmail.com (Thik)</author>
+        <atom:modified>Sun, 06 Nov 2022 21:13:42 +0900</atom:modified>
+        <guid>https://th1k.github.io/en/showcase/red-teaming/invoke-obfuscation/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>How To Hunt</title>
+        <link>https://th1k.github.io/en/showcase/red-teaming/payload-all-the-things/</link>
+        <pubDate>Sat, 14 Aug 2021 21:13:42 +0900</pubDate>
+        <author>leangputthik@protonmail.com (Thik)</author>
+        <atom:modified>Sat, 14 Aug 2021 21:13:42 +0900</atom:modified>
+        <guid>https://th1k.github.io/en/showcase/red-teaming/payload-all-the-things/</guid>
+        <description></description>
+        
+        <dc:creator>Thik</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

