@@ -30,6 +30,9 @@
     <loc>https://th1k.github.io/en/posts/zrok-cobaltstrike-overwan-connection/</loc>
     <lastmod>2024-06-16T13:00:00+07:00</lastmod>
   </url><url>
+    <loc>https://th1k.github.io/en/tags/batch/</loc>
+    <lastmod>2024-06-16T13:00:00+07:00</lastmod>
+  </url><url>
     <loc>https://th1k.github.io/en/categories/c2/</loc>
     <lastmod>2024-06-16T13:00:00+07:00</lastmod>
   </url><url>
@@ -49,7 +52,13 @@
     <loc>https://th1k.github.io/en/series/cobaltstrike/</loc>
     <lastmod>2024-06-16T13:00:00+07:00</lastmod>
   </url><url>
+    <loc>https://th1k.github.io/en/posts/zrok/</loc>
+    <lastmod>2024-06-16T13:00:00+07:00</lastmod>
+  </url><url>
     <loc>https://th1k.github.io/en/tags/over-wan/</loc>
+    <lastmod>2024-06-16T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>https://th1k.github.io/en/tags/payload/</loc>
     <lastmod>2024-06-16T13:00:00+07:00</lastmod>
   </url><url>
     <loc>https://th1k.github.io/en/posts/</loc>
@@ -64,6 +73,9 @@
                 hreflang="en"
                 href="https://th1k.github.io/en/posts/"
                 />
+  </url><url>
+    <loc>https://th1k.github.io/en/tags/powershell/</loc>
+    <lastmod>2024-06-16T13:00:00+07:00</lastmod>
   </url><url>
     <loc>https://th1k.github.io/en/series/</loc>
     <lastmod>2024-06-16T13:00:00+07:00</lastmod>
@@ -92,6 +104,9 @@
                 />
   </url><url>
     <loc>https://th1k.github.io/en/tags/tunnel/</loc>
+    <lastmod>2024-06-16T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>https://th1k.github.io/en/tags/vbscript/</loc>
     <lastmod>2024-06-16T13:00:00+07:00</lastmod>
   </url><url>
     <loc>https://th1k.github.io/en/about/</loc>
