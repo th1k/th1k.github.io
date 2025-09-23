@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on ThikLab - CyberSec</title>
+    <title>Tags on ThikLab</title>
     <link>https://th1k.github.io/en/tags/</link>
-    <description>Recent content in Tags on ThikLab - CyberSec</description>
+    <description>Recent content in Tags on ThikLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
-    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <managingEditor>putthik.leang@outlook.com (Thik)</managingEditor>
+    <webMaster>putthik.leang@outlook.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Thu, 05 Jun 2025 13:00:00 +0700</lastBuildDate>
     
@@ -21,10 +21,10 @@
 
       
       <item>
-        <title>payload</title>
+        <title>Payload</title>
         <link>https://th1k.github.io/en/tags/payload/</link>
         <pubDate>Thu, 05 Jun 2025 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/payload/</guid>
         <description></description>
@@ -39,10 +39,10 @@
       </item>
       
       <item>
-        <title>metasploit</title>
+        <title>Metasploit</title>
         <link>https://th1k.github.io/en/tags/metasploit/</link>
         <pubDate>Wed, 21 May 2025 11:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/metasploit/</guid>
         <description></description>
@@ -57,10 +57,10 @@
       </item>
       
       <item>
-        <title>over-wan</title>
+        <title>Over-Wan</title>
         <link>https://th1k.github.io/en/tags/over-wan/</link>
         <pubDate>Sun, 16 Jun 2024 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/over-wan/</guid>
         <description></description>
@@ -75,10 +75,10 @@
       </item>
       
       <item>
-        <title>tunnel</title>
+        <title>Tunnel</title>
         <link>https://th1k.github.io/en/tags/tunnel/</link>
         <pubDate>Sun, 16 Jun 2024 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/tunnel/</guid>
         <description></description>
@@ -93,10 +93,10 @@
       </item>
       
       <item>
-        <title>c-shellcode</title>
+        <title>C-Shellcode</title>
         <link>https://th1k.github.io/en/tags/c-shellcode/</link>
         <pubDate>Wed, 09 Aug 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/c-shellcode/</guid>
         <description></description>
@@ -111,10 +111,10 @@
       </item>
       
       <item>
-        <title>fud</title>
+        <title>Fud</title>
         <link>https://th1k.github.io/en/tags/fud/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/fud/</guid>
         <description></description>
@@ -129,10 +129,10 @@
       </item>
       
       <item>
-        <title>obfuscate</title>
+        <title>Obfuscate</title>
         <link>https://th1k.github.io/en/tags/obfuscate/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/obfuscate/</guid>
         <description></description>
@@ -147,10 +147,10 @@
       </item>
       
       <item>
-        <title>digiral-signatures</title>
+        <title>Digiral-Signatures</title>
         <link>https://th1k.github.io/en/tags/digiral-signatures/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/digiral-signatures/</guid>
         <description></description>
@@ -165,10 +165,10 @@
       </item>
       
       <item>
-        <title>hijacking</title>
+        <title>Hijacking</title>
         <link>https://th1k.github.io/en/tags/hijacking/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/hijacking/</guid>
         <description></description>
@@ -183,10 +183,10 @@
       </item>
       
       <item>
-        <title>dll</title>
+        <title>Dll</title>
         <link>https://th1k.github.io/en/tags/dll/</link>
         <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/dll/</guid>
         <description></description>
@@ -201,10 +201,10 @@
       </item>
       
       <item>
-        <title>data-streams</title>
+        <title>Data-Streams</title>
         <link>https://th1k.github.io/en/tags/data-streams/</link>
         <pubDate>Wed, 05 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/data-streams/</guid>
         <description></description>
@@ -219,10 +219,10 @@
       </item>
       
       <item>
-        <title>bypass</title>
+        <title>Bypass</title>
         <link>https://th1k.github.io/en/tags/bypass/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/bypass/</guid>
         <description></description>
@@ -237,10 +237,10 @@
       </item>
       
       <item>
-        <title>xor</title>
+        <title>Xor</title>
         <link>https://th1k.github.io/en/tags/xor/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/xor/</guid>
         <description></description>
@@ -255,10 +255,10 @@
       </item>
       
       <item>
-        <title>persistence</title>
+        <title>Persistence</title>
         <link>https://th1k.github.io/en/tags/persistence/</link>
         <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/persistence/</guid>
         <description></description>
@@ -273,10 +273,10 @@
       </item>
       
       <item>
-        <title>ssl</title>
+        <title>Ssl</title>
         <link>https://th1k.github.io/en/tags/ssl/</link>
         <pubDate>Sat, 03 Dec 2022 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/ssl/</guid>
         <description></description>
@@ -291,10 +291,10 @@
       </item>
       
       <item>
-        <title>inf</title>
+        <title>Inf</title>
         <link>https://th1k.github.io/en/tags/inf/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/inf/</guid>
         <description></description>
@@ -309,10 +309,10 @@
       </item>
       
       <item>
-        <title>sct</title>
+        <title>Sct</title>
         <link>https://th1k.github.io/en/tags/sct/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/sct/</guid>
         <description></description>
@@ -327,10 +327,10 @@
       </item>
       
       <item>
-        <title>fileupload</title>
+        <title>Fileupload</title>
         <link>https://th1k.github.io/en/tags/fileupload/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/fileupload/</guid>
         <description></description>
@@ -345,10 +345,10 @@
       </item>
       
       <item>
-        <title>google-dork</title>
+        <title>Google-Dork</title>
         <link>https://th1k.github.io/en/tags/google-dork/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/google-dork/</guid>
         <description></description>
@@ -363,10 +363,10 @@
       </item>
       
       <item>
-        <title>phpmyadmin</title>
+        <title>Phpmyadmin</title>
         <link>https://th1k.github.io/en/tags/phpmyadmin/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/phpmyadmin/</guid>
         <description></description>
@@ -381,10 +381,10 @@
       </item>
       
       <item>
-        <title>code-signing</title>
+        <title>Code-Signing</title>
         <link>https://th1k.github.io/en/tags/code-signing/</link>
         <pubDate>Tue, 02 Jun 2020 16:22:34 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/code-signing/</guid>
         <description></description>
@@ -399,10 +399,10 @@
       </item>
       
       <item>
-        <title>php-webshell</title>
+        <title>Php-Webshell</title>
         <link>https://th1k.github.io/en/tags/php-webshell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/tags/php-webshell/</guid>
         <description></description>

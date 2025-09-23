@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>over-wan on ThikLab - CyberSec</title>
+    <title>Over-Wan on ThikLab</title>
     <link>https://th1k.github.io/en/tags/over-wan/</link>
-    <description>Recent content in over-wan on ThikLab - CyberSec</description>
+    <description>Recent content in Over-Wan on ThikLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
-    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <managingEditor>putthik.leang@outlook.com (Thik)</managingEditor>
+    <webMaster>putthik.leang@outlook.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Sun, 16 Jun 2024 13:00:00 +0700</lastBuildDate>
     
@@ -24,22 +24,23 @@
         <title>[Zrok] - CobaltStrike Over WAN Connection</title>
         <link>https://th1k.github.io/en/posts/zrok-cobaltstrike-overwan-connection/</link>
         <pubDate>Sun, 16 Jun 2024 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Sun, 16 Jun 2024 13:00:00 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/zrok-cobaltstrike-overwan-connection/</guid>
         <description>ខាងក្រោមនេះជាគំនិតផ្ទាល់ខ្លួនមួយប្រភេទផ្សេងទៀតក្នុងការតភ្ជាប់ Teamserver និងប្រើប្រាស់ Beacons ពីចំងាយតាមរយៈជំនួយពី Zrok ។
-Requirements  CobaltStrike Email Zrok Telebit  Zrok Setup ចូលទៅតំណភ្ជាប់នេះ https://docs.zrok.io/docs/getting-started/ បន្ទាប់មកសូមទាញយកកម្មវិធីឲ្យត្រូវទៅតាមប្រភេទនៃម៉ាស៊ីនមេរបស់អ្នក ក្នុងនៃនេះខ្ញុំនឹងយកប្រភេទ Linux ធ្វើជាម៉ាស៊ីនមេ ។
-1  wget https://github.com/openziti/zrok/releases/download/v0.4.31/zrok_0.4.31_linux_arm64.tar.gz -O zrok.tar.gz   ពន្លាឯកសារចេញនោះអ្នកនឹងទទួលបាន​ឯកសារគោលគឺ Zrok ។
+Requirements CobaltStrike Email Zrok Telebit Zrok Setup ចូលទៅតំណភ្ជាប់នេះ https://docs.zrok.io/docs/getting-started/ បន្ទាប់មកសូមទាញយកកម្មវិធីឲ្យត្រូវទៅតាមប្រភេទនៃម៉ាស៊ីនមេរបស់អ្នក ក្នុងនៃនេះខ្ញុំនឹងយកប្រភេទ Linux ធ្វើជាម៉ាស៊ីនមេ ។
+1 wget https://github.com/openziti/zrok/releases/download/v0.4.31/zrok_0.4.31_linux_arm64.tar.gz -O zrok.tar.gz ពន្លាឯកសារចេញនោះអ្នកនឹងទទួលបាន​ឯកសារគោលគឺ Zrok ។
 ចូលទៅ Terminal និងវាយពាក្យបញ្ជាដូចខាងក្រោម៖
-1  ./zrok invite   បន្ទាប់មកសូមបញ្ជូល Email របស់អ្នកដើម្បីចុះឈ្មោះប្រើប្រាស់សេវាកម្ម ។
+1 ./zrok invite បន្ទាប់មកសូមបញ្ជូល Email របស់អ្នកដើម្បីចុះឈ្មោះប្រើប្រាស់សេវាកម្ម ។
 សូមចូលទៅ Activate គណនី Zrok តាមរយៈ Email របស់អ្នក ។
 នៅក្នុងសារ Email របស់អ្នកនឹងទទួលបានរូបដូចខាងក្រោម សូមចុចពាក្យថា Create Account ។
 សូមបំពេញលេខសំងាត់ ។
 ការបង្កើតបានជោគជ័យ ។
-ដើម្បី Enable ម៉ាស៊ីនឲ្យស្គាល់និងអាចប្រើប្រាស់សេវាកម្ម ​Zrok បាន សូមចម្លងពាក្យបញ្ជាខាងក្រោមដាក់ចូលទៅក្នុងម៉ាស៊ីនមេរបស់អ្នក ។</description>
+ដើម្បី Enable ម៉ាស៊ីនឲ្យស្គាល់និងអាចប្រើប្រាស់សេវាកម្ម ​Zrok បាន សូមចម្លងពាក្យបញ្ជាខាងក្រោមដាក់ចូលទៅក្នុងម៉ាស៊ីនមេរបស់អ្នក ។
+1 ./zrok enable xxxxxxx ដើម្បីបើកមើល Realtime Connection រវាងម៉ាស៊ីនមេ កូនម៉ាស៊ីន ឬ ផ្នែកផ្សេងទៀតនៃការវាយប្រហារ សូមចូលទៅកាន់ Zrok Web API ដើម្បីបានព័ត៌មានជាក់លាក់ ។</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/cobaltstrike.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature3/cobaltstrike.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -73,19 +74,19 @@ Requirements  CobaltStrike Email Zrok Telebit  Zrok Setup ចូលទៅតំ�
         <title>CobaltStrike Over WAN Connection</title>
         <link>https://th1k.github.io/en/posts/cobaltstrike-overwan-connection/</link>
         <pubDate>Tue, 06 Dec 2022 22:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Tue, 06 Dec 2022 22:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/cobaltstrike-overwan-connection/</guid>
         <description>ខាងក្រោមនេះជាគំនិតផ្ទាល់ខ្លួនក្នុងការតភ្ជាប់ Teamserver និងប្រើប្រាស់ពាក្យបញ្ជាតាមរយៈ Beacons ពីចំងាយដោយមិនចាំបាច់បើក Port Forwarding ។
-Requirements  CobaltStrike Telebit  Telebit Setup ចំណាំ៖ ចូលទៅកាន់ telebit.cloud ដើម្បីយល់ដឹងបន្ថែមអំពី Configuration ។
+Requirements CobaltStrike Telebit Telebit Setup ចំណាំ៖ ចូលទៅកាន់ telebit.cloud ដើម្បីយល់ដឹងបន្ថែមអំពី Configuration ។
 នៅក្នុងលីនុចសូមបើកផ្ទាំង Terminal រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖
-1 2  // Install Telebit curl https://get.telebit.io/ | bash   ក្រោយពីបំពេញអាសយដ្ឋាន Email រួចសូមចូលទៅកាន់ផ្ទាំង Inbox រួចបើកដំណើរដំណភ្ជាប់ដែលគេបានផ្ញើមក និងចម្លងចូលនូវលេខទាំង ៤ ខ្ទង់នោះដើម្បីផ្ទៀងផ្ទាត់ ។
+1 2 // Install Telebit curl https://get.telebit.io/ | bash ក្រោយពីបំពេញអាសយដ្ឋាន Email រួចសូមចូលទៅកាន់ផ្ទាំង Inbox រួចបើកដំណើរដំណភ្ជាប់ដែលគេបានផ្ញើមក និងចម្លងចូលនូវលេខទាំង ៤ ខ្ទង់នោះដើម្បីផ្ទៀងផ្ទាត់ ។
 ប្រសិនបើមិនមានអ្វីខុសឆ្គងទេ យើងនឹងទទួលបានសារបញ្ជាក់ពីភាពជោគជ័យដូចខាងក្រោម៖
 Usage តស់! ឥលូវចាប់ផ្ដើមធ្វើការកំណត់នៅលេខ Port សម្រាប់តភ្ជាប់ទៅកាន់ Teamserver និង Beacons
-1 2 3 4 5  // Setup Teamserver Port ~/telebit tcp 50050 // Setup HTTP Beacon ~/telebit http 80 //don&amp;#39;t change the port   Teamserver Connection បន្ទាប់មកសូមវាយពាក្យបញ្ជាដូចខាងក្រោមដើម្បីបើកដំណើរការ Teamserver</description>
+1 2 3 4 5 // Setup Teamserver Port ~/telebit tcp 50050 // Setup HTTP Beacon ~/telebit http 80 //don&amp;#39;t change the port Teamserver Connection បន្ទាប់មកសូមវាយពាក្យបញ្ជាដូចខាងក្រោមដើម្បីបើកដំណើរការ Teamserver</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/cobaltstrike.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature3/cobaltstrike.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

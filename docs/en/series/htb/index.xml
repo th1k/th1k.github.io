@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>HTB on ThikLab - CyberSec</title>
+    <title>HTB on ThikLab</title>
     <link>https://th1k.github.io/en/series/htb/</link>
-    <description>Recent content in HTB on ThikLab - CyberSec</description>
+    <description>Recent content in HTB on ThikLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
-    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <managingEditor>putthik.leang@outlook.com (Thik)</managingEditor>
+    <webMaster>putthik.leang@outlook.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Sat, 21 Nov 2020 11:38:55 +0700</lastBuildDate>
     
@@ -24,14 +24,14 @@
         <title>HackTheBox - Traceback</title>
         <link>https://th1k.github.io/en/posts/traceback-10-10-10-181/</link>
         <pubDate>Sat, 21 Nov 2020 11:38:55 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Sat, 21 Nov 2020 11:38:55 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/traceback-10-10-10-181/</guid>
         <description>Recon ជាដំបូងខ្ញុំប្រើ Nmap ដើម្បីស្វែងរកផតដែលបានបើក និងសេវាកម្មដែលបានប្រើ
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  :~$ sudo nmap -sC -sV 10.10.10.181 Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-21 13:29 +07 Nmap scan report for 10.10.10.181 Host is up (0.29s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 2048 96:25:51:8e:6c:83:07:48:ce:11:4b:1f:e5:6d:8a:28 (RSA) | 256 54:bd:46:71:14:bd:b2:42:a1:b6:b0:2d:94:14:3b:0d (ECDSA) |_ 256 4d:c3:f8:52:b8:85:ec:9c:3e:4d:57:2c:4a:82:fd:86 (ED25519) 80/tcp open http Apache httpd 2.</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 :~$ sudo nmap -sC -sV 10.10.10.181 Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-21 13:29 +07 Nmap scan report for 10.10.10.181 Host is up (0.29s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 2048 96:25:51:8e:6c:83:07:48:ce:11:4b:1f:e5:6d:8a:28 (RSA) | 256 54:bd:46:71:14:bd:b2:42:a1:b6:b0:2d:94:14:3b:0d (ECDSA) |_ 256 4d:c3:f8:52:b8:85:ec:9c:3e:4d:57:2c:4a:82:fd:86 (ED25519) 80/tcp open http Apache httpd 2.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

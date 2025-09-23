@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Categories on ThikLab - CyberSec</title>
+    <title>Categories on ThikLab</title>
     <link>https://th1k.github.io/en/categories/</link>
-    <description>Recent content in Categories on ThikLab - CyberSec</description>
+    <description>Recent content in Categories on ThikLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
-    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <managingEditor>putthik.leang@outlook.com (Thik)</managingEditor>
+    <webMaster>putthik.leang@outlook.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Thu, 05 Jun 2025 13:00:00 +0700</lastBuildDate>
     
@@ -24,7 +24,7 @@
         <title>ADB</title>
         <link>https://th1k.github.io/en/categories/adb/</link>
         <pubDate>Thu, 05 Jun 2025 13:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/adb/</guid>
         <description></description>
@@ -42,7 +42,7 @@
         <title>C2</title>
         <link>https://th1k.github.io/en/categories/c2/</link>
         <pubDate>Wed, 21 May 2025 11:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/c2/</guid>
         <description></description>
@@ -60,7 +60,7 @@
         <title>MSFvenom</title>
         <link>https://th1k.github.io/en/categories/msfvenom/</link>
         <pubDate>Wed, 21 May 2025 11:00:00 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/msfvenom/</guid>
         <description></description>
@@ -78,7 +78,7 @@
         <title>Evading</title>
         <link>https://th1k.github.io/en/categories/evading/</link>
         <pubDate>Wed, 12 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/evading/</guid>
         <description></description>
@@ -96,7 +96,7 @@
         <title>CA</title>
         <link>https://th1k.github.io/en/categories/ca/</link>
         <pubDate>Sat, 08 Jul 2023 16:22:34 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/ca/</guid>
         <description></description>
@@ -114,7 +114,7 @@
         <title>DLL Hijacking</title>
         <link>https://th1k.github.io/en/categories/dll-hijacking/</link>
         <pubDate>Fri, 07 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/dll-hijacking/</guid>
         <description></description>
@@ -132,7 +132,7 @@
         <title>Process Injection</title>
         <link>https://th1k.github.io/en/categories/process-injection/</link>
         <pubDate>Fri, 30 Jun 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/process-injection/</guid>
         <description></description>
@@ -150,7 +150,7 @@
         <title>CMSTP</title>
         <link>https://th1k.github.io/en/categories/cmstp/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/cmstp/</guid>
         <description></description>
@@ -168,7 +168,7 @@
         <title>UAC</title>
         <link>https://th1k.github.io/en/categories/uac/</link>
         <pubDate>Sat, 03 Dec 2022 02:00:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/uac/</guid>
         <description></description>
@@ -186,7 +186,7 @@
         <title>SQLi</title>
         <link>https://th1k.github.io/en/categories/sqli/</link>
         <pubDate>Thu, 01 Apr 2021 10:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/sqli/</guid>
         <description></description>
@@ -204,7 +204,7 @@
         <title>WebShell</title>
         <link>https://th1k.github.io/en/categories/webshell/</link>
         <pubDate>Tue, 26 May 2020 14:28:44 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         
         <guid>https://th1k.github.io/en/categories/webshell/</guid>
         <description></description>

@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>data-streams on ThikLab - CyberSec</title>
+    <title>Data-Streams on ThikLab</title>
     <link>https://th1k.github.io/en/tags/data-streams/</link>
-    <description>Recent content in data-streams on ThikLab - CyberSec</description>
+    <description>Recent content in Data-Streams on ThikLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>leangputthik@protonmail.com (Thik)</managingEditor>
-    <webMaster>leangputthik@protonmail.com (Thik)</webMaster>
+    <managingEditor>putthik.leang@outlook.com (Thik)</managingEditor>
+    <webMaster>putthik.leang@outlook.com (Thik)</webMaster>
     <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2025 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
     <lastBuildDate>Wed, 05 Jul 2023 21:01:06 +0700</lastBuildDate>
     
@@ -24,18 +24,19 @@
         <title>Malicious Alternate Data Streams In Windows</title>
         <link>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</link>
         <pubDate>Wed, 05 Jul 2023 21:01:06 +0700</pubDate>
-        <author>leangputthik@protonmail.com (Thik)</author>
+        <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Wed, 05 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</guid>
         <description>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ Certutil ។
 Generate ADS ខាងក្រោមជាដំណើរការក្នុងការលាក់ Payload Strings នៅក្នុង ADS ដោយប្រើប្រាស់ពាក្យបញ្ជាដែលមានស្រាប់ក្នុង Powershell ។
 បើកផ្ទាំង CMD រួចវាយពាក្យបញ្ជាខាងក្រោម៖
-1  echo payload &amp;gt; hello.txt:payload.bin   ពាក្យ payload នឹងរក្សាទុកនៅក្នុង ADS ដែលមានឈ្មោះថា payload.bin ។ ដើម្បីកែប្រែវាវិញយើងអាចប្រើប្រាស់កម្មវិធី Notepad ដើម្បីបើកមើលនិងកែប្រែវាបាន ដោយវាយពាក្យបញ្ជាដូចខាងក្រោម៖
-1  notepad hello.txt:payload.bin   Certutil បង្កើត Payload ដោយប្រើប្រាស់ Metasploit / Cobalt Strike / DCRat ។ល។ បន្ទាប់មកធ្វើវាឲ្យទៅជា Cert File ដោយវាយពាក្យបញ្ជានៅក្នុង Powershell ដូចខាងក្រោម៖
-1  certutil -encode ./payload.exe payload.txt   បន្ទាប់មកចម្លងនិងរក្សាទុកនូវចំនួនអក្សរដែលមានក្នុងឯកសារ payload.</description>
+1 echo payload &amp;gt; hello.txt:payload.bin ពាក្យ payload នឹងរក្សាទុកនៅក្នុង ADS ដែលមានឈ្មោះថា payload.bin ។ ដើម្បីកែប្រែវាវិញយើងអាចប្រើប្រាស់កម្មវិធី Notepad ដើម្បីបើកមើលនិងកែប្រែវាបាន ដោយវាយពាក្យបញ្ជាដូចខាងក្រោម៖
+1 notepad hello.txt:payload.bin Certutil បង្កើត Payload ដោយប្រើប្រាស់ Metasploit / Cobalt Strike / DCRat ។ល។ បន្ទាប់មកធ្វើវាឲ្យទៅជា Cert File ដោយវាយពាក្យបញ្ជានៅក្នុង Powershell ដូចខាងក្រោម៖
+1 certutil -encode ./payload.exe payload.txt បន្ទាប់មកចម្លងនិងរក្សាទុកនូវចំនួនអក្សរដែលមានក្នុងឯកសារ payload.txt ទាំងអស់ចូលទៅក្នុងឯកសារ payload.bin ដែលបានបើកឡើងក្នុងដំណាក់កាលទី ១ ។
+PWN The Payload ដើម្បីត្រលប់ឯកសារមេរោគដែលលាក់នៅក្នុងឯកសារ ADS(payload.</description>
         
         <dc:creator>thik</dc:creator>
-        <media:content url="https://th1k.github.ioimages/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://th1k.github.io/images/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
