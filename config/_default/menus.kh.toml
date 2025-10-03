@@ -1,0 +1,17 @@
+[[main]]
+  identifier = "posts"
+  name = "អត្ថបទ"
+  url = "posts"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "ប័ណ្ណសារ"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "about"
+  name = "អំពីខ្ញុំ"
+  url = "about"
+  weight = 3

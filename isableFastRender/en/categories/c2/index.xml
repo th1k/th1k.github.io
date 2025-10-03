@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>C2 on ThikLab - CyberSec</title>
+    <link>http://localhost:1313/en/categories/c2/</link>
+    <description>Recent content in C2 on ThikLab - CyberSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>thiklife403@gmail.com (Thik)</managingEditor>
+    <webMaster>thiklife403@gmail.com (Thik)</webMaster>
+    <copyright><a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0;display:block;margin-left:auto;margin-right:auto;' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>©2020 - 2023 All content is licensed under <a rel='license' target='_blank' href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA</a>.</copyright>
+    <lastBuildDate>Tue, 06 Dec 2022 22:01:06 +0700</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/en/categories/c2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>CobaltStrike Over WAN Connection</title>
+        <link>http://localhost:1313/en/posts/cobaltstrike-overwan-connection/</link>
+        <pubDate>Tue, 06 Dec 2022 22:01:06 +0700</pubDate>
+        <author>thiklife403@gmail.com (Thik)</author>
+        <atom:modified>Tue, 06 Dec 2022 22:01:06 +0700</atom:modified>
+        <guid>http://localhost:1313/en/posts/cobaltstrike-overwan-connection/</guid>
+        <description>ខាងក្រោមនេះជាគំនិតផ្ទាល់ខ្លួនក្នុងការតភ្ជាប់ Teamserver និងប្រើប្រាស់ពាក្យបញ្ជាតាមរយៈ Beacons ពីចំងាយដោយមិនចាំបាច់បើក Port Forwarding ។
+Requirements  CobaltStrike Telebit  Telebit Setup ចំណាំ៖ ចូលទៅកាន់ telebit.cloud ដើម្បីយល់ដឹងបន្ថែមអំពី Configuration ។
+នៅក្នុងលីនុចសូមបើកផ្ទាំង Terminal រួចវាយពាក្យបញ្ជាដូខខាងក្រោម៖
+1 2  // Install Telebit curl https://get.telebit.io/ | bash   ក្រោយពីបំពេញអាសយដ្ឋាន Email រួចសូមចូលទៅកាន់ផ្ទាំង Inbox រួចបើកដំណើរដំណភ្ជាប់ដែលគេបានផ្ញើមក និងចម្លងចូលនូវលេខទាំង ៤ ខ្ទង់នោះដើម្បីផ្ទៀងផ្ទាត់ ។
+ប្រសិនបើមិនមានអ្វីខុសឆ្គងទេ យើងនឹងទទួលបានសារបញ្ជាក់ពីភាពជោគជ័យដូចខាងក្រោម៖
+Usage តស់! ឥលូវចាប់ផ្ដើមធ្វើការកំណត់នៅលេខ Port សម្រាប់តភ្ជាប់ទៅកាន់ Teamserver និង Beacons
+1 2 3 4 5  // Setup Teamserver Port ~/telebit tcp 50050 // Setup HTTP Beacon ~/telebit http 80 //don&amp;#39;t change the port   Teamserver Connection បន្ទាប់មកសូមវាយពាក្យបញ្ជាដូចខាងក្រោមដើម្បីបើកដំណើរការ Teamserver</description>
+        
+        <dc:creator>thik</dc:creator>
+        <media:content url="http://localhost:1313/images/feature3/cobaltstrike.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>tunnel</category>
+            
+          
+            
+              <category>over-wan</category>
+            
+          
+        
+        
+          
+            
+              <category>C2</category>
+            
+          
+        
+        
+          
+            
+              <category>CobaltStrike</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

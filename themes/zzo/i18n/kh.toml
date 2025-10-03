@@ -1,0 +1,119 @@
+[search-placeholder]
+other = "ស្វែងរក"
+
+[summary-dateformat]
+other = "ឆ្នាំ2006 ខែ01 ថ្ងៃ02"
+
+[reading-time]
+other = "នាទី"
+
+[tags]
+other = "ស្លាក"
+
+[categories]
+other = "ប្រភេទ"
+
+[series]
+other = "ស៊េរី"
+
+[archive-dateformat]
+other = "01-02"
+
+[talks-dateformat]
+other = "ខែ01 ថ្ងៃ02"
+
+[single-dateformat]
+other = "ឆ្នាំ2006 ខែ01 ថ្ងៃ02"
+
+[pub-dateformat]
+other = "2006-01-02"
+
+[resume-dateformat]
+other = "ឆ្នាំ2006 ខែ01"
+
+[single-related]
+other = "មើលផងដែរ"
+
+[single-writtenBy]
+other = "សរសេរដោយ"
+
+[toc-label]
+other = "មាតិកា"
+
+[counter-site-pv]
+other = "ការទស្សនាសរុប"
+
+[counter-site-uv]
+other = "ចំនួនអ្នកទស្សនា"
+
+[counter-page-pv]
+other = "ទស្សនា"
+
+[donate-message]
+other = "អ្នកឧបត្ថម្ភ"
+
+[share-message]
+other = "ចែករំលែក"
+
+[contact-name]
+other = "ឈ្មោះ"
+
+[contact-email]
+other = "អ៊ីមែល"
+
+[contact-tel]
+other = "លេខទូរសព្ទ"
+
+[contact-file]
+other = "ឯកសារ"
+
+[contact-message]
+other = "សារ"
+
+[contact-send]
+other = "ផ្ញើ"
+
+[contact-browse]
+other = "រកមើល"
+
+[tooltip-home]
+other = "ទំព័រដើម"
+
+[tooltip-written]
+other = "សរសេរនៅ"
+
+[tooltip-modified]
+other = "កែប្រែនៅ"
+
+[tooltip-reading-time]
+other = "ពេលវេលាអាន"
+
+[showcase-overview]
+other = "សង្ខេប"
+
+[showcase-pinned]
+other = "ជួសជុល"
+
+[nojs-message]
+other = "សូមបើកដំណើរការ Javascript"
+
+[posts-by-order]
+other = "អត្ថបទថ្មីៗ"
+
+[skin-dark]
+other = "ងងឹត"
+
+[skin-light]
+other = "ភ្លឺ"
+
+[skin-hacker]
+other = "បៃតង"
+
+[skin-solarized]
+other = "សូឡារីស"
+
+[skin-kimbie]
+other = "គីមប៊ី"
+
+[no-contents]
+other = "គ្មានអ្វីត្រូវបង្ហាញទេ"

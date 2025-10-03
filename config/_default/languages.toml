@@ -1,0 +1,13 @@
+[en]
+  title = "ThikLab"
+  languageName = "H3x"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/en"
+
+[kh]
+  title = "ធិឡែហ្វ"
+  languageName = "ជីវិត"
+  weight = 2
+  languagedir = "ltr"
+  contentdir = "content/kh"
