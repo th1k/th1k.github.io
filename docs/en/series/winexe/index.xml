@@ -200,13 +200,16 @@ Exploation Path ដំបូងយើងត្រូវការ DLL Payload ដ
         <author>putthik.leang@outlook.com (Thik)</author>
         <atom:modified>Wed, 05 Jul 2023 21:01:06 +0700</atom:modified>
         <guid>https://th1k.github.io/en/posts/malicious-alternate-data-streams/</guid>
-        <description>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ Certutil ។
+        <description>ខាងក្រោមជាវិធីសាស្ត្រក្នុងការលាក់ ផេឡូតនៅក្នុងឯកសារផ្សេងៗ។ ចំពោះកាបង្ហាញខាងក្រោមខ្ញុំនឹងសាកល្បងលាក់នៅក្នុងឯកសាររូបភាព (jpg, png, gif, etc.) ។
+Hide Payload Inside Image File នៅក្នុងវីនដូសូមវាយពាក្យបញ្ជាដូចខាងក្រោម៖
+1 type payload.exe &amp;gt; imagefile.png:payload.exe ក្រោយពីលាក់រួចយើងអាចពិនិត្យមើល ADS បានដោយប្រើពាក្យបញ្ជា dir /r ។
+សូមធ្វើការលុបឯកសាមេរោគដើមចេញ ជៀសវៀងពីការរកឃើញ៖
+1 del payload.exe ដើម្បីដំណើរការ payload យើងអាចប្រើពាក្យបញ្ជាដូចខាងក្រោម៖
+1 wmic.exe process call create &amp;#34;C:\ProgramData\imagefile.png:payload.exe&amp;#34; រួចរាល់ ។
+Hide Payload Through Certutil ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ Certutil ។
 Generate ADS ខាងក្រោមជាដំណើរការក្នុងការលាក់ Payload Strings នៅក្នុង ADS ដោយប្រើប្រាស់ពាក្យបញ្ជាដែលមានស្រាប់ក្នុង Powershell ។
 បើកផ្ទាំង CMD រួចវាយពាក្យបញ្ជាខាងក្រោម៖
-1 echo payload &amp;gt; hello.txt:payload.bin ពាក្យ payload នឹងរក្សាទុកនៅក្នុង ADS ដែលមានឈ្មោះថា payload.bin ។ ដើម្បីកែប្រែវាវិញយើងអាចប្រើប្រាស់កម្មវិធី Notepad ដើម្បីបើកមើលនិងកែប្រែវាបាន ដោយវាយពាក្យបញ្ជាដូចខាងក្រោម៖
-1 notepad hello.txt:payload.bin Certutil បង្កើត Payload ដោយប្រើប្រាស់ Metasploit / Cobalt Strike / DCRat ។ល។ បន្ទាប់មកធ្វើវាឲ្យទៅជា Cert File ដោយវាយពាក្យបញ្ជានៅក្នុង Powershell ដូចខាងក្រោម៖
-1 certutil -encode ./payload.exe payload.txt បន្ទាប់មកចម្លងនិងរក្សាទុកនូវចំនួនអក្សរដែលមានក្នុងឯកសារ payload.txt ទាំងអស់ចូលទៅក្នុងឯកសារ payload.bin ដែលបានបើកឡើងក្នុងដំណាក់កាលទី ១ ។
-PWN The Payload ដើម្បីត្រលប់ឯកសារមេរោគដែលលាក់នៅក្នុងឯកសារ ADS(payload.</description>
+1 echo payload &amp;gt; hello.txt:payload.bin ពាក្យ payload នឹងរក្សាទុកនៅក្នុង ADS ដែលមានឈ្មោះថា payload.</description>
         
         <dc:creator>thik</dc:creator>
         <media:content url="https://th1k.github.io/images/feature3/terminal.gif" medium="image"><media:title type="html">featured image</media:title></media:content>

